@@ -1,0 +1,7 @@
+releases:
+  id: ~ # https://release-monitoring.org/ and use the numeric id in the url of project
+  rss: https://pypi.org/rss/project/certifi/releases.xml
+security:
+  cpe:
+  - vendor: kennethreitz
+    product: certifi
