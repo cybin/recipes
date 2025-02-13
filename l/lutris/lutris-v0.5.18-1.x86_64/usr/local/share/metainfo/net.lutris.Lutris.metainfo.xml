@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2009 Lutris -->
+<component type="desktop">
+  <id>net.lutris.Lutris</id>
+  <project_license>GPL-3.0-or-later</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <translation type="gettext">lutris</translation>
+  <developer_name translatable="no">Lutris Team</developer_name>
+  <developer_name translatable="no" xml:lang="pt-BR">A equipe do Lutris</developer_name>
+  <developer_name translatable="no" xml:lang="it">Il team Lutris</developer_name>
+  <developer_name translatable="no" xml:lang="es">El equipo de Lutris</developer_name>
+  <developer_name translatable="no" xml:lang="el">Ομάδα Lutris</developer_name>
+  <developer id="net.lutris">
+    <name translatable="no">Lutris Team</name>
+    <name translatable="no" xml:lang="pt-BR">A equipe do Lutris</name>
+    <name translatable="no" xml:lang="it">Il team Lutris</name>
+    <name translatable="no" xml:lang="es">El equipo de Lutris</name>
+    <name translatable="no" xml:lang="el">Ομάδα Lutris</name>
+  </developer>
+  <update_contact>mathieucomandon@gmail.com</update_contact>
+  <name translatable="no">Lutris</name>
+  <name translatable="no" xml:lang="zh-Hans-CN">Lutris</name>
+  <name translatable="no" xml:lang="ru">Lutris</name>
+  <name translatable="no" xml:lang="pt-BR">Lutris</name>
+  <name translatable="no" xml:lang="pl">Lutris</name>
+  <name translatable="no" xml:lang="nl">Lutris</name>
+  <name translatable="no" xml:lang="ko">Lutris</name>
+  <name translatable="no" xml:lang="ka">Lutris</name>
+  <name translatable="no" xml:lang="it">Lutris</name>
+  <name translatable="no" xml:lang="hr">Lutris</name>
+  <name translatable="no" xml:lang="fr">Lutris</name>
+  <name translatable="no" xml:lang="es">Lutris</name>
+  <name translatable="no" xml:lang="el">Lutris</name>
+  <name translatable="no" xml:lang="de">Lutris</name>
+  <name translatable="no" xml:lang="ar">لوترس</name>
+  <summary>Video game preservation platform</summary>
+  <summary xml:lang="zh-Hans-CN">电子游戏保管平台</summary>
+  <summary xml:lang="tr">Video oyunu depolama platformu</summary>
+  <summary xml:lang="ru">Площадка для сохранения видеоигр</summary>
+  <summary xml:lang="pt-BR">Plataforma de preservação de video games</summary>
+  <summary xml:lang="nl">Videogame-bewaarplatform</summary>
+  <summary xml:lang="ko">오픈소스 비디오 게임 플랫폼</summary>
+  <summary xml:lang="ka">პლატფორმა ვიდეოთამაშების შესანახად</summary>
+  <summary xml:lang="it">Piattaforma di preservazione di videogiochi</summary>
+  <summary xml:lang="hr">Platforma za očuvanje videoigara</summary>
+  <summary xml:lang="fr">Plateforme de préservation de jeux vidéo</summary>
+  <summary xml:lang="es">Plataforma de preservación de videojuegos</summary>
+  <summary xml:lang="el">Πλατφόρμα διατήρησης βιντεοπαιχνιδιών</summary>
+  <summary xml:lang="de">Die Plattform zur Archivierung von Videospielen</summary>
+  <summary xml:lang="ar">منصَّة حفظ ألعاب الفيديو</summary>
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main window</caption>
+      <caption xml:lang="zh-Hans-CN">主窗口</caption>
+      <caption xml:lang="tr">Ana Pencere</caption>
+      <caption xml:lang="ru">Основное окно</caption>
+      <caption xml:lang="pt-BR">Janela principal</caption>
+      <caption xml:lang="pl">Główne okno</caption>
+      <caption xml:lang="nl">Hoofdvenster</caption>
+      <caption xml:lang="ka">მთავარი ფანჯარა</caption>
+      <caption xml:lang="it">Finestra principale</caption>
+      <caption xml:lang="hr">Glavni prozor</caption>
+      <caption xml:lang="fr">Fenêtre principale</caption>
+      <caption xml:lang="es">Ventana principal</caption>
+      <caption xml:lang="el">Κύριο παράθυρο</caption>
+      <caption xml:lang="de">Hauptfenster</caption>
+      <caption xml:lang="ar">النافذة الرئيسة</caption>
+      <image>https://lutris.net/static/images/lutris-window-2023.png</image>
+    </screenshot>
+  </screenshots>
+  <description>
+    <p>Lutris helps you install and play video games from all eras and from most gaming systems. By leveraging and combining existing emulators, engine re-implementations and compatibility layers, it gives you a central interface to launch all your games.</p>
+    <p xml:lang="zh-Hans-CN">Lutris 可帮您安装和运行大多数平台上几乎所有时代的电子游戏。通过对现有的模拟器、兼容层、第三方游戏引擎等进行整合利用，Lutris 可为您提供一个统一的界面来启动您的所有游戏。</p>
+    <p xml:lang="tr">Lutris, tüm dönemlerden ve çoğu oyun sistemlerinden video oyunları kurmanızave oynamanıza yardımcı olur. Mevcut emülatorlerinden, yeniden yaratılmış motorlardan veuyumluluk katmanlarından faydalanarak ve onları birleştirerek; tüm oyunlarınızı başlatmak içinsize merkezi bir arayüz sağlar.</p>
+    <p xml:lang="pt-BR">Lutris ajuda você a instalar e jogar videogames de todas as épocas e da maioria dos sistemas de jogos. Ao alavancar e combinar emuladores existentes, reimplementações de mecanismos e camadas de compatibilidade, ele oferece uma interface central para iniciar todos os seus jogos.</p>
+    <p xml:lang="nl">Lutris helpt je bij het installeren en spelen van games, of het nu oude of nieuwe spellen zijn en ongeacht op welk platform ze zijn uitgebracht. Door het combineren van bestaande emulators, herimplementaties van aandrijvingen en compatibiliteitslagen, hebben we één overzichtelijk venster voor al je games weten te creëren.</p>
+    <p xml:lang="ko">Lutris는 다양한 게이밍 시스템과 모든 시대로부터 온 비디오 게임을 설치하고 즐길 수 있는 플랫폼입니다.</p>
+    <p xml:lang="ka">Lutris ყველა ერის და თითქმის ყველა სათამაშო სისტემის დაყენებაში და თამაშში დაგეხმარებათ. არსებული ემულგატორების კომბინირებით, ძრავის თავიდან გადაწერით და თავსებადობით ფენებით ის თქვენი თამაშების გაშვების ცენტრალური ინტერფეისია.</p>
+    <p xml:lang="it">Lutris ti aiuta a installare e giocare i videogiochi di tutte le epoche e della maggior parte dei sistemi di gioco. Sfruttando e combinando emulatori, reimplementazioni di engine e layer di compatibilità esistenti, offrendoti un'interfaccia centralizzata per avviare tutti i tuoi giochi.</p>
+    <p xml:lang="hr">Lutris vam pomaže pri instalaciji i igranju video igara iz svih razdoblja i većine sustava za igre. Koristeći i kombinirajući postojeće emulatore, reimplementacije pogona i slojeva kompatibilnosti, omogućuje vam središnje sučelje za pokretanje svih vaših igara.</p>
+    <p xml:lang="fr">Lutris est une interface centrale qui vous aide à installer et à jouer à des jeux vidéo de toutes les époques, en exploitant et en combinant les émulateurs, les réimplémentations de moteurs et les couches de compatibilité de la plupart des systèmes de jeu existants.</p>
+    <p xml:lang="es">Lutris facilita instalar y jugar a videojuegos de todas las épocas y casi todos los sistemas. Proporciona un interfaz centralizado para lanzar todos tus juegos al aprovechar y combinar emuladores existentes, reimplementaciones de motores y capas de compatibilidad.</p>
+    <p xml:lang="el">Tο Lutris σας βοηθά να εγκαταστήσετε και να παίξετε βιντεοπαιχνίδια από όλες τις εποχές και από τα περισσότερα συστήματα παιχνιδιών. Αξιοποιώντας και συνδυάζοντας υπάρχοντες εξομοιωτές, επανεφαρμογές μηχανών και επίπεδα συμβατότητας, σας παρέχει ένα κεντρικό περιβάλλον για την εκκίνηση όλων των παιχνιδιών σας.</p>
+    <p xml:lang="de">Lutris hilft Ihnen Videospiele aus jeder Ära und von den meisten Spielsystemen zu installieren und zu spielen. Durch die Nutzung und Kombinierung von vorhandenen Emulatoren, Neuimplementierungen von Engines und Kompatibilitätsschichten, gibt es Ihnen eine zentrale Benutzeroberfläche um all Ihre Spiele auszuführen.</p>
+    <p xml:lang="ar">يتيح لك لوترس تثبيت ولعب الألعاب من كلِّ حقبة ومن أغلب أنظمة الألعاب. يوفِّر لك لوترس منصَّةً موحَّدةً لتشغيل كلِّ ألعابك، وذلك عن طريق تجميع المحاكيات الموجودة مسبقًا وإعادة صناعة محرِّكات الألعاب واستخدام طبقات التكامل.</p>
+  </description>
+  <url type="homepage">https://lutris.net</url>
+  <url type="donation">https://lutris.net/donate</url>
+  <url type="help">https://forums.lutris.net</url>
+  <url type="faq">https://lutris.net/faq</url>
+  <url type="translate">https://github.com/lutris/lutris/tree/master/po</url>
+  <url type="bugtracker">https://github.com/lutris/lutris/issues</url>
+  <launchable type="desktop-id">net.lutris.Lutris.desktop</launchable>
+  <releases>
+    <release version="0.5.17" date="2024-04-10" urgency="low">
+      <description>
+        <ul>
+          <li>Fix critical bug preventing completion of installs if the script specifies a wine version</li>
+          <li xml:lang="pt-BR">Corrigido bug crítico que impedia a conclusão da instalação se o script especificasse uma versão do Wine</li>
+          <li xml:lang="it">Corretto un bug critico che impediva il completamento delle installazioni se lo script specificava una versione di wine</li>
+          <li xml:lang="es">Corrige un error crítico que impide completar las instalaciones si el guion especifica una versión concreta de wine</li>
+          <li>Fix critical bug preventing Steam library sync</li>
+          <li xml:lang="pt-BR">Corrigido bug crítico que impedia a sincronização da biblioteca Steam</li>
+          <li xml:lang="it">Risolto un bug critico che impediva la sincronizzazione della libreria Steam</li>
+          <li xml:lang="es">Corrige un error crítico que impide la sincronización con la biblioteca de Steam</li>
+          <li>Fix critical bug preventing game or runner uninstall in Flatpak</li>
+          <li xml:lang="pt-BR">Corrigido bug crítico que impedia desinstalar jogo ou runner no Flatpak</li>
+          <li xml:lang="it">Risolto un bug critico che impediva la disinstallazione del gioco o del runner in Flatpak</li>
+          <li xml:lang="es">Corrige un error crítico que impide desinstalar un juego o ejecutor en Flatpak</li>
+          <li>Support for library sync to lutris.net, this allows to sync games, play</li>
+          <li xml:lang="pt-BR">Suporte para sincronização de biblioteca em lutris.net, isso possibiliza sincronizar seus jogos e jogar</li>
+          <li xml:lang="it">Supporto per la sincronizzazione della libreria su lutris.net, questo permette di sincronizzare i giochi</li>
+          <li xml:lang="es">Soporte para sincronización de bibliotecas con lutris.net, permitiendo sincronizar</li>
+          <li>time and categories to multiple devices.</li>
+          <li xml:lang="pt-BR">tempo e categorias para múltiplos dispositivos.</li>
+          <li xml:lang="it">tempo di gioco e categorie su più dispositivi.</li>
+          <li xml:lang="es">juegos, tiempos de juego y categorías entre múltiples dispositivos.</li>
+          <li>Remove "Lutris" service view; with library sync the "Games" view replaces it.</li>
+          <li xml:lang="pt-BR">Remova a visualização do serviço "Lutris"; com a sincronização da biblioteca, a visualização "Jogos" a substitui.</li>
+          <li xml:lang="it">Rimossa la vista del servizio "Lutris"; con la libreria di sincronizzazione la vista "Giochi" la sostituisce.</li>
+          <li xml:lang="es">Elimina la vista de servicio "Lutris", sustituida por la vista "Juegos" con la sincronización de biblioteca.</li>
+          <li>Torturous and sadistic options for multi-GPUs that were half broken and understood by no one have been replaced by a simple GPU selector.</li>
+          <li xml:lang="pt-BR">Opções torturantes e sádicas para multi-GPUs que estavam meio quebradas e compreendidas por ninguém foram substituídas por um simples seletor de GPU.</li>
+          <li xml:lang="it">Opzioni tortuose e sadiche per multi-GPU mezze rotte per chi non ha capito che sono state sostituite da un semplice selettore GPU.</li>
+          <li xml:lang="es">Las opciones tortuosas y salvajes para múltiples GPU que estaban medio rotas y nadie entendía se han sustituido por un simple selector de GPU.</li>
+          <li>EXPERIMENTAL support for umu, which allows running games with Proton and</li>
+          <li xml:lang="pt-BR">Suporte EXPERIMENTAL para umu, que permite rodar jogos com Proton fora da Steam e aplicar correções</li>
+          <li xml:lang="it">Supporto SPERIMENTALE per umu, che consente di eseguire giochi con Proton</li>
+          <li xml:lang="es">Soporte EXPERIMENTAL para umu, que permite ejecutar juegos con Proton y</li>
+          <li>Pressure Vessel. Using Proton in Lutris without umu is no longer possible.</li>
+          <li xml:lang="pt-BR">Usar Proton no Lutris sem umu não é mais possível.</li>
+          <li xml:lang="it">Pressure Vessel. Usare Proton in Lutris senza umu non è più possibile.</li>
+          <li xml:lang="es">Pressure Vessel. Ya no es posible usar Proton en Lutris sin umu.</li>
+          <li>Better and sensible sorting for games (sorting by playtime or last played no longer needs to be reversed)</li>
+          <li xml:lang="pt-BR">Ordenação melhor e mais sensata dos jogos (a ordenação por tempo de jogo ou pela última vez jogada não precisa mais ser invertida)</li>
+          <li xml:lang="it">Ordinamento migliore e più sensato dei giochi (l'ordinamento per tempo di gioco o per ultimo gioco giocato non ha più bisogno di essere invertito)</li>
+          <li xml:lang="es">Mejor ordenación de juegos y más razonable (ya no es necesario invertir la ordenación por tiempo de juego o última vez jugado)</li>
+          <li>Support the "Categories" command when you select multiple games</li>
+          <li xml:lang="pt-BR">Suporte a "Categorias" ao selecionar vários jogos</li>
+          <li xml:lang="it">Supporta il comando "Categorie" quando selezioni più giochi</li>
+          <li xml:lang="es">Soporte para el comando "Categorías" cuando seleccionas múltiples juegos</li>
+          <li>Notification bar when your Lutris is no longer supported</li>
+          <li xml:lang="pt-BR">Barra de notificação quando seu Lutris não é mais compatível</li>
+          <li xml:lang="it">Barra di notifica quando il tuo Lutris non è più supportato</li>
+          <li xml:lang="es">Ya no se soporta la barra de notificación cuando Lutris</li>
+          <li>Improved error dialog.</li>
+          <li xml:lang="pt-BR">Caixa de diálogo de erro aprimorada.</li>
+          <li xml:lang="it">Finestra di dialogo degli errori migliorata.</li>
+          <li xml:lang="es">Diálogo de error mejorado.</li>
+          <li>Add Vita3k runner (thanks @ItsAllAboutTheCode)</li>
+          <li xml:lang="pt-BR">Adicionado Vita3k runner (obrigado @ItsAllAboutTheCode)</li>
+          <li xml:lang="it">Aggiunto il runner Vita3k (grazie @ItsAllAboutTheCode)</li>
+          <li xml:lang="es">Añade el ejecutor Vita3k (gracias @ltsAllAboutTheCode)</li>
+          <li>Add Supermodel runner</li>
+          <li xml:lang="pt-BR">Adicionado Supermodel runner</li>
+          <li xml:lang="it">Aggiunto il runner  Supermodel</li>
+          <li xml:lang="es">Añade el ejecutor Supermodel</li>
+          <li>WUA files are now supported in Cemu</li>
+          <li xml:lang="pt-BR">Arquivo WUA agora são suportados no Cemu</li>
+          <li xml:lang="it">I file WUA sono ora supportati in Cemu</li>
+          <li xml:lang="es">Los archivos WUA ya están soportados en Cemu</li>
+          <li>"Show Hidden Games" now displays the hidden games in a separate view, and re-hides them as soon as you leave it.</li>
+          <li xml:lang="pt-BR">"Mostrar jogos ocultos" agora exibe os jogos ocultos em uma visualização separada e os oculta novamente assim que você sai.</li>
+          <li xml:lang="it">"Mostra giochi nascosti" ora mostra i giochi nascosti in una vista separata e li nasconde nuovamente non appena la lasci.</li>
+          <li xml:lang="es">"Mostrar juegos ocultos" ahora muestra los juegos ocultos en una vista separada y los vuelve a ocultar al abandonarla.</li>
+          <li>Support transparent PNG files for custom banner and cover-art</li>
+          <li xml:lang="pt-BR">Suporta arquivos PNG transparentes para banners personalizados e capas</li>
+          <li xml:lang="it">Supporto file PNG trasparenti per banner e copertine personalizzate</li>
+          <li xml:lang="es">Soporte de archivos PNG transparentes para las pancartas personalizadas y las portadas</li>
+          <li>Images are now downloaded for manually added games.</li>
+          <li xml:lang="pt-BR">As imagens agora são baixadas para jogos adicionados manualmente.</li>
+          <li xml:lang="it">Le immagini vengono ora scaricate per i giochi aggiunti manualmente.</li>
+          <li xml:lang="es">Ahora se descargan las imágenes de los juegos añadidos manualmente.</li>
+          <li>Deprecate 'exe', 'main_file' or 'iso' placed at the root of the script,</li>
+          <li xml:lang="pt-BR">Descontinuar 'exe', 'main_file' ou 'iso' colocado na raiz do script,</li>
+          <li xml:lang="it">Deprecati 'exe', 'main_file' o 'iso' posizionati alla radice dello script.</li>
+          <li xml:lang="es">Se desestiman los archivos 'exe', 'main_file' o 'iso' colocados en la raíz del guion,</li>
+          <li>all lutris.net installers have been updated accordingly.</li>
+          <li xml:lang="pt-BR">todos os instaladores do lutris.net foram atualizados de acordo.</li>
+          <li xml:lang="it">tutti i programmi di installazione di lutris.net sono stati aggiornati di conseguenza.</li>
+          <li xml:lang="es">todos los instaladores de lutris.net se han actualizado en consecuencia.</li>
+          <li>Deprecate libstrangle and xgamma support.</li>
+          <li xml:lang="pt-BR">Suporte obsoleto para libstrangle e xgamma.</li>
+          <li xml:lang="it">Deprecato il supporto per libstrangle e xgamma.</li>
+          <li xml:lang="es">Desestimado el soporte de libstrangle y xgamma.</li>
+          <li>Deprecate DXVK state cache feature (it was never used and is no longer relevant to DXVK 2)           </li>
+          <li xml:lang="pt-BR">Recurso de cache de estado DXVK obsoleto (nunca foi usado e não é mais relevante para DXVK 2)</li>
+          <li xml:lang="it">Deprecata la funzionalità di cache di stato DXVK (non è mai stata utilizzata e non lo è più rilevante per DXVK 2)</li>
+          <li xml:lang="es">Se desestima la funcionalidad de caché de estado de DXVK (nunca utilizada y ahora irrelevante para DXVK 2)</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.16" date="2024-01-15" urgency="low">
+      <description>
+        <ul>
+          <li>Fix bug that prevented installers to complete</li>
+          <li xml:lang="pt-BR">Correção de bug que impedia a conclusão dos instaladores</li>
+          <li xml:lang="it">Risolto bug che impediva il completamento degli programmi di installazione</li>
+          <li xml:lang="es">Corrige un error que evitaba que se completaran las instalaciones</li>
+          <li>Better handling of Steam configurations for the Steam account picker</li>
+          <li xml:lang="pt-BR">Melhor manuseio das configurações do Steam para o seletor de contas Steam</li>
+          <li xml:lang="it">Migliore gestione delle configurazioni di Steam per il selettore di account Steam</li>
+          <li xml:lang="es">Mejor gestión de las configuraciones de Steam en el selector de cuentas de Steam</li>
+          <li>Load game library in a background thread</li>
+          <li xml:lang="pt-BR">Carregar biblioteca de jogos em segundo plano</li>
+          <li xml:lang="it">Carica la libreria di giochi in un thread in background</li>
+          <li xml:lang="es">Cargar la biblioteca de juegos en otro hilo en segundo plano</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.15" date="2024-01-07" urgency="low">
+      <description>
+        <ul>
+          <li>Fix some  crashes happening when using Wayland and a high DPI gaming mouse</li>
+          <li xml:lang="pt-BR">Corrigido alguns crashes que ocorriam ao usar o Wayland e um mouse para jogos de alto DPI</li>
+          <li xml:lang="it">Risolti alcuni arresti anomali che si verificavano quando si utilizza Wayland e un mouse da gioco con DPI elevato</li>
+          <li xml:lang="es">Corrige algunos bloqueos que ocurrían cuando se usaba Wayland y un ratón para juegos con alto DPI</li>
+          <li>Fix crash when opening the system preferences tab for a game</li>
+          <li xml:lang="pt-BR">Corrigido crash ao abrir a guia de preferências do sistema para um jogo</li>
+          <li xml:lang="it">Risolto il crash all'apertura della scheda delle preferenze di sistema per un gioco</li>
+          <li xml:lang="es">Corrige un fallo al abrir la pestaña de preferencias del sistema de un juego</li>
+          <li>Reduced the locales list to a predefined one (let us know if you need yours added)</li>
+          <li xml:lang="pt-BR">Reduzida a lista de localidades para uma predefinida (informe-nos se precisar adicionar a sua)</li>
+          <li xml:lang="it">Ridotto l'elenco delle lingue a una predefinita (facci sapere se ti serve la tua aggiunto)</li>
+          <li xml:lang="es">Reducida la lista de locales a una predefinida (háganos saber si necesita añadir alguno)</li>
+          <li>Fix Lutris not expanding "~" in paths</li>
+          <li xml:lang="pt-BR">Corrigido que o Lutris não expandia "~" nos caminhos</li>
+          <li xml:lang="it">Risolto il problema per cui Lutris non espandeva "~" nei percorsi</li>
+          <li xml:lang="es">Corrige que Lutris no expanda "~" en las rutas</li>
+          <li>Download runtime components from the main window,</li>
+          <li xml:lang="pt-BR">Baixe os componentes de runtime da janela principal,</li>
+          <li xml:lang="it">Scarica i componenti runtime dalla finestra principale.</li>
+          <li xml:lang="es">Descarga los componentes en tiempo de ejecución desde la ventana principal,</li>
+          <li>the "updating runtime" dialog appearing before Lutris opens has been removed</li>
+          <li xml:lang="pt-BR">a caixa de diálogo "atualizando runtime" que aparece antes da abertura do Lutris foi removida</li>
+          <li xml:lang="it">la finestra di dialogo "aggiornamento runtime" visualizzata prima dell'apertura di Lutris è stata RIMOSSA</li>
+          <li xml:lang="es">se ha eliminado el diálogo "actualizando tiempo de ejecución" que aparecía tras abrir Lutris</li>
+          <li>Add the ability to open a location in your file browser from file picker widgets</li>
+          <li xml:lang="pt-BR">Adicionada a capacidade de abrir um local em seu explorador de arquivos a partir de widgets de seletor de arquivos</li>
+          <li xml:lang="it">Aggiunta la possibilità di aprire una posizione nel browser dei file dal widget selettore file</li>
+          <li xml:lang="es">Añade la posibilidad de abrir un una ubicación en su gestor de archivos desde el selector de archivos</li>
+          <li>Add the ability to select, remove, or stop multiple games in the Lutris window</li>
+          <li xml:lang="pt-BR">Adicionada a capacidade de selecionar, remover ou parar vários jogos na janela do Lutris</li>
+          <li xml:lang="it">Aggiungi la possibilità di selezionare, rimuovere o interrompere più giochi nella finestra di Lutris</li>
+          <li xml:lang="es">Añade la posibilidad de seleccionar, eliminar o parar múltiples juegos en la ventana de Lutris</li>
+          <li>Redesigned 'Uninstall Game' dialog now completely removes games by default</li>
+          <li xml:lang="pt-BR">A caixa de diálogo ‘Desinstalar jogo’ foi refeita e agora remove completamente os jogos por padrão</li>
+          <li xml:lang="it">La finestra di dialogo 'Disinstalla gioco' riprogettata ora rimuove completamente i giochi per impostazione predefinita</li>
+          <li xml:lang="es">El diálogo rediseñado 'Desinstalar juego' ahora elimina completamente los juegos de forma predeterminada</li>
+          <li>Fix the export / import feature</li>
+          <li xml:lang="pt-BR">Corrigido o recurso de exportação/importação</li>
+          <li xml:lang="it">Corretta la funzionalità di esportazione/importazione</li>
+          <li xml:lang="es">Arregla la funcionalidad de exportar / importar</li>
+          <li>Show an animation when a game is launched</li>
+          <li xml:lang="pt-BR">Mostra animação quando um jogo é iniciado</li>
+          <li xml:lang="it">Mostra un'animazione all'avvio di un gioco</li>
+          <li xml:lang="es">Muestra una animación cuando se lanza un juego</li>
+          <li>Add the ability to disable Wine auto-updates at the expense of losing support</li>
+          <li xml:lang="pt-BR">Adicionada a capacidade de desativar as atualizações automáticas do Wine às custas da perda de suporte</li>
+          <li xml:lang="it">Aggiunta la possibilità di disabilitare gli aggiornamenti automatici di Wine a scapito della perdita del supporto </li>
+          <li xml:lang="es">Añade la posibilidad de desactivar las auto-actualizaciones de Wine a expensas de perder el soporte</li>
+          <li>Add playtime editing in the game preferences</li>
+          <li xml:lang="pt-BR">Adicionado edição de tempo de jogo nas preferências do jogo</li>
+          <li xml:lang="it">Aggiunta la modifica del tempo di gioco nelle preferenze del gioco</li>
+          <li xml:lang="es">Añade la edición del tiempo de juego en las preferencias del juego</li>
+          <li>Move game files, runners to the trash instead of deleting them they are uninstalled</li>
+          <li xml:lang="pt-BR">Mova os arquivos do jogo e os runners para a lixeira, em vez de excluí-los, eles serão desinstalados</li>
+          <li xml:lang="it">Sposta i file di gioco e i runner nel cestino invece di eliminarli quando vengono disinstallati</li>
+          <li xml:lang="es">Mueve los archivos del juego y los ejecutores a la papelera en lugar de eliminarlos cuando se desinstalan</li>
+          <li>Add "Updates" tab in Preferences control and check for updates and correct missing media</li>
+          <li xml:lang="pt-BR">Adicionado a guia "Atualizações" no controle de preferências para verificação de atualizações e correções de mídias ausentes</li>
+          <li xml:lang="it">Aggiunta la scheda "Aggiornamenti" nelle Preferenze, controlla gli aggiornamenti e correggi media mancante</li>
+          <li xml:lang="es">Añade la pestaña "Actualizaciones" en "Preferencias" para controlar y buscar actualizaciones y corregir medios ausentes</li>
+          <li>in the 'Games' view.</li>
+          <li xml:lang="pt-BR">na visualização 'Jogos'.</li>
+          <li xml:lang="it">nella vista 'Giochi'.</li>
+          <li xml:lang="es">en la vista 'Juegos'.</li>
+          <li>Add "Storage" tab in Preferences to control game and installer cache location</li>
+          <li xml:lang="pt-BR">Adicionado a guia "Armazenamento" em preferências para controlar a localização do cache do jogo e do instalador</li>
+          <li xml:lang="it">Aggiunta la scheda "Archiviazione" nelle Preferenze per controllare la posizione della cache del gioco e del programma di installazione</li>
+          <li xml:lang="es">Añade la pestaña "Almacenamiento" en "Preferencias" para gestionar la ubicación de la caché de juego e instalador</li>
+          <li>Expand "System" tab in Preferences with more system information but less brown.</li>
+          <li xml:lang="pt-BR">Expansão da guia “Sistema” em preferências com mais informações do sistema.</li>
+          <li xml:lang="it">Espandi la scheda "Sistema" in Preferenze con più informazioni di sistema</li>
+          <li xml:lang="es">Amplía la pestaña "Sistema" en "Preferencias" con más información del sistema y menos marrón.</li>
+          <li>Add "Run Task Manager" command for Wine games</li>
+          <li xml:lang="pt-BR">Adicionado o comando “Executar Gerenciador de Tarefas” para jogos Wine</li>
+          <li xml:lang="it">Aggiunto il comando "Esegui Task Manager" per i giochi Wine</li>
+          <li xml:lang="es">Añade el comando "Ejecutar administrador de tareas" en los juegos de Wine</li>
+          <li>Add two new, smaller banner sizes for itch.io games.</li>
+          <li xml:lang="pt-BR">Adicionado dois novos tamanhos de banner menores para jogos itch.io.</li>
+          <li xml:lang="it">Aggiunti due nuovi banner di dimensione più piccola per i giochi itch.io.</li>
+          <li xml:lang="es">Añade dos pancartas nuevas y más pequeñas para los juegos de itch.io.</li>
+          <li>Ignore Wine virtual desktop setting when using Wine-GE/Proton to avoid crash</li>
+          <li xml:lang="pt-BR">Ignore a configuração da área de trabalho virtual do Wine ao usar Wine-GE/Proton para evitar crash</li>
+          <li xml:lang="it">Ignora l'impostazione del desktop virtuale di Wine quando Wine-GE/Proton è in uso per evitare arresti anomali</li>
+          <li xml:lang="es">Ignora la configuración de escritorio virtual de Wine al usar Wine-GE/Proton para evitar bloqueos</li>
+          <li>Ignore MangoHUD setting when launching Steam to avoid crash</li>
+          <li xml:lang="pt-BR">Ignore a configuração do MangoHUD ao iniciar o Steam para evitar crash</li>
+          <li xml:lang="it">Ignora l'impostazione MangoHUD all'avvio di Steam per evitare crash</li>
+          <li xml:lang="es">Ignora la configuración de MangoHUD cuando se ejecuta Steam para evitar bloqueos</li>
+          <li>Sync Steam playtimes with the Lutris library</li>
+          <li xml:lang="pt-BR">Sincronize os tempos de jogo do Steam com a biblioteca Lutris</li>
+          <li xml:lang="it">Sincronizza i tempi di gioco di Steam con la libreria di Lutris</li>
+          <li xml:lang="es">Sincronizar los tiempos de juego de Steam con la biblioteca de Lutris</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.14" date="2023-10-16" urgency="low">
+      <description>
+        <ul>
+          <li>Add Steam account switcher to handle multiple Steam accounts</li>
+          <li xml:lang="pt-BR">Adicionado o alternador de contas Steam para lidar com várias contas Steam</li>
+          <li xml:lang="pl">Dodaj przełącznik kont Steam, aby obsługiwać wiele kont Steam</li>
+          <li xml:lang="ka">დაამატეთ Steam-ის ანგარიშის გადამრთველი, რათა Steam-ის ერთზე მეტი ანგარიში მართოთ</li>
+          <li xml:lang="it">Aggiunto il commutatore di account Steam per gestire più account Steam</li>
+          <li xml:lang="es">Añade un selector de cuentas de Steam para gestionar varias de ellas</li>
+          <li>on the same device.</li>
+          <li xml:lang="pt-BR">no mesmo dispositivo.</li>
+          <li xml:lang="pl">na tym samym urządzeniu.</li>
+          <li xml:lang="ka">იგივე მოწყობილობაზე.</li>
+          <li xml:lang="it">nello stesso dispositivo</li>
+          <li xml:lang="es">en el mismo dispositivo.</li>
+          <li>Add user defined tags / categories</li>
+          <li xml:lang="pt-BR">Adicionado tags/categorias definidas pelo usuário</li>
+          <li xml:lang="ka">მომხმარებლის აღწერილი ჭდეების/კატეგორიების დამატება</li>
+          <li xml:lang="it">Aggiunte tag/categorie definite dall'utente</li>
+          <li xml:lang="es">Añadir etiquetas / categorías definidas por el usuario</li>
+          <li>Group every API calls for runtime updates in a single one</li>
+          <li xml:lang="pt-BR">Agrupamento de todas as chamadas de API para atualizações de runtime em uma única</li>
+          <li xml:lang="ka">გაშვების გარემოს განახლებებისთვის ყველა API-ის ფუნქციის ერთში გაერთიანება</li>
+          <li xml:lang="it">Raggruppa tutte le chiamate API per gli aggiornamenti di runtime in una singola chiamata</li>
+          <li xml:lang="es">Agrupa en una todas las llamadas a las API para actualizar los tiempos de ejecución</li>
+          <li>Download appropriate DXVK and VKD3D versions based on</li>
+          <li xml:lang="pt-BR">Baixe as versões DXVK e VKD3D apropriadas com base em</li>
+          <li xml:lang="ka">შესაბამისი DXVK და VKD3D-ის ვერსიის გადმოწერა, პლატფორმისთვის</li>
+          <li xml:lang="it">Scarica le versioni DXVK e VKD3D appropriate basate su</li>
+          <li xml:lang="es">Descargar las versiones de DXKV y VKD3D apropiadas en basándose en</li>
+          <li>the available GPU PCI IDs</li>
+          <li xml:lang="pt-BR">os IDs PCI da GPU disponíveis</li>
+          <li xml:lang="ka">ხელმისაწვდომი GPU PCI ID-ები</li>
+          <li xml:lang="it">gli ID PCI GPU disponibili</li>
+          <li xml:lang="es">los id. PCI de GPU disponibles</li>
+          <li>EA App integration. Your Origin games and saves can be manually imported</li>
+          <li xml:lang="pt-BR">Integração do EA App. Seus jogos e salvamentos do Origin podem ser importados manualmente</li>
+          <li xml:lang="ka">EA-ის აპის ინტეგრაცია. თქვენი Origin-ის თამაშები და შენახული თამაშები, შეგიძლიათ, ხელით შემოიტანოთ</li>
+          <li xml:lang="it">Integrazione dell'app EA. I tuoi giochi e i salvataggi Origin possono essere importati manualmente</li>
+          <li xml:lang="es">Integración con EA App. Los juegos y partidas guardadas de Origin se pueden importar manualmente</li>
+          <li>from your Origin prefix.</li>
+          <li xml:lang="pt-BR">do seu prefixo Origin.</li>
+          <li xml:lang="ka">თქვენი წყაროს პრეფიქსიდან.</li>
+          <li xml:lang="it">dal tuo prefisso Origin.</li>
+          <li xml:lang="es">desde el prefijo de Origin.</li>
+          <li>Add integration with ScummVM local library</li>
+          <li xml:lang="pt-BR">Adicionado integração com a biblioteca local ScummVM</li>
+          <li xml:lang="ka">ScummVM ლოკალურ ბიბლიოთეკასთან ინტეგრაციის დამატება</li>
+          <li xml:lang="it">Aggiunta integrazione con la libreria locale ScummVM</li>
+          <li xml:lang="es">Añade integración con la biblioteca local de ScummVM</li>
+          <li>Download Wine-GE updates when Lutris starts</li>
+          <li xml:lang="pt-BR">Baixe as atualizações do Wine-GE quando o Lutris iniciar</li>
+          <li xml:lang="ka">Lustris-ის გაშვებისას Wine-GE-ის განახლებების გადმოწერა</li>
+          <li xml:lang="it">Scarica gli aggiornamenti di Wine-GE all'avvio di Lutris</li>
+          <li xml:lang="es">Descarga las actualizaciones de Wine-GE al iniciar Lutris</li>
+          <li>Group GOG and Amazon download in a single progress bar</li>
+          <li xml:lang="pt-BR">Agrupamento de download do GOG e da Amazon em uma única barra de progresso</li>
+          <li xml:lang="ka">GOG-ის და Amazon-ის გადმოწერების ერთ მიმდინარეობის ზოლში გაერთიანება</li>
+          <li xml:lang="it">Raggruppati i download di GOG e Amazon in un'unica barra di avanzamento</li>
+          <li xml:lang="es">Agrupa la descarga de GOG y de Amazon en una única barra de progreso</li>
+          <li>Fix blank login window on online services such as GOG or EGS</li>
+          <li xml:lang="pt-BR">Corrigido a janela de conexão em branco em serviços online como GOG ou EGS</li>
+          <li xml:lang="ka">გასწორდა ცარიელი შესვლის ფანჯარა ისეთ ონლან-სერვისებზე, როგორიცაა GOG ან EGS</li>
+          <li xml:lang="it">Corretta la finestra di accesso vuota su servizi online come GOG o EGS</li>
+          <li xml:lang="es">Corrige la ventana de login en blanco en servicios en línea como GOG o EGS</li>
+          <li>Add a sort name field</li>
+          <li xml:lang="pt-BR">Adicionado um campo de nome de ordenação</li>
+          <li xml:lang="ka">დალაგების სახელის ველის დამატება</li>
+          <li xml:lang="it">Aggiunto un campo di ordinamento per nome</li>
+          <li xml:lang="es">Añade un campo de ordenación de nombres</li>
+          <li>Yuzu and xemu now use an AppImage</li>
+          <li xml:lang="pt-BR">Yuzu e xemu agora usam um AppImage</li>
+          <li xml:lang="ka">Yuzu-სა და xemu-ს ახლა AppImage-ის გამოყენება შეუძლიათ</li>
+          <li xml:lang="it">Yuzu e xemu ora usano un'AppImage</li>
+          <li xml:lang="es">Yuzu y xemu ahora usan AppImage</li>
+          <li>Experimental support for Flatpak provided runners</li>
+          <li xml:lang="pt-BR">Suporte experimental para runners fornecidos pelo Flatpak</li>
+          <li xml:lang="ka">ექსპერიმენტული მხარდაჭერა Flatpak-ით მოწოდებული გამშვებებისთვის</li>
+          <li xml:lang="it">Supporto sperimentale per i runner forniti da Flatpak</li>
+          <li xml:lang="es">Soporte experimental para ejecutores proporcionados en Flatpak</li>
+          <li>Header-bar search for configuration options</li>
+          <li xml:lang="pt-BR">Pesquisa na barra de cabeçalho para opções de configuração</li>
+          <li xml:lang="ka">ძებნა სათაურის ზოლში მორგების პარამეტრებისთვის</li>
+          <li xml:lang="it">Ricerca nella barra dell'intestazione per le opzioni di configurazione</li>
+          <li xml:lang="es">Búsqueda en la barra de encabezamiento para las opciones de configuración</li>
+          <li>Support for Gamescope 3.12</li>
+          <li xml:lang="pt-BR">Suporte para Gamescope 3.12</li>
+          <li xml:lang="pl">Obsługa Gamescope 3.12</li>
+          <li xml:lang="ka">Gamescope 3.12-ის მხარდაჭერა</li>
+          <li xml:lang="it">Supporto per Gamescope 3.12</li>
+          <li xml:lang="es">Soporte para Gamescope 3.12</li>
+          <li>Missing games show an additional badge</li>
+          <li xml:lang="pt-BR">Jogos ausentes mostram um emblema adicional</li>
+          <li xml:lang="ka">ნაკლულ თამაშებს დამატებითი ემბლება უჩნდებათ</li>
+          <li xml:lang="it">I giochi mancanti mostrano un badge aggiuntivo</li>
+          <li xml:lang="es">Los juegos que faltan muestran un símbolo adicional</li>
+          <li>Add missing dependency on python3-gi-cairo for Debian packages</li>
+          <li xml:lang="pt-BR">Adicionado dependência ausente em python3-gi-cairo para pacotes Debian</li>
+          <li xml:lang="ka">Debian-ის პაკეტებისთვის python3-gi-cairo-ზე ნაკლული დამოკიდებულების დამატება</li>
+          <li xml:lang="it">Aggiunta la dipendenza mancante python3-gi-cairo per i pacchetti Debian</li>
+          <li xml:lang="es">Añade dependencia ausente de python3-gi-cairo a paquetes Debian</li>
+        </ul>
+      </description>
+    </release>
+    <release version="0.5.13" date="2023-05-16"/>
+  </releases>
+  <content_rating type="oars-1.1"/>
+</component>

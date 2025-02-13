@@ -1,0 +1,57 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: GPL-3.0-only
+#
+name        : lutris
+version     : v0.5.18
+release     : 1
+homepage    : https://github.com/lutris/lutris
+upstreams   :
+    - https://github.com/lutris/lutris/archive/refs/tags/v0.5.18.tar.gz : b9d4ad052d1c750910940d5cc7c583967c0c65c1584b7f4a1abaf46e40c3d8d1
+summary     : Lutris helps you install and play video games from all eras and from most gaming systems.
+description : |
+    Lutris helps you install and play video games from all eras and from most gaming systems. By leveraging
+    and combining existing emulators, engine re-implementations and compatibility layers, it gives you a
+    central interface to launch all your games.
+
+    The client can connect with existing services like Humble Bundle, GOG and Steam to make your game
+    libraries easily available. Game downloads and installations are automated and can be modified
+    through user made scripts.
+license     : GPL-3.0-only
+rundeps     :
+    - appstream
+    - binary(curl)
+    - binary(unzip)
+    - gtk-3
+    - pycairo
+    - python
+    - python-certifi # missing
+    - python-dbus # missing
+    - python-distro # missing
+    - python-gyobject
+    - python-lxml
+    - python-moddb # missing
+    - python-pillow # missing
+    - python-requests # missing
+    - python-pyyaml
+    - webkitgtk # missing
+    - xdg-desktop-portal-gtk
+    - xdg-utils
+builddeps   :
+    - appstream-devel
+    - binary(git)
+    - binary(meson)
+    - binary(msgfmt)
+    - protobuf
+    - python
+    # - binary(appstream-util)
+    # - binary(desktop-file-validate)
+setup       : |
+    meson setup serpent_builddir --prefix=/usr
+build       : |
+    %meson_build
+#    %python_setup
+install     : |
+    %meson_install
+
