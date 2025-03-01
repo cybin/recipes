@@ -1,0 +1,31 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : libmanette
+version     : 0.2.6
+release     : 1
+homepage    : https://gitlab.gnome.org/GNOME/libmanette/-/archive/0.2.6
+upstreams   :
+    - https://gitlab.gnome.org/GNOME/libmanette/-/archive/0.2.6/libmanette-0.2.6.tar.gz : d5ac84030cf172347b9f8aece74e7431032c70111b7d5cf8e7b6e1f38b184f49
+summary     : The simple GObject game controller library
+description : |
+    libmanette offers painless access to game controllers, from any
+    programming language and with little dependencies.
+license     : LGPL-2.1-only
+builddeps   :
+    - binary(vapigen)
+    - gobject-introspection-devel
+    - pkgconfig(gio-2.0)
+    - pkgconfig(glib-2.0)
+    - pkgconfig(gobject-2.0)
+    - pkgconfig(gudev-1.0)
+    - pkgconfig(libevdev)
+setup       : |
+    %meson
+build       : |
+    %meson_build
+install     : |
+    %meson_install
+
