@@ -2,6 +2,4 @@ releases:
   id: 12202
   rss: https://github.com/python-distro/distro/releases.atom
 security:
-  cpe:
-  - vendor: ~
-    product: ~
+  cpe: ~
