@@ -1,0 +1,783 @@
+Refreshed local
+Refreshed volatile
+
+The following package(s) will be installed:
+
+acl                       2.3.2-4   expat                     2.6.4-6   libarchive                3.7.7-9   libxcrypt                4.4.36-6   ntpd-rs                   1.4.0-3   sqlite                   3.47.2-8
+attr                      2.5.2-5   file                       5.46-9   libb2                    0.98.1-1   libxcrypt-devel          4.4.36-6   openmp                  19.1.7-21   sudo-rs                   0.2.3-8
+bash                    5.2.37-21   findutils                4.10.0-3   libcap                     2.71-7   libxml2                  2.13.5-9   openmp-devel            19.1.7-21   system-accounts           0.1.0-6
+boulder     0.25.1+git.108fe6d-86   gawk                      5.3.1-5   libcap-ng                 0.8.5-4   linux-headers           6.13.8-21   openssl                  3.4.0-20   systemd                 254.24-48
+brotli                    1.1.0-6   gdbm                       1.24-4   libcxx                  19.1.7-12   linux-pam                 1.6.1-9   os-info                 2025.03-6   systemd-devel           254.24-48
+bzip2                     1.0.8-5   git                     2.47.1-12   libcxx-devel            19.1.7-12   lld                     19.1.7-21   p11-kit-libs             0.25.5-3   tar                        1.35-2
+bzip2-libs                1.0.8-5   glib2                   2.84.0-24   libeconf                  0.7.6-4   lld-libs                19.1.7-21   pcre2                     10.44-4   terminus-font            4.49.1-1
+ca-certificates        20241219-6   glib2-devel             2.84.0-24   libedit            20221030-3.1-2   llvm                    19.1.7-21   pcre2-devel               10.44-4   tpm2-tss                  4.1.3-3
+clang                   19.1.7-21   glibc        2.40+git.7648e3c8-16   libffi                    3.4.6-4   llvm-libs               19.1.7-21   perl                     5.38.2-8   tzdata                    2023d-4
+clang-libs              19.1.7-21   glibc-devel  2.40+git.7648e3c8-16   libffi-devel              3.4.6-4   lvm2                    2.03.21-5   pkgconf                  2.3.0-10   util-linux              2.40.2-10
+cmake                    3.30.2-7   gmp                       6.3.0-3   libgcrypt                1.11.0-5   lz4                      1.10.0-3   polly                   19.1.7-21   util-linux-devel        2.40.2-10
+coreutils               0.0.30-21   grep                       3.11-5   libgpg-error               1.51-3   lzo                        2.10-1   popt                       1.19-1   uutils-coreutils        0.0.30-21
+cryptsetup                2.7.4-3   gzip                       1.13-4   libidn2                   2.3.7-3   meson                    1.6.1-11   procps                    4.0.5-4   vim                    9.1.0919-8
+curl                    8.11.1-20   hwloc-libs               2.11.2-1   libpciaccess             0.18.1-4   mimalloc                  2.1.7-5   python                   3.11.9-7   xz                       5.6.3-11
+dash                     0.5.12-3   json-c                     0.18-3   libpsl                   0.21.5-3   mpfr                      4.2.2-4   python-devel             3.11.9-7   zlib                     2.2.4-17
+dbus                     1.16.0-9   kbd                       2.6.4-6   libseccomp                2.5.5-4   nano                       8.3-33   python-packaging           24.1-2   zlib-devel               2.2.4-17
+dbus-devel               1.16.0-9   kmod                         31-8   libsecret                0.21.7-5   ncurses           6.5-20250301-11   readline                8.2.013-5   zstd                      1.5.6-7
+diffutils                  3.10-4   layout                    0.1.0-5   libtasn1                 4.19.0-1   nghttp2                  1.64.0-7   rustls-ffi               0.14.0-7   
+elfutils-libs             0.192-5   libaio                  0.3.113-1   libunistring                1.3-3   ninja                    1.12.1-2   sed                         4.9-2   
+
+Installed bzip2-libs (cached)
+Installed brotli (cached)
+Installed acl (cached)
+Installed boulder (cached)
+Installed attr (cached)
+Installed bzip2 (cached)
+Installed bash (cached)
+Installed coreutils (cached)
+Installed curl (cached)
+Installed ca-certificates (cached)
+Installed cryptsetup (cached)
+Installed dash (cached)
+Installed clang (cached)
+Installed dbus (cached)
+Installed elfutils-libs (cached)
+Installed expat (cached)
+Installed file (cached)
+Installed dbus-devel (cached)
+Installed diffutils (cached)
+Installed gdbm (cached)
+Installed findutils (cached)
+Installed gawk (cached)
+Installed clang-libs (cached)
+Installed gmp (cached)
+Installed git (cached)
+Installed grep (cached)
+Installed gzip (cached)
+Installed glib2 (cached)
+Installed hwloc-libs (cached)
+Installed json-c (cached)
+Installed layout (cached)
+Installed kmod (cached)
+Installed libaio (cached)
+Installed libarchive (cached)
+Installed libb2 (cached)
+Installed glib2-devel (cached)
+Installed libcap (cached)
+Installed libcxx (cached)
+Installed libcap-ng (cached)
+Installed libeconf (cached)
+Installed libffi (cached)
+Installed libffi-devel (cached)
+Installed libedit (cached)
+Installed glibc-devel (cached)
+Installed libgcrypt (cached)
+Installed libpciaccess (cached)
+Installed libpsl (cached)
+Installed libidn2 (cached)
+Installed libgpg-error (cached)
+Installed libseccomp (cached)
+Installed libsecret (cached)
+Installed libunistring (cached)
+Installed libxcrypt (cached)
+Installed libtasn1 (cached)
+Installed libxml2 (cached)
+Installed libxcrypt-devel (cached)
+Installed lld (cached)
+Installed lld-libs (cached)
+Installed llvm-libs (cached)
+Installed llvm (cached)
+Installed kbd (cached)
+Installed lvm2 (cached)
+Installed lz4 (cached)
+Installed linux-pam (cached)
+Installed mimalloc (cached)
+Installed lzo (cached)
+Installed mpfr (cached)
+Installed nghttp2 (cached)
+Installed ninja (cached)
+Installed nano (cached)
+Installed ntpd-rs (cached)
+Installed openmp (cached)
+Installed openmp-devel (cached)
+Installed os-info (cached)
+Installed p11-kit-libs (cached)
+Installed pcre2 (cached)
+Installed libcxx-devel (cached)
+Installed pcre2-devel (cached)
+Installed meson (cached)
+Installed pkgconf (cached)
+Installed polly (cached)
+Installed openssl (cached)
+Installed linux-headers (cached)
+Installed popt (cached)
+Installed python-packaging (cached)
+Installed procps (cached)
+Installed readline (cached)
+Installed rustls-ffi (cached)
+Installed sqlite (cached)
+Installed sed (cached)
+Installed sudo-rs (cached)
+Installed system-accounts (cached)
+Installed python-devel (cached)
+Installed tar (cached)
+Installed terminus-font (cached)
+Installed tpm2-tss (cached)
+Installed systemd-devel (cached)
+Installed systemd (cached)
+Installed util-linux-devel (cached)
+Installed cmake (cached)
+Installed util-linux (cached)
+Installed ncurses (cached)
+Installed zlib (cached)
+Installed perl (cached)
+Installed zlib-devel (cached)
+Installed zstd (cached)
+Installed xz (cached)
+Installed uutils-coreutils (cached)
+Installed tzdata (cached)
+Installed glibc (cached)
+Installed vim (cached)
+Installed python (cached)
+
+44108 entries blitted in 0.89s (49.8k / s)
+
+Sharing 1 upstream(s) with the build container
+Shared dbus-python-dbus-python-1.4.0.tar.bz2 (cached)
+
+x86_64
+│Prepare
+│P│ + TERM=dumb
+│P│ + export TERM
+│P│ + SOURCE_DATE_EPOCH=1743327468
+│P│ + export SOURCE_DATE_EPOCH
+│P│ + PGO_STAGE=NONE
+│P│ + export PGO_STAGE
+│P│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│P│ + export PKG_CONFIG_PATH
+│P│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CFLAGS
+│P│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CGO_CFLAGS
+│P│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CXXFLAGS
+│P│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CGO_CXXFLAGS
+│P│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│P│ + export LDFLAGS
+│P│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│P│ + export CGO_LDFLAGS
+│P│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│P│ + export DFLAGS
+│P│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│P│ + export RUSTFLAGS
+│P│ + CC=clang
+│P│ + export CC
+│P│ + CXX=clang++
+│P│ + export CXX
+│P│ + OBJC=clang
+│P│ + export OBJC
+│P│ + OBJCXX=clang++
+│P│ + export OBJCXX
+│P│ + CPP=clang-cpp
+│P│ + export CPP
+│P│ + OBJCPP='clang -E -'
+│P│ + export OBJCPP
+│P│ + OBJCXXCPP='clang++ -E'
+│P│ + export OBJCXXCPP
+│P│ + AR=llvm-ar
+│P│ + export AR
+│P│ + LD=ld.lld
+│P│ + export LD
+│P│ + OBJCOPY=llvm-objcopy
+│P│ + export OBJCOPY
+│P│ + NM=llvm-nm
+│P│ + export NM
+│P│ + RANLIB=llvm-ranlib
+│P│ + export RANLIB
+│P│ + STRIP=llvm-strip
+│P│ + export STRIP
+│P│ + PATH=/usr/bin:/bin
+│P│ + export PATH
+│P│ + CCACHE_DIR=/mason/ccache
+│P│ + export CCACHE_DIR
+│P│ + test -z /mason/ccache
+│P│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64
+│P│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│P│ + CARGO_NET_RETRY=5
+│P│ + export CARGO_NET_RETRY
+│P│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│P│ + export CARGO_PROFILE_RELEASE_DEBUG
+│P│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│P│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│P│ + CARGO_PROFILE_RELEASE_LTO=off
+│P│ + export CARGO_PROFILE_RELEASE_LTO
+│P│ + CARGO_PROFILE_RELEASE_STRIP=none
+│P│ + export CARGO_PROFILE_RELEASE_STRIP
+│P│ + RUSTC_WRAPPER=
+│P│ + export RUSTC_WRAPPER
+│P│ + test -z ''
+│P│ + unset RUSTC_WRAPPER
+│P│ + SCCACHE_DIR=/mason/sccache
+│P│ + export SCCACHE_DIR
+│P│ + test -z /mason/sccache
+│P│ + LANG=en_US.UTF-8
+│P│ + export LANG
+│P│ + LC_ALL=en_US.UTF-8
+│P│ + export LC_ALL
+│P│ + test -d /mason/build/x86_64
+│P│ + cd /mason/build/x86_64
+│P│ + echo 'The work directory %(workdir) is /mason/build/x86_64'
+│P│ The work directory %(workdir) is /mason/build/x86_64
+│P│ + mkdir -p dbus-python-dbus-python-1.4.0.tar.bz2
+│P│ + tar xf /mason/sourcedir/dbus-python-dbus-python-1.4.0.tar.bz2 -C dbus-python-dbus-python-1.4.0.tar.bz2 --strip-components=1 --no-same-owner
+│
+│Setup
+│S│ + TERM=dumb
+│S│ + export TERM
+│S│ + SOURCE_DATE_EPOCH=1743327468
+│S│ + export SOURCE_DATE_EPOCH
+│S│ + PGO_STAGE=NONE
+│S│ + export PGO_STAGE
+│S│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│S│ + export PKG_CONFIG_PATH
+│S│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + export CFLAGS
+│S│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + export CGO_CFLAGS
+│S│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + export CXXFLAGS
+│S│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + export CGO_CXXFLAGS
+│S│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│S│ + export LDFLAGS
+│S│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│S│ + export CGO_LDFLAGS
+│S│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│S│ + export DFLAGS
+│S│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│S│ + export RUSTFLAGS
+│S│ + CC=clang
+│S│ + export CC
+│S│ + CXX=clang++
+│S│ + export CXX
+│S│ + OBJC=clang
+│S│ + export OBJC
+│S│ + OBJCXX=clang++
+│S│ + export OBJCXX
+│S│ + CPP=clang-cpp
+│S│ + export CPP
+│S│ + OBJCPP='clang -E -'
+│S│ + export OBJCPP
+│S│ + OBJCXXCPP='clang++ -E'
+│S│ + export OBJCXXCPP
+│S│ + AR=llvm-ar
+│S│ + export AR
+│S│ + LD=ld.lld
+│S│ + export LD
+│S│ + OBJCOPY=llvm-objcopy
+│S│ + export OBJCOPY
+│S│ + NM=llvm-nm
+│S│ + export NM
+│S│ + RANLIB=llvm-ranlib
+│S│ + export RANLIB
+│S│ + STRIP=llvm-strip
+│S│ + export STRIP
+│S│ + PATH=/usr/bin:/bin
+│S│ + export PATH
+│S│ + CCACHE_DIR=/mason/ccache
+│S│ + export CCACHE_DIR
+│S│ + test -z /mason/ccache
+│S│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│S│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│S│ + CARGO_NET_RETRY=5
+│S│ + export CARGO_NET_RETRY
+│S│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│S│ + export CARGO_PROFILE_RELEASE_DEBUG
+│S│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│S│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│S│ + CARGO_PROFILE_RELEASE_LTO=off
+│S│ + export CARGO_PROFILE_RELEASE_LTO
+│S│ + CARGO_PROFILE_RELEASE_STRIP=none
+│S│ + export CARGO_PROFILE_RELEASE_STRIP
+│S│ + RUSTC_WRAPPER=
+│S│ + export RUSTC_WRAPPER
+│S│ + test -z ''
+│S│ + unset RUSTC_WRAPPER
+│S│ + SCCACHE_DIR=/mason/sccache
+│S│ + export SCCACHE_DIR
+│S│ + test -z /mason/sccache
+│S│ + LANG=en_US.UTF-8
+│S│ + export LANG
+│S│ + LC_ALL=en_US.UTF-8
+│S│ + export LC_ALL
+│S│ + test -d /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│S│ + cd /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│S│ + echo 'The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2'
+│S│ The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│S│ + test -e ./meson.build
+│S│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│S│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│S│ + meson setup --prefix=/usr --buildtype=plain --libdir=lib --libexecdir=lib/python-dbus --sysconfdir=/etc --localstatedir=/var serpent_builddir
+│S│ The Meson build system
+│S│ Version: 1.6.1
+│S│ Source dir: /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│S│ Build dir: /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir
+│S│ Build type: native build
+│S│ Project name: dbus-python
+│S│ Project version: 1.4.0
+│S│ C compiler for the host machine: clang (clang 19.1.7 "clang version 19.1.7 (Serpent 19.1.7-21)")
+│S│ C linker for the host machine: clang ld.lld 19.1.7
+│S│ Host machine cpu family: x86_64
+│S│ Host machine cpu: x86_64
+│S│ Compiler for C supports arguments -fno-common: YES 
+│S│ Compiler for C supports arguments -Wno-missing-field-initializers: YES 
+│S│ Compiler for C supports arguments -Wno-declaration-after-statement: YES 
+│S│ Compiler for C supports arguments -Wno-inline: YES 
+│S│ Compiler for C supports arguments -Wno-redundant-decls: YES 
+│S│ Compiler for C supports arguments -Wno-switch-default: YES 
+│S│ Compiler for C supports arguments -Wno-write-strings: YES 
+│S│ Compiler for C supports arguments -Wcast-align: YES 
+│S│ Compiler for C supports arguments -Wdouble-promotion: YES 
+│S│ Compiler for C supports arguments -Wduplicated-cond: NO 
+│S│ Compiler for C supports arguments -Wfloat-equal: YES 
+│S│ Compiler for C supports arguments -Wformat-nonliteral: YES 
+│S│ Compiler for C supports arguments -Wformat-security: YES 
+│S│ Compiler for C supports arguments -Wformat=2: YES 
+│S│ Compiler for C supports arguments -Winit-self: YES 
+│S│ Compiler for C supports arguments -Wlogical-op: NO 
+│S│ Compiler for C supports arguments -Wmissing-declarations: YES 
+│S│ Compiler for C supports arguments -Wmissing-format-attribute: YES 
+│S│ Compiler for C supports arguments -Wmissing-include-dirs: YES 
+│S│ Compiler for C supports arguments -Wmissing-noreturn: YES 
+│S│ Compiler for C supports arguments -Wnull-dereference: YES 
+│S│ Compiler for C supports arguments -Wpacked: YES 
+│S│ Compiler for C supports arguments -Wpointer-arith: YES 
+│S│ Compiler for C supports arguments -Wshadow: YES 
+│S│ Compiler for C supports arguments -Wswitch-enum: YES 
+│S│ Compiler for C supports arguments -Wundef: YES 
+│S│ Compiler for C supports arguments -Wunused-but-set-variable: YES 
+│S│ Compiler for C supports arguments -Wjump-misses-init: NO 
+│S│ Compiler for C supports arguments -Wmissing-prototypes: YES 
+│S│ Compiler for C supports arguments -Wnested-externs: YES 
+│S│ Compiler for C supports arguments -Wold-style-definition: YES 
+│S│ Compiler for C supports arguments -Wpointer-sign: YES 
+│S│ Compiler for C supports arguments -Wstrict-prototypes: YES 
+│S│ Configuring _dbus-python-config.h using configuration
+│S│ 
+│S│ Executing subproject dbus-gmain 
+│S│ 
+│S│ dbus-gmain| Project name: dbus-gmain
+│S│ dbus-gmain| Project version: undefined
+│S│ dbus-gmain| C compiler for the host machine: clang (clang 19.1.7 "clang version 19.1.7 (Serpent 19.1.7-21)")
+│S│ dbus-gmain| C linker for the host machine: clang ld.lld 19.1.7
+│S│ dbus-gmain| Compiler for C supports arguments -fno-common: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wno-missing-field-initializers: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wcast-align: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wdouble-promotion: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wduplicated-branches: NO
+│S│ dbus-gmain| Compiler for C supports arguments -Wduplicated-cond: NO (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wfloat-equal: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wformat-nonliteral: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wformat-security: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wformat=2: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Winit-self: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wlogical-op: NO (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wmissing-declarations: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wmissing-format-attribute: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wmissing-include-dirs: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wmissing-noreturn: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wnull-dereference: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wpacked: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wpointer-arith: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wredundant-decls: YES
+│S│ dbus-gmain| Compiler for C supports arguments -Wshadow: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wswitch-default: YES
+│S│ dbus-gmain| Compiler for C supports arguments -Wswitch-enum: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wundef: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wunused-but-set-variable: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wwrite-strings: YES
+│S│ dbus-gmain| Compiler for C supports arguments -Wdeclaration-after-statement: YES
+│S│ dbus-gmain| Compiler for C supports arguments -Wjump-misses-init: NO (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wmissing-prototypes: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wnested-externs: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wold-style-definition: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wpointer-sign: YES (cached)
+│S│ dbus-gmain| Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+│S│ dbus-gmain| Found pkg-config: YES (/usr/bin/pkg-config) 2.3.0
+│S│ dbus-gmain| Run-time dependency dbus-1 found: YES 1.16.0
+│S│ dbus-gmain| Run-time dependency glib-2.0 found: YES 2.84.0
+│S│ dbus-gmain| Run-time dependency gthread-2.0 found: YES 2.84.0
+│S│ dbus-gmain| Program dbus-run-session found: YES (/usr/bin/dbus-run-session)
+│S│ dbus-gmain| Build targets in project: 1
+│S│ dbus-gmain| Subproject dbus-gmain finished.
+│S│ 
+│S│ Program python3 found: YES (/usr/bin/python3)
+│S│ Dependency dbus-1 found: YES 1.16.0 (cached)
+│S│ Run-time dependency python found: YES 3.11
+│S│ Program /usr/bin/python3 found: NO (disabled by: doc )
+│S│ Program dbus-run-session found: YES (/usr/bin/dbus-run-session)
+│S│ Program /usr/bin/python3 (gi) found: NO
+│S│ Configuring TestSuitePythonService.service using configuration
+│S│ Configuring tmp-session-bus.conf using configuration
+│S│ Run-time dependency python found: YES 3.11
+│S│ Build targets in project: 5
+│S│ 
+│S│ dbus-python 1.4.0
+│S│ 
+│S│   Subprojects
+│S│     dbus-gmain   : YES
+│S│ 
+│S│   User defined options
+│S│     buildtype    : plain
+│S│     libdir       : lib
+│S│     libexecdir   : lib/python-dbus
+│S│     localstatedir: /var
+│S│     prefix       : /usr
+│S│     sysconfdir   : /etc
+│S│ 
+│S│ Found ninja-1.12.1 at /usr/bin/ninja
+│
+│Build
+│B│ + TERM=dumb
+│B│ + export TERM
+│B│ + SOURCE_DATE_EPOCH=1743327468
+│B│ + export SOURCE_DATE_EPOCH
+│B│ + PGO_STAGE=NONE
+│B│ + export PGO_STAGE
+│B│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│B│ + export PKG_CONFIG_PATH
+│B│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CFLAGS
+│B│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CGO_CFLAGS
+│B│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CXXFLAGS
+│B│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CGO_CXXFLAGS
+│B│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│B│ + export LDFLAGS
+│B│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│B│ + export CGO_LDFLAGS
+│B│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│B│ + export DFLAGS
+│B│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│B│ + export RUSTFLAGS
+│B│ + CC=clang
+│B│ + export CC
+│B│ + CXX=clang++
+│B│ + export CXX
+│B│ + OBJC=clang
+│B│ + export OBJC
+│B│ + OBJCXX=clang++
+│B│ + export OBJCXX
+│B│ + CPP=clang-cpp
+│B│ + export CPP
+│B│ + OBJCPP='clang -E -'
+│B│ + export OBJCPP
+│B│ + OBJCXXCPP='clang++ -E'
+│B│ + export OBJCXXCPP
+│B│ + AR=llvm-ar
+│B│ + export AR
+│B│ + LD=ld.lld
+│B│ + export LD
+│B│ + OBJCOPY=llvm-objcopy
+│B│ + export OBJCOPY
+│B│ + NM=llvm-nm
+│B│ + export NM
+│B│ + RANLIB=llvm-ranlib
+│B│ + export RANLIB
+│B│ + STRIP=llvm-strip
+│B│ + export STRIP
+│B│ + PATH=/usr/bin:/bin
+│B│ + export PATH
+│B│ + CCACHE_DIR=/mason/ccache
+│B│ + export CCACHE_DIR
+│B│ + test -z /mason/ccache
+│B│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│B│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│B│ + CARGO_NET_RETRY=5
+│B│ + export CARGO_NET_RETRY
+│B│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│B│ + export CARGO_PROFILE_RELEASE_DEBUG
+│B│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│B│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│B│ + CARGO_PROFILE_RELEASE_LTO=off
+│B│ + export CARGO_PROFILE_RELEASE_LTO
+│B│ + CARGO_PROFILE_RELEASE_STRIP=none
+│B│ + export CARGO_PROFILE_RELEASE_STRIP
+│B│ + RUSTC_WRAPPER=
+│B│ + export RUSTC_WRAPPER
+│B│ + test -z ''
+│B│ + unset RUSTC_WRAPPER
+│B│ + SCCACHE_DIR=/mason/sccache
+│B│ + export SCCACHE_DIR
+│B│ + test -z /mason/sccache
+│B│ + LANG=en_US.UTF-8
+│B│ + export LANG
+│B│ + LC_ALL=en_US.UTF-8
+│B│ + export LC_ALL
+│B│ + test -d /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│B│ + cd /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│B│ + echo 'The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2'
+│B│ The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│B│ + meson compile -v -j 16 -C serpent_builddir
+│B│ ninja: Entering directory `/mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir'
+│B│ [1/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_debug.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_debug.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_debug.c.o -c ../dbus_bindings/debug.c
+│B│ [2/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_float.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_float.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_float.c.o -c ../dbus_bindings/float.c
+│B│ [3/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_generic.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_generic.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_generic.c.o -c ../dbus_bindings/generic.c
+│B│ [4/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_libdbusconn.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_libdbusconn.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_libdbusconn.c.o -c ../dbus_bindings/libdbusconn.c
+│B│ [5/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_exceptions.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_exceptions.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_exceptions.c.o -c ../dbus_bindings/exceptions.c
+│B│ [6/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bus.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bus.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bus.c.o -c ../dbus_bindings/bus.c
+│B│ [7/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_mainloop.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_mainloop.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_mainloop.c.o -c ../dbus_bindings/mainloop.c
+│B│ ../dbus_bindings/mainloop.c:40:1: warning: unused function 'NativeMainLoop_CheckExact' [-Wunused-function]
+│B│    40 | DEFINE_CHECK(NativeMainLoop)
+│B│       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+│B│ ../dbus_bindings/dbus_bindings-internal.h:86:19: note: expanded from macro 'DEFINE_CHECK'
+│B│    86 | static inline int type##_CheckExact (PyObject *o) \
+│B│       |                   ^~~~~~~~~~~~~~~~~
+│B│ <scratch space>:182:1: note: expanded from here
+│B│   182 | NativeMainLoop_CheckExact
+│B│       | ^~~~~~~~~~~~~~~~~~~~~~~~~
+│B│ 1 warning generated.
+│B│ [8/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bytes.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bytes.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bytes.c.o -c ../dbus_bindings/bytes.c
+│B│ [9/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_unixfd.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_unixfd.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_unixfd.c.o -c ../dbus_bindings/unixfd.c
+│B│ [10/32] clang -Isubprojects/dbus-gmain/libdbus-gmain.a.p -Isubprojects/dbus-gmain -I../subprojects/dbus-gmain -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wredundant-decls -Wshadow -Wswitch-default -Wswitch-enum -Wundef -Wunused-but-set-variable -Wwrite-strings -Wdeclaration-after-statement -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes '-DDBUS_GMAIN_FUNCTION(ret, name, ...)=G_GNUC_INTERNAL ret DBUS_GMAIN_FUNCTION_NAME (name) (__VA_ARGS__)' '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ subprojects/dbus-gmain/libdbus-gmain.a.p/dbus-gmain.c.o -MF subprojects/dbus-gmain/libdbus-gmain.a.p/dbus-gmain.c.o.d -o subprojects/dbus-gmain/libdbus-gmain.a.p/dbus-gmain.c.o -c ../subprojects/dbus-gmain/dbus-gmain.c
+│B│ [11/32] rm -f subprojects/dbus-gmain/libdbus-gmain.a && llvm-ar csrDT subprojects/dbus-gmain/libdbus-gmain.a subprojects/dbus-gmain/libdbus-gmain.a.p/dbus-gmain.c.o
+│B│ [12/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn.c.o -c ../dbus_bindings/conn.c
+│B│ [13/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_int.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_int.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_int.c.o -c ../dbus_bindings/int.c
+│B│ [14/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_abstract.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_abstract.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_abstract.c.o -c ../dbus_bindings/abstract.c
+│B│ [15/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_containers.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_containers.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_containers.c.o -c ../dbus_bindings/containers.c
+│B│ [16/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn-methods.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn-methods.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn-methods.c.o -c ../dbus_bindings/conn-methods.c
+│B│ [17/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-append.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-append.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-append.c.o -c ../dbus_bindings/message-append.c
+│B│ [18/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_pending-call.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_pending-call.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_pending-call.c.o -c ../dbus_bindings/pending-call.c
+│B│ ../dbus_bindings/pending-call.c:37:19: warning: unused function 'PendingCall_Check' [-Wunused-function]
+│B│    37 | static inline int PendingCall_Check (PyObject *o)
+│B│       |                   ^~~~~~~~~~~~~~~~~
+│B│ 1 warning generated.
+│B│ [19/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_signature.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_signature.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_signature.c.o -c ../dbus_bindings/signature.c
+│B│ [20/32] clang -Itest/test-import-repeatedly.p -Itest -I../test -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -MD -MQ test/test-import-repeatedly.p/import-repeatedly.c.o -MF test/test-import-repeatedly.p/import-repeatedly.c.o.d -o test/test-import-repeatedly.p/import-repeatedly.c.o -c ../test/import-repeatedly.c
+│B│ [21/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_string.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_string.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_string.c.o -c ../dbus_bindings/string.c
+│B│ [22/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_validation.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_validation.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_validation.c.o -c ../dbus_bindings/validation.c
+│B│ [23/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_module.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_module.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_module.c.o -c ../dbus_bindings/module.c
+│B│ [24/32] clang -Itest/dbus_py_test.cpython-311-x86_64-linux-gnu.so.p -Itest -I../test -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ test/dbus_py_test.cpython-311-x86_64-linux-gnu.so.p/dbus_py_test.c.o -MF test/dbus_py_test.cpython-311-x86_64-linux-gnu.so.p/dbus_py_test.c.o.d -o test/dbus_py_test.cpython-311-x86_64-linux-gnu.so.p/dbus_py_test.c.o -c ../test/dbus_py_test.c
+│B│ [25/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-get-args.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-get-args.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-get-args.c.o -c ../dbus_bindings/message-get-args.c
+│B│ [26/32] clang  -o test/test-import-repeatedly test/test-import-repeatedly.p/import-repeatedly.c.o -Wl,--as-needed -Wl,--no-undefined -Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC /usr/lib/libpython3.11.so
+│B│ clang: warning: argument unused during compilation: '-Wa,--compress-debug-sections=zstd' [-Wunused-command-line-argument]
+│B│ [27/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_server.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_server.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_server.c.o -c ../dbus_bindings/server.c
+│B│ [28/32] clang  -o test/dbus_py_test.cpython-311-x86_64-linux-gnu.so test/dbus_py_test.cpython-311-x86_64-linux-gnu.so.p/dbus_py_test.c.o -Wl,--as-needed -Wl,--allow-shlib-undefined -shared -fPIC -Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC /usr/lib/libdbus-1.so
+│B│ clang: warning: argument unused during compilation: '-Wa,--compress-debug-sections=zstd' [-Wunused-command-line-argument]
+│B│ [29/32] clang -I_dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -Isubprojects/dbus-gmain -I../subprojects/dbus-gmain -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_glib_bindings_module.c.o -MF _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_glib_bindings_module.c.o.d -o _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_glib_bindings_module.c.o -c ../dbus_glib_bindings/module.c
+│B│ [30/32] clang -I_dbus_bindings.cpython-311-x86_64-linux-gnu.so.p -I. -I.. -I../include -I../dbus_bindings -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/python3.11 -fvisibility=hidden -fdiagnostics-color=always -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -fno-common -Wno-missing-field-initializers -Wno-declaration-after-statement -Wno-inline -Wno-redundant-decls -Wno-switch-default -Wno-write-strings -Wcast-align -Wdouble-promotion -Wfloat-equal -Wformat-nonliteral -Wformat-security -Wformat=2 -Winit-self -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wmissing-noreturn -Wnull-dereference -Wpacked -Wpointer-arith -Wshadow -Wswitch-enum -Wundef -Wunused-but-set-variable -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpointer-sign -Wstrict-prototypes -include _dbus-python-config.h '-DDBUS_GMAIN_FUNCTION_NAME(name)=_dbus_py_glib_ ## name' -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -fPIC -MD -MQ _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message.c.o -MF _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message.c.o.d -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message.c.o -c ../dbus_bindings/message.c
+│B│ [31/32] clang  -o _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_glib_bindings_module.c.o -Wl,--as-needed -Wl,--allow-shlib-undefined -shared -fPIC -Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC -Wl,--start-group subprojects/dbus-gmain/libdbus-gmain.a /usr/lib/libdbus-1.so /usr/lib/libglib-2.0.so -Wl,--end-group
+│B│ clang: warning: argument unused during compilation: '-Wa,--compress-debug-sections=zstd' [-Wunused-command-line-argument]
+│B│ [32/32] clang  -o _dbus_bindings.cpython-311-x86_64-linux-gnu.so _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_abstract.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bus.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_bytes.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_conn-methods.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_containers.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_debug.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_exceptions.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_float.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_generic.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_int.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_unixfd.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_libdbusconn.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_mainloop.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-append.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_message-get-args.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_module.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_pending-call.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_server.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_signature.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_string.c.o _dbus_bindings.cpython-311-x86_64-linux-gnu.so.p/dbus_bindings_validation.c.o -Wl,--as-needed -Wl,--allow-shlib-undefined -shared -fPIC -Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC /usr/lib/libdbus-1.so
+│B│ clang: warning: argument unused during compilation: '-Wa,--compress-debug-sections=zstd' [-Wunused-command-line-argument]
+│B│ INFO: autodetecting backend as ninja
+│B│ INFO: calculating backend command to run: /usr/bin/ninja -C /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir -j 16 -v
+│
+│Install
+│I│ + TERM=dumb
+│I│ + export TERM
+│I│ + SOURCE_DATE_EPOCH=1743327468
+│I│ + export SOURCE_DATE_EPOCH
+│I│ + PGO_STAGE=NONE
+│I│ + export PGO_STAGE
+│I│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│I│ + export PKG_CONFIG_PATH
+│I│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CFLAGS
+│I│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CGO_CFLAGS
+│I│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CXXFLAGS
+│I│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CGO_CXXFLAGS
+│I│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│I│ + export LDFLAGS
+│I│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│I│ + export CGO_LDFLAGS
+│I│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│I│ + export DFLAGS
+│I│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│I│ + export RUSTFLAGS
+│I│ + CC=clang
+│I│ + export CC
+│I│ + CXX=clang++
+│I│ + export CXX
+│I│ + OBJC=clang
+│I│ + export OBJC
+│I│ + OBJCXX=clang++
+│I│ + export OBJCXX
+│I│ + CPP=clang-cpp
+│I│ + export CPP
+│I│ + OBJCPP='clang -E -'
+│I│ + export OBJCPP
+│I│ + OBJCXXCPP='clang++ -E'
+│I│ + export OBJCXXCPP
+│I│ + AR=llvm-ar
+│I│ + export AR
+│I│ + LD=ld.lld
+│I│ + export LD
+│I│ + OBJCOPY=llvm-objcopy
+│I│ + export OBJCOPY
+│I│ + NM=llvm-nm
+│I│ + export NM
+│I│ + RANLIB=llvm-ranlib
+│I│ + export RANLIB
+│I│ + STRIP=llvm-strip
+│I│ + export STRIP
+│I│ + PATH=/usr/bin:/bin
+│I│ + export PATH
+│I│ + CCACHE_DIR=/mason/ccache
+│I│ + export CCACHE_DIR
+│I│ + test -z /mason/ccache
+│I│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│I│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│I│ + CARGO_NET_RETRY=5
+│I│ + export CARGO_NET_RETRY
+│I│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│I│ + export CARGO_PROFILE_RELEASE_DEBUG
+│I│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│I│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│I│ + CARGO_PROFILE_RELEASE_LTO=off
+│I│ + export CARGO_PROFILE_RELEASE_LTO
+│I│ + CARGO_PROFILE_RELEASE_STRIP=none
+│I│ + export CARGO_PROFILE_RELEASE_STRIP
+│I│ + RUSTC_WRAPPER=
+│I│ + export RUSTC_WRAPPER
+│I│ + test -z ''
+│I│ + unset RUSTC_WRAPPER
+│I│ + SCCACHE_DIR=/mason/sccache
+│I│ + export SCCACHE_DIR
+│I│ + test -z /mason/sccache
+│I│ + LANG=en_US.UTF-8
+│I│ + export LANG
+│I│ + LC_ALL=en_US.UTF-8
+│I│ + export LC_ALL
+│I│ + test -d /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│I│ + cd /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│I│ + echo 'The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2'
+│I│ The work directory %(workdir) is /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2
+│I│ + DESTDIR=/mason/install
+│I│ + meson install --no-rebuild -C serpent_builddir
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/bus.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/connection.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_compat.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_dbus.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/decorators.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/exceptions.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_expat_introspect_parser.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/gi_service.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/glib.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/__init__.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/lowlevel.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/proxies.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/server.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/service.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/types.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/mainloop/__init__.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/mainloop/glib.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/bus.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/connection.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_compat.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_dbus.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/decorators.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/exceptions.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/_expat_introspect_parser.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/gi_service.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/glib.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/__init__.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/lowlevel.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/proxies.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/server.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/service.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/types.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/mainloop/__init__.py'...
+│I│ Compiling '/mason/install/usr/lib/python3.11/site-packages/dbus/mainloop/glib.py'...
+│I│ Installing _dbus_bindings.cpython-311-x86_64-linux-gnu.so to /mason/install/usr/lib/python3.11/site-packages
+│I│ Installing _dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so to /mason/install/usr/lib/python3.11/site-packages
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/include/dbus/dbus-python.h to /mason/install/usr/include/dbus-1.0/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/bus.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/connection.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/_compat.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/_dbus.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/decorators.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/exceptions.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/_expat_introspect_parser.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/gi_service.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/glib.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/__init__.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/lowlevel.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/proxies.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/server.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/service.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/types.py to /mason/install/usr/lib/python3.11/site-packages/dbus
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/mainloop/__init__.py to /mason/install/usr/lib/python3.11/site-packages/dbus/mainloop
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/dbus/mainloop/glib.py to /mason/install/usr/lib/python3.11/site-packages/dbus/mainloop
+│I│ Installing /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir/meson-private/dbus-python.pc to /mason/install/usr/lib/pkgconfig
+│I│ Running custom install script '/usr/bin/python3 /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir/meson-private/pycompile.py python-3.11-installed.json 0'
+│I│ Running custom install script '/usr/bin/python3 /mason/build/x86_64/dbus-python-dbus-python-1.4.0.tar.bz2/serpent_builddir/meson-private/pycompile.py python-3.11-installed.json 0'
+
+│Analyzing artefacts (» = Include, × = Ignore)
+│A│ » /usr/lib/python3.11/site-packages/_dbus_bindings.cpython-311-x86_64-linux-gnu.so
+│A│ » /usr/lib/python3.11/site-packages/_dbus_glib_bindings.cpython-311-x86_64-linux-gnu.so
+│A│ » /usr/lib/python3.11/site-packages/dbus/bus.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/connection.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/_compat.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/_dbus.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/decorators.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/exceptions.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/_expat_introspect_parser.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/gi_service.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/glib.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/__init__.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/lowlevel.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/proxies.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/server.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/service.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/types.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/mainloop/__init__.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/mainloop/glib.py
+│A│ » /usr/lib/python3.11/site-packages/dbus/mainloop/__pycache__/__init__.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/mainloop/__pycache__/glib.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/bus.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/connection.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/_compat.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/_dbus.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/decorators.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/exceptions.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/_expat_introspect_parser.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/gi_service.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/glib.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/__init__.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/lowlevel.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/proxies.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/server.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/service.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/dbus/__pycache__/types.cpython-311.pyc
+│A│ » /usr/lib/pkgconfig/dbus-python.pc
+│A│ » /usr/include/dbus-1.0/dbus/dbus-python.h
+│A│ » /usr/lib/debug/.build-id/59/b4c8a7d8e4ae18c7d3d8ebedd157a58d130c67.debug
+│A│ » /usr/lib/debug/.build-id/1e/4f92e3970597dbdc571f48eef1d99999484054.debug
+
+Packaging
+Emitted python-dbus-1.4.0-1-1-x86_64.stone
+Emitted python-dbus-dbginfo-1.4.0-1-1-x86_64.stone
+Emitted python-dbus-devel-1.4.0-1-1-x86_64.stone
+
+Phase                   Elapsed      %
+│Initialize               1.31s  15.4%
+│Populate (moss)
+││Resolve                 1.19s  13.9%
+││Fetch                   0.30s   3.5%
+││Blit                    2.71s  31.8%
+│Fetch                    0.00s   0.0%
+│x86_64
+││Prepare                 0.03s   0.3%
+││Setup                   1.58s  18.5%
+││Build                   0.99s  11.6%
+││Install                 0.26s   3.1%
+│Analyze                  0.06s   0.7%
+│Emit                     0.10s   1.2%
+──────────────────────────────────────
+Total                     8.53s 100.0%
+
+Build finished successfully at 2025-03-30T20:23:00+02:00
