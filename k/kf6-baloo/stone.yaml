@@ -1,0 +1,38 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-baloo
+version     : 6.12.0
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/baloo-6.12.0.tar.xz : 89844fab9c792df5a2a19e83242e4fc71ffc5fd51e18e2b3d9063771d5096b5e
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - GPL-2.0-or-later
+    - LGPL-2.0-or-later
+    - LGPL-2.1-or-later
+summary     : Baloo provides file searching and indexing
+description : |
+    Baloo provides file searching and indexing
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Config)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6Crash)
+    - cmake(KF6DBusAddons)
+    - cmake(KF6FileMetaData)
+    - cmake(KF6I18n)
+    - cmake(KF6IdleTime)
+    - cmake(KF6KIO)
+    - cmake(KF6Solid)
+    - cmake(Qt6Qml)
+    - lmdb-devel
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install

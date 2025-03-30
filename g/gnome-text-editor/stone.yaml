@@ -4,20 +4,20 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gnome-text-editor
-version     : 47.2
-release     : 6
+version     : 48.1
+release     : 7
 homepage    : https://apps.gnome.org/TextEditor/
 upstreams   :
-    - https://download.gnome.org/sources/gnome-text-editor/47/gnome-text-editor-47.2.tar.xz : 7d04039b16174ec5fd65fea2f447f3febd9fdf2aa36e9997abc6ff992cc31e38
+    - https://download.gnome.org/sources/gnome-text-editor/48/gnome-text-editor-48.1.tar.xz : 52089ba978a665841803b1b69e0e7be75b09a7d54e01e8d0bb29926e0f342437
 summary     : A simple text editor
 description : |
     Text Editor is a simple text editor that focuses on session management.
 license     :
     - GPL-3.0-only
 builddeps   :
-    - binary(msgfmt)
     - binary(cmake)
     - binary(itstool)
+    - binary(msgfmt)
     - pkgconfig(cairo)
     - pkgconfig(editorconfig)
     - pkgconfig(gio-2.0)

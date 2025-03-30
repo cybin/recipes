@@ -18,7 +18,6 @@
 				"pkgconfig(alsa)",
 				"pkgconfig(gtk+-3.0)",
 				"pkgconfig(ice)",
-				"pkgconfig(icu-uc)",
 				"pkgconfig(libevent)",
 				"pkgconfig(libjpeg)",
 				"pkgconfig(libpng)",
@@ -57,8 +56,6 @@
 				"soname(libglib-2.0.so.0(x86_64))",
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libgtk-3.so.0(x86_64))",
-				"soname(libicui18n.so.75(x86_64))",
-				"soname(libicuuc.so.75(x86_64))",
 				"soname(libjpeg.so.8(x86_64))",
 				"soname(libm.so.6(x86_64))",
 				"soname(libnspr4.so(x86_64))",
@@ -146,6 +143,6 @@
 		}
 	},
 	"source-name": "firefox",
-	"source-release": "18",
-	"source-version": "135.0"
+	"source-release": "21",
+	"source-version": "136.0.4"
 }

@@ -26,6 +26,7 @@
 				"binary(Xwayland)",
 				"binary(gnome-session)",
 				"binary(gnome-shell)",
+				"gdm-libs",
 				"gnome-settings-daemon",
 				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
 				"soname(libaccountsservice.so.0(x86_64))",
@@ -41,13 +42,9 @@
 			],
 			"files": [
 				"/usr/bin/gdm-config",
-				"/usr/bin/gdmflexiserver",
 				"/usr/lib/gdm/gdm-runtime-config",
 				"/usr/lib/gdm/gdm-session-worker",
 				"/usr/lib/gdm/gdm-wayland-session",
-				"/usr/lib/girepository-1.0/Gdm-1.0.typelib",
-				"/usr/lib/libgdm.so.1",
-				"/usr/lib/libgdm.so.1.0.0",
 				"/usr/lib/security/pam_gdm.so",
 				"/usr/lib/systemd/system/gdm.service",
 				"/usr/lib/systemd/user/gnome-session@gnome-login.target.d/session.conf",
@@ -71,8 +68,6 @@
 				"/usr/share/gdm/greeter/autostart/orca-autostart.desktop",
 				"/usr/share/gdm/locale.alias",
 				"/usr/share/gir-1.0/Gdm-1.0.gir",
-				"/usr/share/glib-2.0/schemas/org.gnome.login-screen.gschema.override",
-				"/usr/share/glib-2.0/schemas/org.gnome.login-screen.gschema.xml",
 				"/usr/share/gnome-session/sessions/gnome-login.session",
 				"/usr/share/help/C/gdm/index.docbook",
 				"/usr/share/help/C/gdm/legal.xml",
@@ -238,13 +233,12 @@
 				"/usr/share/locale/zh_CN/LC_MESSAGES/gdm.mo",
 				"/usr/share/locale/zh_HK/LC_MESSAGES/gdm.mo",
 				"/usr/share/locale/zh_TW/LC_MESSAGES/gdm.mo",
-				"/usr/share/locale/zu/LC_MESSAGES/gdm.mo"
+				"/usr/share/locale/zu/LC_MESSAGES/gdm.mo",
+				"/usr/share/polkit-1/rules.d/20-gdm.rules"
 			],
 			"name": "gdm",
 			"provides": [
 				"binary(gdm-config)",
-				"binary(gdmflexiserver)",
-				"soname(libgdm.so.1(x86_64))",
 				"soname(security/pam_gdm.so(x86_64))",
 				"sysbinary(gdm)"
 			]
@@ -295,9 +289,51 @@
 				"pkgconfig(gdm)",
 				"pkgconfig(gdm-pam-extensions)"
 			]
+		},
+		"gdm-libs": {
+			"build-depends": [
+				"binary(dconf)",
+				"binary(itstool)",
+				"binary(msgmerge)",
+				"pkgconfig(accountsservice)",
+				"pkgconfig(gio-2.0)",
+				"pkgconfig(gio-unix-2.0)",
+				"pkgconfig(glib-2.0)",
+				"pkgconfig(gobject-2.0)",
+				"pkgconfig(gobject-introspection-1.0)",
+				"pkgconfig(gudev-1.0)",
+				"pkgconfig(json-glib-1.0)",
+				"pkgconfig(libkeyutils)",
+				"pkgconfig(pam)",
+				"pkgconfig(ply-boot-client)",
+				"pkgconfig(systemd)",
+				"pkgconfig(udev)",
+				"pkgconfig(xau)"
+			],
+			"depends": [
+				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
+				"soname(libc.so.6(x86_64))",
+				"soname(libgio-2.0.so.0(x86_64))",
+				"soname(libglib-2.0.so.0(x86_64))",
+				"soname(libgobject-2.0.so.0(x86_64))",
+				"soname(libsystemd.so.0(x86_64))"
+			],
+			"files": [
+				"/usr/bin/gdmflexiserver",
+				"/usr/lib/girepository-1.0/Gdm-1.0.typelib",
+				"/usr/lib/libgdm.so.1",
+				"/usr/lib/libgdm.so.1.0.0",
+				"/usr/share/glib-2.0/schemas/org.gnome.login-screen.gschema.override",
+				"/usr/share/glib-2.0/schemas/org.gnome.login-screen.gschema.xml"
+			],
+			"name": "gdm-libs",
+			"provides": [
+				"binary(gdmflexiserver)",
+				"soname(libgdm.so.1(x86_64))"
+			]
 		}
 	},
 	"source-name": "gdm",
-	"source-release": "13",
-	"source-version": "47.0"
+	"source-release": "16",
+	"source-version": "48.0"
 }

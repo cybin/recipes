@@ -1,0 +1,28 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : wmenu
+version     : 0.1.9
+release     : 1
+homepage    : https://codeberg.org/adnano/wmenu
+upstreams   :
+    - https://codeberg.org/adnano/wmenu/archive/0.1.9.tar.gz : 1b457dfdbf8404748a036d8ee4fab1853d5dd28b132531321b7afc78e85bc1cd
+summary     : Wayland-native dmenu replacement which maintains the look and feel of dmenu
+description : |
+    wmenu is an efficient dynamic menu for Sway and wlroots based Wayland compositors. It provides a Wayland-native dmenu replacement which maintains the look and feel of dmenu
+license     : MIT
+builddeps   :
+    - binary(scdoc)
+    - pkgconfig(cairo)
+    - pkgconfig(pango)
+    - pkgconfig(wayland-protocols)
+    - pkgconfig(wayland-client)
+    - pkgconfig(xkbcommon)
+setup       : |
+    %meson
+build       : |
+    %meson_build
+install     : |
+    %meson_install

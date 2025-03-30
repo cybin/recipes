@@ -22,6 +22,7 @@
 				"/usr/share/glib-2.0/schemas/org.gnome.Weather.gschema.xml",
 				"/usr/share/gnome-shell/search-providers/org.gnome.Weather.search-provider.ini",
 				"/usr/share/icons/hicolor/scalable/apps/org.gnome.Weather.svg",
+				"/usr/share/icons/hicolor/scalable/status/checkmark-symbolic.svg",
 				"/usr/share/icons/hicolor/scalable/status/temperature-symbolic.svg",
 				"/usr/share/icons/hicolor/scalable/status/weather-clear-large.svg",
 				"/usr/share/icons/hicolor/scalable/status/weather-clear-night-large.svg",
@@ -57,6 +58,7 @@
 				"/usr/share/locale/ar/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/as/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/be/LC_MESSAGES/org.gnome.Weather.mo",
+				"/usr/share/locale/be@latin/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/bg/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/bn/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/bn_IN/LC_MESSAGES/org.gnome.Weather.mo",
@@ -75,6 +77,7 @@
 				"/usr/share/locale/eu/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/fa/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/fi/LC_MESSAGES/org.gnome.Weather.mo",
+				"/usr/share/locale/fil/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/fr/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/fur/LC_MESSAGES/org.gnome.Weather.mo",
 				"/usr/share/locale/fy/LC_MESSAGES/org.gnome.Weather.mo",
@@ -140,6 +143,6 @@
 		}
 	},
 	"source-name": "gnome-weather",
-	"source-release": "1",
-	"source-version": "47.0"
+	"source-release": "2",
+	"source-version": "48.0"
 }

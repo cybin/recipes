@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : snapshot
-version     : 47.1
-release     : 2
+version     : 48.0.1
+release     : 3
 homepage    : https://apps.gnome.org/Snapshot/
 upstreams   :
-    - https://download.gnome.org/sources/snapshot/47/snapshot-47.1.tar.xz : e4b162679af24c7e96ee6e22b47d5ff0da96e0a0f616d13aeb1207c609f89483
+    - https://download.gnome.org/sources/snapshot/48/snapshot-48.0.1.tar.xz : 393176859a20b7d235dfc303031ba20c686441106988dc911dd91b7b6d66e1fd
 summary     : Take pictures and videos
 description : |
     Take pictures and videos on your computer, tablet, or phone.

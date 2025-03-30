@@ -5,7 +5,7 @@
 #
 name        : qt6-shadertools
 version     : 6.8.2
-release     : 2
+release     : 3
 homepage    : https://www.qt.io
 upstreams   :
     - https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtshadertools-everywhere-src-6.8.2.tar.xz : d1d5f90e8885fc70d63ac55a4ce4d9a2688562033a000bc4aff9320f5f551871
@@ -14,10 +14,14 @@ description : |
     APIs and tools in this module provide the producer functionality for the shader pipeline that allows Qt Quick to operate on Vulkan in addition to OpenGL.
 license     : GPL-3.0-or-later
 builddeps   :
+    - cmake(glslang)
     - pkgconfig(Qt6Core)
 rundeps     :
     - binary(spirv-opt)
 setup       : |
+    %patch %(pkgdir)/0001-Debundle-glslang.patch
+    rm -rf src/3rdparty/glslang
+
     %cmake_qt6
 build       : |
     %cmake_build

@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gnome-shell
-version     : 47.2
-release     : 26
+version     : 48.0
+release     : 29
 homepage    : https://gitlab.gnome.org/GNOME/gnome-shell
 upstreams   :
-    - https://download.gnome.org/sources/gnome-shell/47/gnome-shell-47.2.tar.xz : 4184d01a1ab82cb421d1ca2e2bcce0292ceb46c4c749e61b0bde4b75004d2e00
+    - https://download.gnome.org/sources/gnome-shell/48/gnome-shell-48.0.tar.xz : 36aac2edcdc7588aaadb658cd4687df262b37ba0b667102dcbefbff0c2232bc3
 summary     : The core GNOME desktop experience
 description : |
     GNOME Shell provides core user interface functions for the GNOME desktop,
@@ -51,7 +51,7 @@ builddeps   :
     - pkgconfig(libstartup-notification-1.0)
     - pkgconfig(libsystemd)
     - pkgconfig(libxml-2.0)
-    - pkgconfig(mutter-clutter-15)
+    - pkgconfig(mutter-clutter-16)
     - pkgconfig(osmesa)
     - pkgconfig(polkit-agent-1)
     - pkgconfig(systemd)
@@ -61,6 +61,7 @@ rundeps     :
     - binary(Xwayland)
     - binary(rtkitctl)
     - font-cantarell
+    - gdm-libs
     - geoclue
     - glib-networking
     - gnome-menus
@@ -74,6 +75,8 @@ rundeps     :
     - xdg-desktop-portal-gnome
     - xkeyboard-config
 setup       : |
+    # Redonkulous logo sizes are redonkulous
+    %patch %(pkgdir)/3674.patch
     %meson -Dtests=false -Dman=false
 build       : |
     %meson_build

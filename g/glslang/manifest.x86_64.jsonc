@@ -9,12 +9,11 @@
 			],
 			"depends": [
 				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
-				"soname(ld-linux-x86-64.so.2(x86_64))",
-				"soname(libSPIRV-Tools-opt.so(x86_64))",
-				"soname(libSPIRV-Tools.so(x86_64))",
+				"soname(libSPVRemapper.so.15(x86_64))",
 				"soname(libc++.so.1(x86_64))",
 				"soname(libc.so.6(x86_64))",
-				"soname(libm.so.6(x86_64))"
+				"soname(libglslang-default-resource-limits.so.15(x86_64))",
+				"soname(libglslang.so.15(x86_64))"
 			],
 			"files": [
 				"/usr/bin/glslang",
@@ -34,6 +33,7 @@
 				"cmake(SPIRV-Tools)"
 			],
 			"depends": [
+				"cmake(SPIRV-Tools-opt)",
 				"glslang"
 			],
 			"files": [
@@ -56,21 +56,49 @@
 				"/usr/lib/cmake/glslang/glslang-config.cmake",
 				"/usr/lib/cmake/glslang/glslang-targets-release.cmake",
 				"/usr/lib/cmake/glslang/glslang-targets.cmake",
-				"/usr/lib/libGenericCodeGen.a",
-				"/usr/lib/libMachineIndependent.a",
-				"/usr/lib/libOSDependent.a",
-				"/usr/lib/libSPIRV.a",
-				"/usr/lib/libSPVRemapper.a",
-				"/usr/lib/libglslang-default-resource-limits.a",
-				"/usr/lib/libglslang.a"
+				"/usr/lib/libSPIRV.so",
+				"/usr/lib/libSPVRemapper.so",
+				"/usr/lib/libglslang-default-resource-limits.so",
+				"/usr/lib/libglslang.so"
 			],
 			"name": "glslang-devel",
 			"provides": [
 				"cmake(glslang)"
 			]
+		},
+		"glslang-libs": {
+			"build-depends": [
+				"binary(python3)",
+				"cmake(SPIRV-Tools)"
+			],
+			"depends": [
+				"soname(ld-linux-x86-64.so.2(x86_64))",
+				"soname(libSPIRV-Tools-opt.so(x86_64))",
+				"soname(libSPIRV-Tools.so(x86_64))",
+				"soname(libc++.so.1(x86_64))",
+				"soname(libc.so.6(x86_64))",
+				"soname(libm.so.6(x86_64))"
+			],
+			"files": [
+				"/usr/lib/libSPIRV.so.15",
+				"/usr/lib/libSPIRV.so.15.2.0",
+				"/usr/lib/libSPVRemapper.so.15",
+				"/usr/lib/libSPVRemapper.so.15.2.0",
+				"/usr/lib/libglslang-default-resource-limits.so.15",
+				"/usr/lib/libglslang-default-resource-limits.so.15.2.0",
+				"/usr/lib/libglslang.so.15",
+				"/usr/lib/libglslang.so.15.2.0"
+			],
+			"name": "glslang-libs",
+			"provides": [
+				"soname(libSPIRV.so.15(x86_64))",
+				"soname(libSPVRemapper.so.15(x86_64))",
+				"soname(libglslang-default-resource-limits.so.15(x86_64))",
+				"soname(libglslang.so.15(x86_64))"
+			]
 		}
 	},
 	"source-name": "glslang",
-	"source-release": "6",
-	"source-version": "15.1.0"
+	"source-release": "7",
+	"source-version": "15.2.0"
 }

@@ -18,15 +18,15 @@
 				"/usr/bin/tdbrestore",
 				"/usr/bin/tdbtool",
 				"/usr/lib/libtdb.so.1",
-				"/usr/lib/libtdb.so.1.4.10"
+				"/usr/lib/libtdb.so.1.4.13"
 			],
 			"name": "tdb",
 			"provides": [
-				"soname(libtdb.so.1(x86_64))",
 				"binary(tdbbackup)",
 				"binary(tdbdump)",
 				"binary(tdbrestore)",
-				"binary(tdbtool)"
+				"binary(tdbtool)",
+				"soname(libtdb.so.1(x86_64))"
 			]
 		},
 		"tdb-devel": {
@@ -34,6 +34,9 @@
 				"binary(ld.bfd)",
 				"binary(python)",
 				"binary(which)"
+			],
+			"depends": [
+				"tdb"
 			],
 			"files": [
 				"/usr/include/tdb.h",
@@ -47,6 +50,6 @@
 		}
 	},
 	"source-name": "tdb",
-	"source-release": "1",
-	"source-version": "1.4.10"
+	"source-release": "2",
+	"source-version": "1.4.13"
 }

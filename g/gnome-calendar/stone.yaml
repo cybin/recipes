@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gnome-calendar
-version     : 47.0
-release     : 1
+version     : 48.1
+release     : 2
 homepage    : https://apps.gnome.org/Calendar/
 upstreams   :
-    - https://download.gnome.org/sources/gnome-calendar/47/gnome-calendar-47.0.tar.xz : 3b03313f1c4d12dc821e07e209d1596d53eafa255d492d2ce5abf92ed1b51e76
+    - https://download.gnome.org/sources/gnome-calendar/48/gnome-calendar-48.1.tar.xz : 06ceadd5c00be8e358181d421ecf2682ce0aea2fcb12d903b30d29ca33289f02
 summary     : Manage your schedule
 description : |
     GNOME Calendar is an elegant tool to help you plan and stay on top of your schedule for upcoming days and weeks, whether your months are filled with meetings and appointments, public events, travel logistics, or other commitments in your life.

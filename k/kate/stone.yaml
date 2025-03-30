@@ -1,0 +1,47 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kate
+version     : 24.12.3
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/release-service/24.12.3/src/kate-24.12.3.tar.xz : c8952fe8730411b301344bcc69c4efcc11e1447c01b99a0916b63d59e5d6357f
+homepage    : https://apps.kde.org/kate
+license     :
+    - GPL-2.0-or-later
+    - GPL-3.0-only
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-3.0-only
+    - MIT
+summary     : KDE advanced text editor
+description : |
+    Kate is a multi-document, multi-view text editor by KDE. It features stuff like codefolding, syntaxhighlighting, dynamic word wrap, an embedded console, an extensive plugin interface and some prelimentary scripting support.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6Crash)
+    - cmake(KF6DBusAddons)
+    - cmake(KF6DocTools)
+    - cmake(KF6GuiAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6IconThemes)
+    - cmake(KF6NewStuff)
+    - cmake(KF6TextEditor)
+    - cmake(KF6UserFeedback)
+    - cmake(Qt6Keychain)
+rundeps     :
+    - qt6-wayland
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+
+    # remove docs
+    rm -rf %(installroot)/%(datadir)/doc

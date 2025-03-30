@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : php
-version     : 8.4.2
-release     : 3
+version     : 8.4.5
+release     : 5
 homepage    : https://www.php.net/distributions
 upstreams   :
-    - https://www.php.net/distributions/php-8.4.2.tar.xz : 92636453210f7f2174d6ee6df17a5811368f556a6c2c2cbcf019321e36456e01
+    - https://www.php.net/distributions/php-8.4.5.tar.xz : 0d3270bbce4d9ec617befce52458b763fd461d475f1fe2ed878bb8573faed327
 summary     : PHP is a popular general-purpose scripting language
 description : |
     PHP is a popular general-purpose scripting language that is especially suited to web development.
@@ -16,43 +16,77 @@ license     : PHP-3.01
 builddeps   :
     - binary(gawk)
     - pkgconfig(bzip2)
+    - pkgconfig(enchant-2)
     - pkgconfig(freetype2)
+    - pkgconfig(gmp)
     - pkgconfig(icu-uc)
+    - pkgconfig(ldap)
+    - pkgconfig(libargon2)
     - pkgconfig(libcurl)
+    - pkgconfig(libexslt)
     - pkgconfig(libffi)
     - pkgconfig(libjpeg)
-    - pkgconfig(libpcre2-posix)
+    - pkgconfig(libpcre2-8)
+    - pkgconfig(libsasl2)
     - pkgconfig(libsodium)
     - pkgconfig(libssl)
     - pkgconfig(libwebp)
     - pkgconfig(libxml-2.0)
+    - pkgconfig(libzip)
     - pkgconfig(oniguruma)
     - pkgconfig(readline)
     - pkgconfig(sqlite3)
     - pkgconfig(valgrind)
     - pkgconfig(zlib)
+    - gdbm-devel
+    # Todo build with system gd (remove freetype, webp option), libtidy
 tuning      :
+    - lto: false # Causes a clang segfault
     - optimize: speed
 environment : |
     export EXTENSION_DIR=%(libdir)/php/extensions
 setup       : |
-    %configure --with-gettext \
-               --enable-mbstring \
-               --with-readline \
-               --with-zlib \
-               --with-bz2 \
-               --with-openssl \
-               --enable-sockets \
-               --enable-pcntl \
+    %configure \
+               --libdir=%(libdir)/php \
+               --enable-bcmath=shared \
+               --enable-calendar=shared \
+               --enable-dba=shared \
+               --enable-exif=shared \
                --enable-gd \
+               --enable-intl=shared \
+               --enable-mbstring \
+               --enable-pcntl \
+               --enable-shmop=shared \
+               --enable-sockets=shared \
+               --with-bz2=shared \
+               --with-curl=shared \
+               --with-enchant=shared \
+               --with-external-pcre \
                --with-freetype \
-               --with-webp \
+               --with-ffi=shared \
+               --with-gdbm \
+               --with-gettext=shared \
+               --with-gmp=shared \
+               --with-iconv=shared \
                --with-jpeg \
-               --with-curl \
+               --with-ldap=shared \
+               --with-ldap-sasl \
                --with-openssl \
-               --with-ffi \
-               --enable-calendar
+               --with-openssl-argon2 \
+               --with-password-argon2 \
+               --with-pdo-sqlite=shared \
+               --with-readline \
+               --with-sodium=shared \
+               --with-webp \
+               --with-xsl=shared \
+               --with-zip=shared \
+               --with-zlib
 build       : |
     %make
 install     : |
     %make_install INSTALL_ROOT=%(installroot)
+packages    :
+    - "%(name)-devel":
+        paths:
+            - /usr/lib/php/build
+# TODO eventually we'll want to split out some of the extensions to subpackages

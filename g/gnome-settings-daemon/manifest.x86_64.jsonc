@@ -76,7 +76,7 @@
 				"soname(libwayland-client.so.0(x86_64))"
 			],
 			"files": [
-				"/usr/lib/gnome-settings-daemon-47/libgsd.so",
+				"/usr/lib/gnome-settings-daemon-48/libgsd.so",
 				"/usr/lib/gnome-settings-daemon/gsd-a11y-settings",
 				"/usr/lib/gnome-settings-daemon/gsd-backlight-helper",
 				"/usr/lib/gnome-settings-daemon/gsd-color",
@@ -133,6 +133,7 @@
 				"/usr/lib/udev/rules.d/61-gnome-settings-daemon-rfkill.rules",
 				"/usr/share/GConf/gsettings/gnome-settings-daemon.convert",
 				"/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.enums.xml",
+				"/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.global-shortcuts.gschema.xml",
 				"/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.peripherals.gschema.xml",
 				"/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.peripherals.wacom.gschema.xml",
 				"/usr/share/glib-2.0/schemas/org.gnome.settings-daemon.plugins.color.gschema.xml",
@@ -266,7 +267,7 @@
 			],
 			"name": "gnome-settings-daemon",
 			"provides": [
-				"soname(gnome-settings-daemon-47/libgsd.so(x86_64))"
+				"soname(gnome-settings-daemon-48/libgsd.so(x86_64))"
 			]
 		},
 		"gnome-settings-daemon-devel": {
@@ -304,7 +305,7 @@
 				"gnome-settings-daemon"
 			],
 			"files": [
-				"/usr/include/gnome-settings-daemon-47/gnome-settings-daemon/gsd-enums.h",
+				"/usr/include/gnome-settings-daemon-48/gnome-settings-daemon/gsd-enums.h",
 				"/usr/lib/pkgconfig/gnome-settings-daemon.pc"
 			],
 			"name": "gnome-settings-daemon-devel",
@@ -314,6 +315,6 @@
 		}
 	},
 	"source-name": "gnome-settings-daemon",
-	"source-release": "9",
-	"source-version": "47.2"
+	"source-release": "10",
+	"source-version": "48.0"
 }

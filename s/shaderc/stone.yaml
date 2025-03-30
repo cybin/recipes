@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : shaderc
-version     : 2024.4
-release     : 4
+version     : '2025.1'
+release     : 5
 homepage    : https://github.com/google/shaderc
 upstreams   :
-    - https://github.com/google/shaderc/archive/refs/tags/v2024.4.tar.gz : 989a46c0bc0e58ab8ac9ef9c1fb8000e0209d482b242a514b385d8f8c4cbfa06
+    - https://github.com/google/shaderc/archive/refs/tags/v2025.1.tar.gz : 358f9fa87b503bc7a3efe1575fbf581fca7f16dbc6d502ea2b02628d2d0d4014
 summary     : A collection of tools, libraries, and tests for Vulkan shader compilation.
 description : |
     A collection of tools, libraries and tests for shader compilation. At the moment it includes:
@@ -17,6 +17,7 @@ description : |
 license     :
     - Apache-2.0
 builddeps   :
+    - binary(asciidoctor)
     - binary(python)
     - cmake(glslang)
     - cmake(SPIRV-Tools)
@@ -30,14 +31,15 @@ setup       : |
 
     %patch %(pkgdir)/0001-Drop-third-party-code-in-CMakeLists.txt.patch
     %patch %(pkgdir)/0001-Use-glslang-spirv-header.patch
-    %patch %(pkgdir)/0001-Missing-libs-glslc.patch
 
     # TODO: do we need static libs here?
     %cmake \
         -DSHADERC_SKIP_TESTS=ON
 build       : |
     %cmake_build
+    asciidoctor -b manpage glslc/README.asciidoc -o glslc.1
 install     : |
     %cmake_install
+    %install_file glslc.1 %(installroot)/%(mandir)/man1/glslc.1
 
-    rm %(installroot)/usr/lib/pkgconfig/shaderc_static.pc
+    rm -v %(installroot)/usr/lib/pkgconfig/shaderc_static.pc

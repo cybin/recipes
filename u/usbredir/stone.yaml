@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : usbredir
-version     : 0.14.0
-release     : 1
+version     : 0.15.0
+release     : 2
 homepage    : https://gitlab.freedesktop.org/spice/usbredir/
 upstreams   :
-    - git|https://gitlab.freedesktop.org/spice/usbredir : 2d373432e604960c1dcc14fb97098febe4d64025
+    - git|https://gitlab.freedesktop.org/spice/usbredir : 41c79583a4eecaf6cfe938278554210c718c85d2
 summary     : usbredir(ect) libraries and utilities
 description : |
     usbredir(ect) libaries and utilities
 license     :
     - LGPL-2.1
 builddeps   :
-    - pkgconfig(libusb-1.0)
     - pkgconfig(glib-2.0)
+    - pkgconfig(libusb-1.0)
 setup       : |
     %meson
 build       : |

@@ -4,43 +4,48 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : sway
-version     : '1.8.1'
-release     : 4
+version     : 1.10.1
+release     : 5
 homepage    : https://github.com/swaywm/sway
 upstreams   :
-    - https://github.com/swaywm/sway/releases/download/1.8.1/sway-1.8.1.tar.gz : 73f08fd2cf7948e8af900709efe44eae412ae11c5773960e25c9aa09f73bad41
+    - https://github.com/swaywm/sway/releases/download/1.10.1/sway-1.10.1.tar.gz : b2fbf3a2f94c8926efa18d6af59bb9f5f1eafa6d46491284b1610c57bef2d105
 summary     : i3-compatible Wayland compositor 
 description : |
     sway is an i3-compatible Wayland compositor.
 license     :
     - MIT
 builddeps   :
-    - binary(cmake)
     - binary(scdoc)
-    - pkgconfig(bash-completion)
     - pkgconfig(cairo)
-    - pkgconfig(fish)
     - pkgconfig(gdk-pixbuf-2.0)
     - pkgconfig(json-c)
+    - pkgconfig(libdrm)
     - pkgconfig(libevdev)
+    - pkgconfig(libinput)
     - pkgconfig(libpcre2-8)
     - pkgconfig(pango)
+    - pkgconfig(pixman-1)
     - pkgconfig(wayland-protocols)
     - pkgconfig(wayland-server)
     - pkgconfig(wlroots)
     - pkgconfig(xcb-icccm)
+    - pkgconfig(xkbcommon)
+    # Note: fish and bash-completions are searched for by the build but they
+    # are only used to determine the correct locations directories. If not found
+    # sway defaults to the typical locations to install to which is correct.
 rundeps     :
     - binary(alacritty) # Let's make sure we have at least one terminal
     - binary(swaybg)
-    - binary(tofi)
-    - binary(xargs) # For tofi-drun
+    - binary(wmenu)
     - liberation-fonts-ttf # need fonts
     - shared-mime-info # needed for png background
     - xkeyboard-config # sway needs /usr/share/X11/xkb
 setup       : |
-    %patch %(pkgdir)/enhance-config.patch
+    %patch %(pkgdir)/0001-Aeryn-default-config-changes.patch
     %patch %(pkgdir)/0001-Make-sway-stateless.patch
-    %meson -Ddefault_sysconfdir=%(vendordir)%(sysconfdir)
+
+    %meson \
+           -Ddefault_sysconfdir=%(vendordir)
 build       : |
     %meson_build
 install     : |

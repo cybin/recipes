@@ -1,0 +1,22 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : typescript
+version     : 5.8.2
+release     : 1
+homepage    : https://www.typescriptlang.org
+upstreams   :
+    - https://registry.npmjs.org/typescript/-/typescript-5.8.2.tgz : ef938a45323df5775664ea5d55e8bc0ab2027a40db1ff857bb957fe7bbaa4434
+summary     : A language for application-scale JavaScript
+description : |
+    TypeScript is a language for application-scale JavaScript. TypeScript adds optional types to JavaScript that support tools for large-scale JavaScript applications for any browser, for any host, on any OS. TypeScript compiles to  readable, standards-based JavaScript.
+license     : Apache-2.0
+builddeps   :
+    - binary(npm)
+    - pkgconfig(zlib)
+rundeps     :
+    - binary(node)
+install     : |
+    npm install -g --prefix %(installroot)/usr %(sourcedir)/typescript-%(version).tgz

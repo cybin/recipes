@@ -1,24 +1,29 @@
 #
 # SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+# SPDX-FileCopyrightText: © 2025 AerynOS Developers
 #
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : boulder
-version     : 0.25.1+git.fe4f9a7
-release     : 83
-summary     : Package creation tool for Serpent OS
+version     : 0.25.1+git.108fe6d
+release     : 86
+summary     : Modern package building tool
 license     : MPL-2.0
-homepage    : https://github.com/serpent-os/tools
+homepage    : https://github.com/AerynOS/os-tools
 description : |
-    Extremely flexible and powerful, yet simple to use, package build
-    tool for the Serpent OS project.
+    Modern package building tool with containerized builds and intelligent package splitting
 upstreams   :
-    - git|https://github.com/serpent-os/tools.git : fe4f9a74d0e043f12acbc049a39bbcf2e65720d6
+    - git|https://github.com/AerynOS/os-tools.git : 108fe6dec1a197518401ddd5168fdf83437c5fee
 builddeps   :
     - binary(cargo)
 rundeps     :
     - binary(tar) # needed for `boulder recipe (...)` actions
 networking  : yes
+tuning      :
+    - optimize: size
+    - lto
+environment : |
+    export RUSTFLAGS="$RUSTFLAGS -C codegen-units=1"
 check       : |
     %cargo_test
 setup       : |

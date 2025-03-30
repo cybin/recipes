@@ -1,0 +1,23 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : sassc
+version     : 3.6.2
+release     : 1
+homepage    : https://sass-lang.com
+upstreams   :
+    - https://github.com/sass/sassc/archive/3.6.2.tar.gz : 608dc9002b45a91d11ed59e352469ecc05e4f58fc1259fc9a9f5b8f0f8348a03
+summary     : SassC is a wrapper around libsass
+description : |
+    SassC is a wrapper around libsass used to generate a useful command-line application that can be installed and packaged for several operating systems.
+license     : MIT
+builddeps   :
+    - pkgconfig(libsass)
+setup       : |
+    %reconfigure
+build       : |
+    %make
+install     : |
+    %make_install

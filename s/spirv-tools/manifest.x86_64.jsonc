@@ -211,6 +211,6 @@
 		}
 	},
 	"source-name": "spirv-tools",
-	"source-release": "8",
-	"source-version": "2024.3+git.8b39a8b"
+	"source-release": "9",
+	"source-version": "2025.1"
 }

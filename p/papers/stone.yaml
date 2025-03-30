@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : papers
-version     : 47.0
-release     : 1
+version     : 48.0
+release     : 2
 homepage    : https://apps.gnome.org/Papers/
 upstreams   :
-    - https://download.gnome.org/sources/papers/47/papers-47.0.tar.xz : cf69eb0a3717fe354011616e2f602383814ff57b7a9eacf306c676e64d8f6666
+    - https://download.gnome.org/sources/papers/48/papers-48.0.tar.xz : c1e4e93e50ae5ad3b54796aa2dd948b799ec2571820edef6d4735aedc1efcea6
 summary     : Read documents
 description : |
     A document viewer for the GNOME desktop. You can view, search or annotate documents in many different formats.
@@ -33,6 +33,7 @@ builddeps   :
     - pkgconfig(libadwaita-1)
     - pkgconfig(libnautilus-extension-4)
     # pkgconfig(libspectre)
+    - pkgconfig(libspelling-1)
     - pkgconfig(libtiff-4)
     - pkgconfig(poppler-glib)
     # pkgconfig(sysprof-capture-4)

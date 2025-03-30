@@ -1,0 +1,48 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-ktexteditor
+version     : 6.12.0
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/ktexteditor-6.12.0.tar.xz : d5d21ea65f9c84a9bda3fbad3d8df70c76924d9d561822069eeb9ce862924a3f
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - BSD-2-Clause
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+summary     : Full text editor component.
+description : |
+    Full text editor component.
+builddeps   :
+    - binary(bzip2)
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(EditorConfig)
+    - cmake(KF6Archive)
+    - cmake(KF6Auth)
+    - cmake(KF6Config)
+    - cmake(KF6GuiAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6KIO)
+    - cmake(KF6Parts)
+    - cmake(KF6Sonnet)
+    - cmake(KF6SyntaxHighlighting)
+    - cmake(Qt6Qml)
+    - cmake(Qt6TextToSpeech)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+packages    :
+    - "%(name)-devel":
+        paths:
+            - /usr/share/kdevappwizard
+        rundeps:
+            - cmake(KF6Parts)
+            - cmake(KF6SyntaxHighlighting)

@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : loupe
-version     : 47.2
-release     : 7
+version     : 48.0
+release     : 8
 homepage    : https://apps.gnome.org/Loupe/
 upstreams   :
-    - https://download.gnome.org/sources/loupe/47/loupe-47.2.tar.xz : 6e046efe4f7ae57ee2748d52d1d07356c7449d204a3d31d0b42367a801974a15
+    - https://download.gnome.org/sources/loupe/48/loupe-48.0.tar.xz : 21492b2382eba86b97571b4cc08c1eb0201ce5e96bd2b9b5333893f85fbd1d7d
 summary     : Image Viewer
 description : |
     Browse through your images and inspect their metadata with:
@@ -18,6 +18,7 @@ description : |
     - Accessible presentation of the most important metadata.
 license     :
     - GPL-3.0-or-later
+networking  : yes
 builddeps   :
     - binary(cargo)
     - binary(itstool)

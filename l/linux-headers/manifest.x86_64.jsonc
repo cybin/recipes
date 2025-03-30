@@ -440,6 +440,8 @@
 				"/usr/include/linux/media.h",
 				"/usr/include/linux/media/raspberrypi/pisp_be_config.h",
 				"/usr/include/linux/media/raspberrypi/pisp_common.h",
+				"/usr/include/linux/media/raspberrypi/pisp_fe_config.h",
+				"/usr/include/linux/media/raspberrypi/pisp_fe_statistics.h",
 				"/usr/include/linux/mei.h",
 				"/usr/include/linux/mei_uuid.h",
 				"/usr/include/linux/membarrier.h",
@@ -472,6 +474,7 @@
 				"/usr/include/linux/net.h",
 				"/usr/include/linux/net_dropmon.h",
 				"/usr/include/linux/net_namespace.h",
+				"/usr/include/linux/net_shaper.h",
 				"/usr/include/linux/net_tstamp.h",
 				"/usr/include/linux/netconf.h",
 				"/usr/include/linux/netdev.h",
@@ -700,8 +703,6 @@
 				"/usr/include/linux/random.h",
 				"/usr/include/linux/rds.h",
 				"/usr/include/linux/reboot.h",
-				"/usr/include/linux/reiserfs_fs.h",
-				"/usr/include/linux/reiserfs_xattr.h",
 				"/usr/include/linux/remoteproc_cdev.h",
 				"/usr/include/linux/resource.h",
 				"/usr/include/linux/rfkill.h",
@@ -904,6 +905,7 @@
 				"/usr/include/linux/virtio_vsock.h",
 				"/usr/include/linux/vm_sockets.h",
 				"/usr/include/linux/vm_sockets_diag.h",
+				"/usr/include/linux/vmclock-abi.h",
 				"/usr/include/linux/vmcore.h",
 				"/usr/include/linux/vsockmon.h",
 				"/usr/include/linux/vt.h",
@@ -1010,6 +1012,6 @@
 		}
 	},
 	"source-name": "linux-headers",
-	"source-release": "19",
-	"source-version": "6.12.6"
+	"source-release": "21",
+	"source-version": "6.13.8"
 }

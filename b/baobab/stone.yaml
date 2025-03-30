@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : baobab
-version     : 47.0
-release     : 2
+version     : 48.0
+release     : 3
 homepage    : https://apps.gnome.org/Baobab/
 upstreams   :
-    - https://gitlab.gnome.org/GNOME/baobab/-/archive/47.0/baobab-47.0.tar.gz : 2d5dd4aa5e708d7582985d0be74210af2b4f26d5524471b58e4a38213af35eae
+    - https://download.gnome.org/sources/baobab/48/baobab-48.0.tar.xz : 54592504d49d807f23591be7e7eef10c6c9dfcb7ac527b81c3acd58787b26fda
 summary     : Disk Usage Analyzer
 description : |
     Disk Usage Analyzer can scan specific folders, storage devices and online accounts.

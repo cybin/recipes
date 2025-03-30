@@ -1,0 +1,7 @@
+releases:
+  id: 1751
+  rss: ~
+security:
+  cpe:
+  - vendor: utempter_project
+    product: utempter

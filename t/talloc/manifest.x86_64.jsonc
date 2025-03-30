@@ -14,7 +14,7 @@
 			],
 			"files": [
 				"/usr/lib/libtalloc.so.2",
-				"/usr/lib/libtalloc.so.2.4.2"
+				"/usr/lib/libtalloc.so.2.4.3"
 			],
 			"name": "talloc",
 			"provides": [
@@ -28,6 +28,9 @@
 				"binary(which)",
 				"pkgconfig(libtirpc)"
 			],
+			"depends": [
+				"talloc"
+			],
 			"files": [
 				"/usr/include/talloc.h",
 				"/usr/lib/libtalloc.so",
@@ -40,6 +43,6 @@
 		}
 	},
 	"source-name": "talloc",
-	"source-release": "1",
-	"source-version": "2.4.2"
+	"source-release": "2",
+	"source-version": "2.4.3"
 }

@@ -4,17 +4,19 @@
 	"packages": {
 		"qt6-shadertools": {
 			"build-depends": [
+				"cmake(glslang)",
 				"pkgconfig(Qt6Core)"
 			],
 			"depends": [
 				"binary(spirv-opt)",
 				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
-				"soname(ld-linux-x86-64.so.2(x86_64))",
 				"soname(libQt6Core.so.6(x86_64))",
 				"soname(libQt6Gui.so.6(x86_64))",
+				"soname(libSPVRemapper.so.15(x86_64))",
 				"soname(libc++.so.1(x86_64))",
 				"soname(libc.so.6(x86_64))",
-				"soname(libm.so.6(x86_64))",
+				"soname(libglslang-default-resource-limits.so.15(x86_64))",
+				"soname(libglslang.so.15(x86_64))",
 				"soname(libunwind.so.1(x86_64))"
 			],
 			"files": [
@@ -31,6 +33,7 @@
 		},
 		"qt6-shadertools-devel": {
 			"build-depends": [
+				"cmake(glslang)",
 				"pkgconfig(Qt6Core)"
 			],
 			"depends": [
@@ -89,6 +92,6 @@
 		}
 	},
 	"source-name": "qt6-shadertools",
-	"source-release": "2",
+	"source-release": "3",
 	"source-version": "6.8.2"
 }

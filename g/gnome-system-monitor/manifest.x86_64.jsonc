@@ -8,6 +8,7 @@
 				"binary(lld)",
 				"binary(msgfmt)",
 				"binary(python3)",
+				"pkgconfig(catch2-with-main)",
 				"pkgconfig(giomm-2.68)",
 				"pkgconfig(glib-2.0)",
 				"pkgconfig(glibmm-2.68)",
@@ -801,7 +802,7 @@
 				"/usr/share/locale/zh_CN/LC_MESSAGES/gnome-system-monitor.mo",
 				"/usr/share/locale/zh_HK/LC_MESSAGES/gnome-system-monitor.mo",
 				"/usr/share/locale/zh_TW/LC_MESSAGES/gnome-system-monitor.mo",
-				"/usr/share/metainfo/org.gnome.SystemMonitor.appdata.xml",
+				"/usr/share/metainfo/org.gnome.SystemMonitor.metainfo.xml",
 				"/usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy"
 			],
 			"name": "gnome-system-monitor",
@@ -811,6 +812,6 @@
 		}
 	},
 	"source-name": "gnome-system-monitor",
-	"source-release": "2",
-	"source-version": "47.0"
+	"source-release": "3",
+	"source-version": "48.0"
 }

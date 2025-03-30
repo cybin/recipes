@@ -237,11 +237,11 @@
 				"binary(g-ir-scanner)",
 				"pkgconfig(gobject-introspection-1.0)",
 				"pkgconfig(gobject-introspection-no-export-1.0)",
-				"soname(_giscanner.cpython-311-x86_64-linux-gnu.so(x86_64))"
+				"soname(gobject-introspection/giscanner/_giscanner.cpython-311-x86_64-linux-gnu.so(x86_64))"
 			]
 		}
 	},
 	"source-name": "gobject-introspection",
-	"source-release": "9",
-	"source-version": "1.82.0"
+	"source-release": "10",
+	"source-version": "1.84.0"
 }

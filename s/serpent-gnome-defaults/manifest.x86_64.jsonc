@@ -4,32 +4,15 @@
 	"packages": {
 		"serpent-gnome-defaults": {
 			"depends": [
-				"binary(gnome-shell)",
-				"font-hack",
-				"gnome-backgrounds",
-				"gnome-browser-connector",
-				"gnome-shell-extension-appindicator",
-				"gnome-shell-extension-tilingshell",
-				"papirus-icon-theme",
-				"serpent-artwork"
+				"gnome-desktop-defaults"
 			],
 			"files": [
-				"/usr/lib/environment.d/10-gsk-renderer.conf",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.a11y.keyboard.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.background.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.interface.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.peripherals.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.wm.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.login-screen.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.mutter.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gnome.shell.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gtk.Settings.FileCooser.gschema.override",
-				"/usr/share/glib-2.0/schemas/10_org.gtk.gtk4.Settings.FileCooser.gschema.override"
+				"/usr/share/doc/serpent-gnome-defaults/TRANSITION"
 			],
 			"name": "serpent-gnome-defaults"
 		}
 	},
 	"source-name": "serpent-gnome-defaults",
-	"source-release": "27",
+	"source-release": "28",
 	"source-version": "0.1.0"
 }

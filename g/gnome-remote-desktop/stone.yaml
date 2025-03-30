@@ -4,26 +4,28 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gnome-remote-desktop
-version     : 47.2
-release     : 5
+version     : 48.0
+release     : 8
 homepage    : https://gitlab.gnome.org/GNOME/gnome-remote-desktop
 upstreams   :
-    - https://download.gnome.org/sources/gnome-remote-desktop/47/gnome-remote-desktop-47.2.tar.xz : 9351dd8c39ece7050c967cbdcebe1662bc26b8fda924f8a80a9b2a312d07f471
+    - https://download.gnome.org/sources/gnome-remote-desktop/48/gnome-remote-desktop-48.0.tar.xz : 038c42e48fe1d890849bec5d567566c152bd6d7f463eadeec59b1eae8fbb32a0
 summary     : Remote desktop daemon for GNOME using pipewire
 description : |
     Remote desktop server which allows you to connect to your machine remotely
 license     :
     - GPL-2.0-or-later
 builddeps   :
+    - binary(glslc)
     - binary(mutter)
+    - binary(spirv-opt)
     - pkgconfig(cairo)
     - pkgconfig(dbus-1)
     - pkgconfig(epoxy)
     - pkgconfig(fdk-aac)
     - pkgconfig(ffnvcodec)
-    - pkgconfig(freerdp3)
     - pkgconfig(freerdp-client3)
     - pkgconfig(freerdp-server3)
+    - pkgconfig(freerdp3)
     - pkgconfig(fuse3)
     - pkgconfig(gbm)
     - pkgconfig(gio-2.0)
@@ -35,6 +37,7 @@ builddeps   :
     - pkgconfig(libnotify)
     - pkgconfig(libpipewire-0.3)
     - pkgconfig(libsecret-1)
+    - pkgconfig(libva)
     - pkgconfig(opus)
     - pkgconfig(polkit-gobject-1)
     - pkgconfig(systemd)
@@ -42,9 +45,11 @@ builddeps   :
     - pkgconfig(tss2-mu)
     - pkgconfig(tss2-rc)
     - pkgconfig(tss2-tctildr)
+    - pkgconfig(vulkan)
     - pkgconfig(winpr3)
     - pkgconfig(wireplumber-0.5)
     - pkgconfig(xkbcommon)
+    - vulkan-headers
 setup       : |
     %meson \
         -Drdp=true \

@@ -1,0 +1,22 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : python-argcomplete
+version     : 3.6.0
+release     : 1
+homepage    : https://pypi.org/project/python-argcomplete
+upstreams   :
+    - https://files.pythonhosted.org/packages/source/a/argcomplete/argcomplete-3.6.0.tar.gz : 2e4e42ec0ba2fff54b0d244d0b1623e86057673e57bafe72dda59c64bd5dee8b
+summary     : Argcomplete provides easy, extensible command line tab completion of arguments for your Python application.
+description : |
+    Argcomplete provides easy, extensible command line tab completion of arguments for your Python application.
+license     : Apache-2.0
+builddeps   :
+    - python(hatchling)
+    - python(hatch-vcs)
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install

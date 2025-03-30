@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : tecla
-version     : '47.0'
-release     : 4
+version     : 48.0.2
+release     : 5
 homepage    : https://gitlab.gnome.org/GNOME/tecla
 upstreams   :
-    - https://download.gnome.org/sources/tecla/47/tecla-47.0.tar.xz : 0790b99ec29137a54b546c510661a99aa6f039c8d75f10c08e928682c0804fe5
+    - https://download.gnome.org/sources/tecla/48/tecla-48.0.2.tar.xz : 783d3464d2a2cf7eb1507649dbd9ff09ce24852c2a6c9a0d365db84063d3d401
 summary     : Keyboard layout viewer
 description : |
     Keyboard layout viewer
@@ -16,8 +16,8 @@ license     :
     - GPL-2.0-or-later
 builddeps   :
     - binary(msgfmt)
-    - pkgconfig(gtk4-wayland)
     - pkgconfig(gtk4)
+    - pkgconfig(gtk4-wayland)
     - pkgconfig(libadwaita-1)
     - pkgconfig(wayland-client)
     - pkgconfig(xkbcommon)

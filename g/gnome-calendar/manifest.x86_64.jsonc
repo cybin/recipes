@@ -33,7 +33,6 @@
 				"soname(libgweather-4.so.0(x86_64))",
 				"soname(libical-glib.so.3(x86_64))",
 				"soname(libm.so.6(x86_64))",
-				"soname(libpango-1.0.so.0(x86_64))",
 				"soname(libsoup-3.0.so.0(x86_64))"
 			],
 			"files": [
@@ -52,6 +51,7 @@
 				"/usr/share/locale/an/LC_MESSAGES/gnome-calendar.mo",
 				"/usr/share/locale/ar/LC_MESSAGES/gnome-calendar.mo",
 				"/usr/share/locale/be/LC_MESSAGES/gnome-calendar.mo",
+				"/usr/share/locale/be@latin/LC_MESSAGES/gnome-calendar.mo",
 				"/usr/share/locale/bg/LC_MESSAGES/gnome-calendar.mo",
 				"/usr/share/locale/bs/LC_MESSAGES/gnome-calendar.mo",
 				"/usr/share/locale/ca/LC_MESSAGES/gnome-calendar.mo",
@@ -125,6 +125,6 @@
 		}
 	},
 	"source-name": "gnome-calendar",
-	"source-release": "1",
-	"source-version": "47.0"
+	"source-release": "2",
+	"source-version": "48.1"
 }

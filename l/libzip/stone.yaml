@@ -1,0 +1,36 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : libzip
+version     : 1.11.3
+release     : 1
+upstreams   :
+    - https://libzip.org/download/libzip-1.11.3.tar.xz : 9509d878ba788271c8b5abca9cfde1720f075335686237b7e9a9e7210fe67c1b
+homepage    : https://libzip.org/
+license     : BSD-3-Clause
+summary     : libzip is a C library for reading, creating, and modifying zip archives
+description : |
+    libzip is a C library for reading, creating, and modifying zip archives
+builddeps   :
+    - pkgconfig(bzip2)
+    - pkgconfig(libcrypto)
+    - pkgconfig(liblzma)
+    - pkgconfig(libzstd)
+    - pkgconfig(zlib)
+setup       : |
+    %cmake -DBUILD_REGRESS=OFF \
+           -DDOCUMENTATION_FORMAT=man \
+           -DENABLE_GNUTLS=OFF \
+           -DENABLE_MBEDTLS=OFF \
+           -DENABLE_OPENSSL=ON
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+# TODO package nihtest so that we can run the testsuite (needs -DBUILD_REGRESS=ON)
+# check     : |
+#     cmake_check
+tuning      :
+    - lto: full

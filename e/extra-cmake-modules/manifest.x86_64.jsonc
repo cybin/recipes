@@ -102,6 +102,7 @@
 				"/usr/share/ECM/modules/ECMGeneratePythonBindings.cmake",
 				"/usr/share/ECM/modules/ECMGeneratePythonBindings.toml.in",
 				"/usr/share/ECM/modules/ECMGeneratePythonBindings.toml.in.license",
+				"/usr/share/ECM/modules/ECMGenerateQDoc.cmake",
 				"/usr/share/ECM/modules/ECMGenerateQmlTypes.cmake",
 				"/usr/share/ECM/modules/ECMInstallIcons.cmake",
 				"/usr/share/ECM/modules/ECMMarkAsTest.cmake",
@@ -143,6 +144,7 @@
 				"/usr/share/ECM/toolchain/deployment-file-qt6.json.in",
 				"/usr/share/ECM/toolchain/deployment-file-qt6.json.in.license",
 				"/usr/share/ECM/toolchain/deployment-file.json.in",
+				"/usr/share/ECM/toolchain/ecm-version.gradle.in",
 				"/usr/share/ECM/toolchain/generate-fastlane-metadata.py",
 				"/usr/share/ECM/toolchain/hasMainSymbol.cmake",
 				"/usr/share/ECM/toolchain/specifydependencies.cmake"
@@ -154,6 +156,6 @@
 		}
 	},
 	"source-name": "extra-cmake-modules",
-	"source-release": "1",
-	"source-version": "6.10.0"
+	"source-release": "3",
+	"source-version": "6.12.0"
 }

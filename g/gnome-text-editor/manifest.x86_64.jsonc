@@ -35,11 +35,6 @@
 				"/usr/share/applications/org.gnome.TextEditor.desktop",
 				"/usr/share/dbus-1/services/org.gnome.TextEditor.service",
 				"/usr/share/glib-2.0/schemas/org.gnome.TextEditor.gschema.xml",
-				"/usr/share/gnome-text-editor/styles/builder-dark.xml",
-				"/usr/share/gnome-text-editor/styles/builder.xml",
-				"/usr/share/gnome-text-editor/styles/peninsula-dark.xml",
-				"/usr/share/gnome-text-editor/styles/peninsula.xml",
-				"/usr/share/gnome-text-editor/styles/printing.xml",
 				"/usr/share/help/C/gnome-text-editor/basics-create-new-file.page",
 				"/usr/share/help/C/gnome-text-editor/basics-draft-folder.page",
 				"/usr/share/help/C/gnome-text-editor/basics-open-file.page",
@@ -292,7 +287,7 @@
 				"/usr/share/locale/vi/LC_MESSAGES/gnome-text-editor.mo",
 				"/usr/share/locale/zh_CN/LC_MESSAGES/gnome-text-editor.mo",
 				"/usr/share/locale/zh_TW/LC_MESSAGES/gnome-text-editor.mo",
-				"/usr/share/metainfo/org.gnome.TextEditor.appdata.xml"
+				"/usr/share/metainfo/org.gnome.TextEditor.metainfo.xml"
 			],
 			"name": "gnome-text-editor",
 			"provides": [
@@ -301,6 +296,6 @@
 		}
 	},
 	"source-name": "gnome-text-editor",
-	"source-release": "6",
-	"source-version": "47.2"
+	"source-release": "7",
+	"source-version": "48.1"
 }

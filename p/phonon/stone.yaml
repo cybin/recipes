@@ -1,0 +1,66 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : phonon
+version     : 4.12.0
+release     : 1
+upstreams   :
+    - https://download.kde.org/stable/phonon/4.12.0/phonon-4.12.0.tar.xz : 3287ffe0fbcc2d4aa1363f9e15747302d0b080090fe76e5f211d809ecb43f39a
+homepage    : https://community.kde.org/Phonon
+summary     : Qt-style interface for audio and video.
+description : |
+    Qt-style interface for audio and video.
+license     : LGPL-2.1-only
+builddeps   :
+    - cmake(ECM)
+    - cmake(Qt6Core5Compat)
+    - pkgconfig(libpulse)
+setup       : |
+    %patch %(pkgdir)/qt5-6-coinstall.patch
+
+    # Duplicate translations for co-installability
+    pushd poqm
+    for d in */ ; do
+    if [ -f $d/libphonon_qt.po ]; then
+        cp -a $d/libphonon_qt.po $d/libphonon_qt6.po
+    fi
+    if [ -f $d/libphonon_qt.po ]; then
+        cp -a $d/phononsettings_qt.po $d/phononsettings6_qt.po
+    fi
+    done
+    popd
+
+    %cmake -DPHONON_BUILD_QT5=OFF
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+
+    # These are used for Qt5 and are currently unused
+    rm -fv %(installroot)/usr/share/locale/**/**/libphonon_qt.qm
+    rm -fv %(installroot)/usr/share/locale/**/**/phononsettings_qt.qm
+
+    # Delete any empty directories
+    find %(installroot) -type d -empty -print -delete
+packages    :
+    - "%(name)-qt6":
+        summary: Qt-style interface for audio and video - Qt6 bindings
+        description: Qt-style interface for audio and video - Qt6 bindings
+        paths:
+            - /usr/bin/phononsettings6
+            - /usr/lib/libphonon4qt6*.so.*
+            - /usr/share/locale/*/LC_MESSAGES/libphonon_qt6.qm
+            - /usr/share/locale/*/LC_MESSAGES/phononsettings6_qt.qm
+    - "%(name)-qt6-devel":
+        summary: Development files for %(name)-qt6
+        description: Development files for %(name)-qt6
+        paths:
+            - /usr/include/phonon4qt6
+            - /usr/lib/cmake/phonon4qt6
+            - /usr/lib/libphonon4qt6*.so
+            - /usr/lib/pkgconfig/phonon4qt6.pc
+            - /usr/lib/qt6/plugins/designer
+        rundeps:
+            - "%(name)-qt6"

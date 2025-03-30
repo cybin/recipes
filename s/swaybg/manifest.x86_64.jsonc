@@ -4,6 +4,7 @@
 	"packages": {
 		"swaybg": {
 			"build-depends": [
+				"binary(scdoc)",
 				"pkgconfig(cairo)",
 				"pkgconfig(gdk-pixbuf-2.0)",
 				"pkgconfig(wayland-client)",
@@ -18,7 +19,8 @@
 				"soname(libwayland-client.so.0(x86_64))"
 			],
 			"files": [
-				"/usr/bin/swaybg"
+				"/usr/bin/swaybg",
+				"/usr/share/man/man1/swaybg.1"
 			],
 			"name": "swaybg",
 			"provides": [
@@ -27,6 +29,6 @@
 		}
 	},
 	"source-name": "swaybg",
-	"source-release": "1",
-	"source-version": "1.2.0"
+	"source-release": "2",
+	"source-version": "1.2.1"
 }

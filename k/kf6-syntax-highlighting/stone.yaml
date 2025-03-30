@@ -1,0 +1,28 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-syntax-highlighting
+version     : 6.12.0
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/syntax-highlighting-6.12.0.tar.xz : 5644af900bea40d4da5a8f9e1fb573002306ae9e284a43ae5342d1a61810e48b
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - LGPL-2.0-or-later
+    - MIT
+summary     : Syntax highlighting engine for Kate syntax definitions
+description : |
+    This is a stand-alone implementation of the Kate syntax highlighting engine. It's meant as a building block for text editors as well as for simple highlighted text rendering (e.g. as HTML), supporting both integration with a custom editor as well as a ready-to-use QSyntaxHighlighter sub-class.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(Qt6Qml)
+    - cmake(Qt6Quick)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install

@@ -36,6 +36,7 @@
 				"/usr/share/icons/hicolor/scalable/apps/org.gnome.Console.svg",
 				"/usr/share/icons/hicolor/symbolic/apps/org.gnome.Console-symbolic.svg",
 				"/usr/share/locale/ab/LC_MESSAGES/kgx.mo",
+				"/usr/share/locale/ar/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/be/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/bg/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/ca/LC_MESSAGES/kgx.mo",
@@ -81,6 +82,7 @@
 				"/usr/share/locale/sr/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/sr@latin/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/sv/LC_MESSAGES/kgx.mo",
+				"/usr/share/locale/th/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/tr/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/uk/LC_MESSAGES/kgx.mo",
 				"/usr/share/locale/vi/LC_MESSAGES/kgx.mo",
@@ -95,6 +97,6 @@
 		}
 	},
 	"source-name": "gnome-console",
-	"source-release": "4",
-	"source-version": "47.1"
+	"source-release": "5",
+	"source-version": "48.0.1"
 }

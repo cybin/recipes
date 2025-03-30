@@ -370,7 +370,7 @@
 				"binary(vapigen)",
 				"binary(vapigen-0.56)",
 				"soname(libvala-0.56.so.0(x86_64))",
-				"soname(libvalaccodegen.so(x86_64))"
+				"soname(vala-0.56/libvalaccodegen.so(x86_64))"
 			]
 		},
 		"vala-devel": {
@@ -405,6 +405,6 @@
 		}
 	},
 	"source-name": "vala",
-	"source-release": "3",
-	"source-version": "0.56.17"
+	"source-release": "4",
+	"source-version": "0.56.18"
 }

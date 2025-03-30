@@ -31,7 +31,9 @@
 				"/usr/lib/libupower-glib.so.3",
 				"/usr/lib/libupower-glib.so.3.1.0",
 				"/usr/lib/systemd/system/upower.service",
+				"/usr/lib/udev/hwdb.d/60-upower-battery.hwdb",
 				"/usr/lib/udev/hwdb.d/95-upower-hid.hwdb",
+				"/usr/lib/udev/rules.d/60-upower-battery.rules",
 				"/usr/lib/udev/rules.d/95-upower-hid.rules",
 				"/usr/lib/udev/rules.d/95-upower-wup.rules",
 				"/usr/lib/upower/upower/integration-test.py",
@@ -58,7 +60,8 @@
 				"/usr/share/locale/sv/LC_MESSAGES/upower.mo",
 				"/usr/share/man/man1/upower.1",
 				"/usr/share/man/man7/UPower.7",
-				"/usr/share/man/man8/upowerd.8"
+				"/usr/share/man/man8/upowerd.8",
+				"/usr/share/zsh/site-functions/_upower"
 			],
 			"name": "upower",
 			"provides": [
@@ -148,6 +151,6 @@
 		}
 	},
 	"source-name": "upower",
-	"source-release": "4",
-	"source-version": "1.90.4"
+	"source-release": "7",
+	"source-version": "1.90.7"
 }

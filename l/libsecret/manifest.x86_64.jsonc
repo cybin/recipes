@@ -7,6 +7,7 @@
 				"binary(vapigen)",
 				"binary(xsltproc)",
 				"docbook",
+				"pkgconfig(bash-completion)",
 				"pkgconfig(glib-2.0)",
 				"pkgconfig(gobject-introspection-1.0)",
 				"pkgconfig(libgcrypt)",
@@ -21,14 +22,14 @@
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libtss2-esys.so.0(x86_64))",
 				"soname(libtss2-mu.so.0(x86_64))",
-				"soname(libtss2-rc.so.0(x86_64))",
-				"soname(libtss2-tctildr.so.0(x86_64))"
+				"soname(libtss2-rc.so.0(x86_64))"
 			],
 			"files": [
 				"/usr/bin/secret-tool",
 				"/usr/lib/girepository-1.0/Secret-1.typelib",
 				"/usr/lib/libsecret-1.so.0",
 				"/usr/lib/libsecret-1.so.0.0.0",
+				"/usr/share/bash-completion/completions/secret-tool",
 				"/usr/share/gir-1.0/Secret-1.gir",
 				"/usr/share/man/man1/secret-tool.1",
 				"/usr/share/vala/vapi/libsecret-1.deps",
@@ -45,6 +46,7 @@
 				"binary(vapigen)",
 				"binary(xsltproc)",
 				"docbook",
+				"pkgconfig(bash-completion)",
 				"pkgconfig(glib-2.0)",
 				"pkgconfig(gobject-introspection-1.0)",
 				"pkgconfig(libgcrypt)",
@@ -90,6 +92,6 @@
 		}
 	},
 	"source-name": "libsecret",
-	"source-release": "3",
-	"source-version": "0.21.4"
+	"source-release": "5",
+	"source-version": "0.21.7"
 }

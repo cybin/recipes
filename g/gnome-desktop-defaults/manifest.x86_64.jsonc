@@ -1,0 +1,33 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"gnome-desktop-defaults": {
+			"depends": [
+				"adwaita-fonts",
+				"binary(gnome-shell)",
+				"gnome-backgrounds",
+				"gnome-browser-connector",
+				"gnome-shell-extension-appindicator",
+				"morewaita-icon-theme",
+				"os-artwork"
+			],
+			"files": [
+				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.a11y.keyboard.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.background.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.interface.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.peripherals.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.desktop.wm.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.login-screen.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.mutter.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gnome.shell.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gtk.Settings.FileCooser.gschema.override",
+				"/usr/share/glib-2.0/schemas/10_org.gtk.gtk4.Settings.FileCooser.gschema.override"
+			],
+			"name": "gnome-desktop-defaults"
+		}
+	},
+	"source-name": "gnome-desktop-defaults",
+	"source-release": "8",
+	"source-version": "0.1.0"
+}

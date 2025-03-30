@@ -21,7 +21,8 @@
 				"soname(libglib-2.0.so.0(x86_64))",
 				"soname(libgnome-desktop-3.so.20(x86_64))",
 				"soname(libgobject-2.0.so.0(x86_64))",
-				"soname(libgtk-3.so.0(x86_64))"
+				"soname(libgtk-3.so.0(x86_64))",
+				"xdg-desktop-portal"
 			],
 			"files": [
 				"/usr/lib/systemd/user/xdg-desktop-portal-gtk.service",
@@ -42,7 +43,9 @@
 				"/usr/share/locale/hr/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/hu/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/id/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
+				"/usr/share/locale/ie/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/it/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
+				"/usr/share/locale/ja/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/ka/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/lt/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/nl/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
@@ -50,8 +53,10 @@
 				"/usr/share/locale/pl/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/pt/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/pt_BR/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
+				"/usr/share/locale/ro/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/ru/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/sk/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
+				"/usr/share/locale/sl/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/sr/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/sv/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
 				"/usr/share/locale/tr/LC_MESSAGES/xdg-desktop-portal-gtk.mo",
@@ -64,6 +69,6 @@
 		}
 	},
 	"source-name": "xdg-desktop-portal-gtk",
-	"source-release": "2",
-	"source-version": "1.15.1"
+	"source-release": "3",
+	"source-version": "1.15.3"
 }

@@ -1,0 +1,7 @@
+releases:
+  id: 8762
+  rss: https://invent.kde.org/frameworks/syndication/-/tags?format=atom
+security:
+  # Last checked 2025-03-14
+  cpe: ~
+

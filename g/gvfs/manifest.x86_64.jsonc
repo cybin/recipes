@@ -28,7 +28,7 @@
 				"pkgconfig(libsystemd)",
 				"pkgconfig(libusb-1.0)",
 				"pkgconfig(libxml-2.0)",
-				"pkgconfig(msgraph-0.1)",
+				"pkgconfig(msgraph-1)",
 				"pkgconfig(polkit-gobject-1)",
 				"pkgconfig(smbclient)",
 				"pkgconfig(systemd)",
@@ -50,7 +50,7 @@
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libgudev-1.0.so.0(x86_64))",
 				"soname(libimobiledevice-1.0.so.6(x86_64))",
-				"soname(libmsgraph-0.so.1(x86_64))",
+				"soname(libmsgraph-1.so.1(x86_64))",
 				"soname(libmtp.so.9(x86_64))",
 				"soname(libplist-2.0.so.4(x86_64))",
 				"soname(libpolkit-gobject-1.so.0(x86_64))",
@@ -235,6 +235,6 @@
 		}
 	},
 	"source-name": "gvfs",
-	"source-release": "8",
-	"source-version": "1.56.1"
+	"source-release": "10",
+	"source-version": "1.57.2"
 }

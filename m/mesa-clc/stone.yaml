@@ -1,0 +1,42 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : mesa-clc
+version     : 25.0.2
+release     : 1
+homepage    : https://mesa3d.org/
+upstreams   :
+    - https://mesa.freedesktop.org/archive/mesa-25.0.2.tar.xz : adf904d083b308df95898600ffed435f4b5c600d95fb6ec6d4c45638627fdc97
+summary     : Tool used for building OpenCL C to SPIR-V
+description : |
+    %(name) tool used for building OpenCL C to SPIR-V
+license     :
+    - BSD-2-Clause
+    - MIT
+builddeps   :
+    - cmake(Clang)
+    - binary(llvm-config)
+    - pkgconfig(LLVMSPIRVLib)
+    - pkgconfig(SPIRV-Tools)
+    - pkgconfig(libclc)
+    - pkgconfig(libdrm)
+    - pkgconfig(expat)
+    - python-mako
+    - python-pyyaml
+setup       : |
+    %meson \
+            -Dgallium-drivers="" \
+            -Dglx=disabled \
+            -Dmesa-clc=enabled \
+            -Dinstall-mesa-clc=true \
+            -Dlibunwind=disabled \
+            -Dplatforms="" \
+            -Dvulkan-drivers="" \
+            -Dzstd=disabled
+build       : |
+    %meson_build
+install     : |
+    %install_bin %(builddir)/src/compiler/clc/mesa_clc
+    %install_bin %(builddir)/src/compiler/spirv/vtn_bindgen

@@ -1,0 +1,25 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+# SPDX-FileCopyrightText: © 2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : gnome-desktop-defaults
+version     : "0.1.0"
+release     : 8
+license     : MPL-2.0
+homepage    : https://aerynos.com
+summary     : Default settings and dependencies for GNOME desktop
+description : |
+    Default settings and dependencies for GNOME desktop
+rundeps     :
+    - binary(gnome-shell)
+    - adwaita-fonts
+    - gnome-backgrounds
+    - gnome-browser-connector
+    - gnome-shell-extension-appindicator
+    - morewaita-icon-theme
+    - os-artwork
+install     : |
+    %install_dir %(installroot)%(datadir)/glib-2.0/schemas
+    %install_file %(pkgdir)/10_*.gschema.override %(installroot)%(datadir)/glib-2.0/schemas/.

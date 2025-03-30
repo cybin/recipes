@@ -29,8 +29,8 @@
 			],
 			"name": "libnotify",
 			"provides": [
-				"soname(libnotify.so.4(x86_64))",
-				"binary(notify-send)"
+				"binary(notify-send)",
+				"soname(libnotify.so.4(x86_64))"
 			]
 		},
 		"libnotify-devel": {
@@ -44,6 +44,7 @@
 				"pkgconfig(gtk+-3.0)"
 			],
 			"depends": [
+				"libnotify",
 				"pkgconfig(gdk-pixbuf-2.0)",
 				"pkgconfig(gio-2.0)",
 				"pkgconfig(glib-2.0)"
@@ -63,6 +64,6 @@
 		}
 	},
 	"source-name": "libnotify",
-	"source-release": "1",
-	"source-version": "0.8.3"
+	"source-release": "2",
+	"source-version": "0.8.4"
 }

@@ -5,12 +5,12 @@
 #
 name        : build-essential
 version     : 0
-release     : 1
-summary     : Essential build tools for Serpent OS
+release     : 4
+summary     : Essential build tools for AerynOS
 license     : MPL-2.0
-homepage    : https://github.com/serpent-os
+homepage    : https://github.com/AerynOS
 description : |
-    This package provides the essential build tools for Serpent OS.
+    This package provides the essential build tools for AerynOS.
 rundeps     :
     - binary(bc)
     - binary(bison)
@@ -23,6 +23,7 @@ rundeps     :
     - binary(flex)
     - binary(g++)
     - binary(gcc)
+    - binary(just)
     - binary(ld)
     - binary(ld.lld)
     - binary(make)
@@ -33,13 +34,13 @@ rundeps     :
     - binary(tar)
     - binary(unxz)
     - binary(unzip)
-    - glibc-devel
-    - layout
-    - linux-headers
     - pkgconfig(libelf)
     - pkgconfig(libssl)
     - pkgconfig(libxcrypt)
     - pkgconfig(ncurses)
+    - glibc-devel
+    - layout
+    - linux-headers
 install     : |
     %install_dir %(installroot)%(docdir)/build-essential
     echo "This file will disappear when virtual packages are introduced" > %(installroot)%(docdir)/build-essential/README

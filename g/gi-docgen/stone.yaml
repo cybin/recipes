@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gi-docgen
-version     : 2024.1
-release     : 2
+version     : 2025.3
+release     : 3
 homepage    : https://gitlab.gnome.org/GNOME/gi-docgen
 upstreams   :
-    - https://download.gnome.org/sources/gi-docgen/2024/gi-docgen-2024.1.tar.xz : 870c77f9620462cce49e35542a42dc1612fc858733e83dbbe248c535458aec1e
+    - https://download.gnome.org/sources/gi-docgen/2025/gi-docgen-2025.3.tar.xz : 8a89a58bc0f77dfc3e8a2a0e3497fc39f5413ae35e5597e9ec6160abf8ee14d8
 summary     : A documentation generator for GObject-based libraries
 description : |
     GI-DocGen is a document generator for GObject-based libraries. GObject is

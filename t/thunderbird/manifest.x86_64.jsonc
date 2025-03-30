@@ -18,11 +18,11 @@
 				"pkgconfig(alsa)",
 				"pkgconfig(gtk+-3.0)",
 				"pkgconfig(ice)",
-				"pkgconfig(icu-uc)",
 				"pkgconfig(libevent)",
 				"pkgconfig(libjpeg)",
 				"pkgconfig(libpng)",
 				"pkgconfig(libpulse)",
+				"pkgconfig(librnp)",
 				"pkgconfig(libwebp)",
 				"pkgconfig(nspr)",
 				"pkgconfig(nss)",
@@ -33,6 +33,7 @@
 			],
 			"depends": [
 				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
+				"rnp",
 				"soname(ld-linux-x86-64.so.2(x86_64))",
 				"soname(libX11-xcb.so.1(x86_64))",
 				"soname(libX11.so.6(x86_64))",
@@ -43,7 +44,6 @@
 				"soname(libXrandr.so.2(x86_64))",
 				"soname(libasound.so.2(x86_64))",
 				"soname(libatk-1.0.so.0(x86_64))",
-				"soname(libc++.so.1(x86_64))",
 				"soname(libc.so.6(x86_64))",
 				"soname(libcairo-gobject.so.2(x86_64))",
 				"soname(libcairo.so.2(x86_64))",
@@ -57,8 +57,6 @@
 				"soname(libglib-2.0.so.0(x86_64))",
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libgtk-3.so.0(x86_64))",
-				"soname(libicui18n.so.75(x86_64))",
-				"soname(libicuuc.so.75(x86_64))",
 				"soname(libjpeg.so.8(x86_64))",
 				"soname(libm.so.6(x86_64))",
 				"soname(libnspr4.so(x86_64))",
@@ -83,6 +81,7 @@
 			"files": [
 				"/usr/bin/thunderbird",
 				"/usr/lib/thunderbird/application.ini",
+				"/usr/lib/thunderbird/chrome/icons/default/TB-symbolic.svg",
 				"/usr/lib/thunderbird/chrome/icons/default/calendar-alarm-dialog.png",
 				"/usr/lib/thunderbird/chrome/icons/default/calendar-general-dialog.png",
 				"/usr/lib/thunderbird/chrome/icons/default/default128.png",
@@ -117,15 +116,11 @@
 				"/usr/lib/thunderbird/libmozsandbox.so",
 				"/usr/lib/thunderbird/libmozsqlite3.so",
 				"/usr/lib/thunderbird/libmozwayland.so",
-				"/usr/lib/thunderbird/librnp.so",
 				"/usr/lib/thunderbird/libxul.so",
-				"/usr/lib/thunderbird/minidump-analyzer",
 				"/usr/lib/thunderbird/omni.ja",
 				"/usr/lib/thunderbird/pingsender",
 				"/usr/lib/thunderbird/platform.ini",
 				"/usr/lib/thunderbird/removed-files",
-				"/usr/lib/thunderbird/rnp-cli",
-				"/usr/lib/thunderbird/rnpkeys",
 				"/usr/lib/thunderbird/thunderbird",
 				"/usr/lib/thunderbird/thunderbird-bin",
 				"/usr/lib/thunderbird/vaapitest",
@@ -150,12 +145,11 @@
 				"soname(thunderbird/libmozsandbox.so(x86_64))",
 				"soname(thunderbird/libmozsqlite3.so(x86_64))",
 				"soname(thunderbird/libmozwayland.so(x86_64))",
-				"soname(thunderbird/librnp.so(x86_64))",
 				"soname(thunderbird/libxul.so(x86_64))"
 			]
 		}
 	},
 	"source-name": "thunderbird",
-	"source-release": "16",
-	"source-version": "128.6.0"
+	"source-release": "17",
+	"source-version": "136.0.1"
 }

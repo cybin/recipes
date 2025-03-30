@@ -1,0 +1,32 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : phonon-backend-mpv
+version     : 0.1.0
+release     : 1
+upstreams   :
+    - https://github.com/OpenProgger/phonon-mpv/archive/refs/tags/v0.1.0.tar.gz : 8cba7d803c23267bf7431bf79c4a65a03c767c01026a0cced18985bfa418a076
+homepage    : https://github.com/OpenProgger/phonon-mpv
+license     : LGPL-2.1-or-later
+summary     : Phonon Backend using MPV
+description : |
+    Phonon Backend using MPV
+builddeps   :
+    - cmake(ECM)
+    - cmake(Phonon4Qt6)
+    - pkgconfig(mpv)
+setup       : |
+    %cmake -DPHONON_BUILD_QT5=OFF \
+           -DPHONON_BUILD_QT6=ON
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+packages    :
+    - "%(name)-qt6":
+        summary: Phonon Backend using MPV - Qt6 plugin
+        description: Phonon Backend using MPV - Qt6 plugin
+        paths:
+            - /usr/lib/qt6/plugins

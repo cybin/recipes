@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : gnome-backgrounds
-version     : '47.0'
-release     : 3
+version     : 48.0
+release     : 4
 homepage    : https://gitlab.gnome.org/GNOME/gnome-backgrounds
 upstreams   :
-    - https://download.gnome.org/sources/gnome-backgrounds/47/gnome-backgrounds-47.0.tar.xz : 874a4a39c4261736f6a854722833400b612441c4681aa5982d90b15abc9c91fd
+    - https://download.gnome.org/sources/gnome-backgrounds/48/gnome-backgrounds-48.0.tar.xz : 2d6baa011ee97804c7561f7e1cbd8d4763e30b55b8818dda78f9f75afb8d8d05
 summary     : Default backgrounds for the GNOME Desktop
 description : |
     Default backgrounds for the GNOME Desktop

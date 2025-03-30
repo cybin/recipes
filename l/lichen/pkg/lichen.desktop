@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
 Version=1.0
-Name=Install Serpent OS
-GenericName=Install OS
-Comment=Install Serpent OS on your system
+Name=Install AerynOS
+GenericName=Install AerynOS
+Comment=Install AerynOS on your system
 Icon=system-software-install
 Exec=lichen
 Terminal=true

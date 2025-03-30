@@ -1,0 +1,7 @@
+releases:
+  id: 246826
+  rss: https://github.com/rnpgp/rnp/releases.atom
+security:
+  cpe:
+  - vendor: ribose
+    product: rnp

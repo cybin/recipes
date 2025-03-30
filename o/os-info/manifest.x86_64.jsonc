@@ -1,0 +1,19 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"os-info": {
+			"depends": [
+				"layout"
+			],
+			"files": [
+				"/usr/lib/os-info.json",
+				"/usr/lib/os-info/AerynOS.json"
+			],
+			"name": "os-info"
+		}
+	},
+	"source-name": "os-info",
+	"source-release": "6",
+	"source-version": "2025.03"
+}

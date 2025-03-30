@@ -4,15 +4,15 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : xdg-user-dirs-gtk
-version     : 0.11
-release     : 1
+version     : 0.14
+release     : 2
 homepage    : https://gitlab.gnome.org/GNOME/xdg-user-dirs-gtk
 upstreams   :
-    - https://download.gnome.org/sources/xdg-user-dirs-gtk/0.11/xdg-user-dirs-gtk-0.11.tar.xz : 534bd563d3c0e3f8dcbf3578cb8ab0e49d3ba41c966d477c8af9438364121e7d
+    - https://download.gnome.org/sources/xdg-user-dirs-gtk/0.14/xdg-user-dirs-gtk-0.14.tar.xz : 537fbe142b24736ed7894e4a01f69fd758cb6c7a677a382879529d217f4a2873
 summary     : GTK specific extensions for xdg-user-dirs
 description : |
     GTK specific extensions for xdg-user-dirs
-license     : GPL-2.0
+license     : GPL-2.0-or-later
 builddeps   :
     - binary(intltoolize)
     - binary(xdg-user-dir)
@@ -21,10 +21,10 @@ builddeps   :
 rundeps     :
       - binary(xdg-user-dir)
 setup       : |
-    %configure
+    %meson
 build       : |
-    %make
+    %meson_build
 install     : |
-    %make_install
+    %meson_install
     mv %(installroot)%(sysconfdir)/xdg %(installroot)%(datadir)/xdg
     rmdir %(installroot)%(sysconfdir)

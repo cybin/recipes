@@ -1,0 +1,26 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : catch2
+version     : 3.8.0
+release     : 1
+homepage    : https://github.com/catchorg/Catch2
+upstreams   :
+    - https://github.com/catchorg/Catch2/archive/refs/tags/v3.8.0.tar.gz : 1ab2de20460d4641553addfdfe6acd4109d871d5531f8f519a52ea4926303087
+summary     : A modern, C++-native, test framework for unit-tests, TDD and BDD
+description : |
+    Catch2 is mainly a unit testing framework for C++, but it also provides basic micro-benchmarking features, and simple BDD macros.
+
+    Catch2's main advantage is that using it is both simple and natural. Test names do not have to be valid identifiers, assertions look like normal C++ boolean expressions, and sections provide a nice and local way to share set-up and tear-down code in tests.
+license     : BSL-1.0
+setup       : |
+    %meson
+build       : |
+    %meson_build
+install     : |
+    %meson_install
+# development only package
+paths:
+    - /usr/

@@ -58,8 +58,6 @@
 				"/usr/share/applications/nautilus-autorun-software.desktop",
 				"/usr/share/applications/org.gnome.Nautilus.desktop",
 				"/usr/share/dbus-1/services/org.freedesktop.FileManager1.service",
-				"/usr/share/dbus-1/services/org.gnome.Nautilus.Tracker3.Miner.Extract.service",
-				"/usr/share/dbus-1/services/org.gnome.Nautilus.Tracker3.Miner.Files.service",
 				"/usr/share/dbus-1/services/org.gnome.Nautilus.service",
 				"/usr/share/gir-1.0/Nautilus-4.0.gir",
 				"/usr/share/glib-2.0/schemas/org.gnome.nautilus.gschema.xml",
@@ -188,7 +186,6 @@
 				"/usr/share/locale/zh_HK/LC_MESSAGES/nautilus.mo",
 				"/usr/share/locale/zh_TW/LC_MESSAGES/nautilus.mo",
 				"/usr/share/locale/zu/LC_MESSAGES/nautilus.mo",
-				"/usr/share/localsearch3/domain-ontologies/org.gnome.Nautilus.domain.rule",
 				"/usr/share/metainfo/org.gnome.Nautilus.metainfo.xml",
 				"/usr/share/nautilus/ontology/nautilus.description",
 				"/usr/share/nautilus/ontology/nautilus.ontology"
@@ -249,6 +246,6 @@
 		}
 	},
 	"source-name": "nautilus",
-	"source-release": "5",
-	"source-version": "47.1"
+	"source-release": "6",
+	"source-version": "48.0"
 }

@@ -1,0 +1,7 @@
+releases:
+  id: 1343
+  rss: https://github.com/hunspell/hunspell/releases.atom
+security:
+  cpe:
+  - vendor: hunspell_project
+    product: hunspell

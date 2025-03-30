@@ -66,8 +66,8 @@
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libgtk-3.so.0(x86_64))",
 				"soname(libharfbuzz.so.0(x86_64))",
-				"soname(libicui18n.so.75(x86_64))",
-				"soname(libicuuc.so.75(x86_64))",
+				"soname(libicui18n.so.77(x86_64))",
+				"soname(libicuuc.so.77(x86_64))",
 				"soname(libinput.so.10(x86_64))",
 				"soname(libjpeg.so.8(x86_64))",
 				"soname(libm.so.6(x86_64))",
@@ -5959,6 +5959,6 @@
 		}
 	},
 	"source-name": "qt5-base",
-	"source-release": "5",
+	"source-release": "7",
 	"source-version": "5.15.16+kde.2529f7f0"
 }

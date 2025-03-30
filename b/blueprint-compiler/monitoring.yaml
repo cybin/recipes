@@ -1,0 +1,5 @@
+releases:
+  id: 279929
+  rss: https://gitlab.gnome.org/jwestman/blueprint-compiler/-/releases.atom
+security:
+  cpe: ~ # Last checked 2025-03-22

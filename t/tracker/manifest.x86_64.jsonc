@@ -1,0 +1,40 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"tracker": {
+			"depends": [
+				"localsearch",
+				"tinysparql"
+			],
+			"files": [
+				"/usr/share/doc/tracker/TRANSITION"
+			],
+			"name": "tracker"
+		},
+		"tracker-devel": {
+			"depends": [
+				"localsearch",
+				"tinysparql-devel",
+				"tracker"
+			],
+			"files": [
+				"/usr/share/doc/tracker/TRANSITION.devel"
+			],
+			"name": "tracker-devel"
+		},
+		"tracker-miners": {
+			"depends": [
+				"localsearch",
+				"tinysparql"
+			],
+			"files": [
+				"/usr/share/doc/tracker/TRANSITION.miners"
+			],
+			"name": "tracker-miners"
+		}
+	},
+	"source-name": "tracker",
+	"source-release": "5",
+	"source-version": "3.7.3"
+}

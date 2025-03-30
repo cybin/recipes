@@ -13,17 +13,20 @@
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/icons/indicator-symbolic.svg",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/icons/info-symbolic.svg",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/icons/menu-symbolic.svg",
+				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/icons/prefs-symbolic.svg",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/icons/save-symbolic.svg",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/metadata.json",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/monitorDescription.js",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/prefs.js",
 				"/usr/share/gnome-shell/extensions/tilingshell@ferrarodomenico.com/stylesheet.css",
-				"/usr/share/locale/it/LC_MESSAGES/tilingshell.mo"
+				"/usr/share/locale/es/LC_MESSAGES/tilingshell.mo",
+				"/usr/share/locale/it/LC_MESSAGES/tilingshell.mo",
+				"/usr/share/locale/zh_CN/LC_MESSAGES/tilingshell.mo"
 			],
 			"name": "gnome-shell-extension-tilingshell"
 		}
 	},
 	"source-name": "gnome-shell-extension-tilingshell",
-	"source-release": "1",
-	"source-version": "15.0.0"
+	"source-release": "2",
+	"source-version": "16.2.0"
 }

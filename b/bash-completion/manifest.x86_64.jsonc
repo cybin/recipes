@@ -775,7 +775,6 @@
 				"/usr/share/bash-completion/completions/screen",
 				"/usr/share/bash-completion/completions/scrub",
 				"/usr/share/bash-completion/completions/sdptool",
-				"/usr/share/bash-completion/completions/secret-tool",
 				"/usr/share/bash-completion/completions/set",
 				"/usr/share/bash-completion/completions/setquota",
 				"/usr/share/bash-completion/completions/sftp",
@@ -940,6 +939,6 @@
 		}
 	},
 	"source-name": "bash-completion",
-	"source-release": "5",
+	"source-release": "6",
 	"source-version": "2.15.0"
 }

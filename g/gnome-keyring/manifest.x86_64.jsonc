@@ -4,6 +4,7 @@
 	"packages": {
 		"gnome-keyring": {
 			"build-depends": [
+				"binary(msgfmt)",
 				"binary(python3)",
 				"binary(xsltproc)",
 				"docbook",
@@ -143,24 +144,23 @@
 				"/usr/share/p11-kit/modules/gnome-keyring.module",
 				"/usr/share/xdg-desktop-portal/portals/gnome-keyring.portal",
 				"/usr/share/xdg/autostart/gnome-keyring-pkcs11.desktop",
-				"/usr/share/xdg/autostart/gnome-keyring-secrets.desktop",
-				"/usr/share/xdg/autostart/gnome-keyring-ssh.desktop"
+				"/usr/share/xdg/autostart/gnome-keyring-secrets.desktop"
 			],
 			"name": "gnome-keyring",
 			"provides": [
 				"binary(gnome-keyring)",
 				"binary(gnome-keyring-3)",
 				"binary(gnome-keyring-daemon)",
-				"soname(gkm-gnome2-store-standalone.so(x86_64))",
-				"soname(gkm-secret-store-standalone.so(x86_64))",
-				"soname(gkm-ssh-store-standalone.so(x86_64))",
-				"soname(gkm-xdg-store-standalone.so(x86_64))",
-				"soname(gnome-keyring-pkcs11.so(x86_64))",
-				"soname(pam_gnome_keyring.so(x86_64))"
+				"soname(gnome-keyring/devel/gkm-gnome2-store-standalone.so(x86_64))",
+				"soname(gnome-keyring/devel/gkm-secret-store-standalone.so(x86_64))",
+				"soname(gnome-keyring/devel/gkm-ssh-store-standalone.so(x86_64))",
+				"soname(gnome-keyring/devel/gkm-xdg-store-standalone.so(x86_64))",
+				"soname(pkcs11/gnome-keyring-pkcs11.so(x86_64))",
+				"soname(security/pam_gnome_keyring.so(x86_64))"
 			]
 		}
 	},
 	"source-name": "gnome-keyring",
-	"source-release": "2",
-	"source-version": "46.2"
+	"source-release": "3",
+	"source-version": "48.0"
 }

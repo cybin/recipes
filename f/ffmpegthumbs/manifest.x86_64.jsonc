@@ -1,0 +1,43 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"ffmpegthumbs": {
+			"build-depends": [
+				"cmake(ECM)",
+				"cmake(KF6Config)",
+				"cmake(KF6KIO)",
+				"pkgconfig(libavcodec)"
+			],
+			"depends": [
+				"soname(libKF6ConfigCore.so.6(x86_64))",
+				"soname(libKF6ConfigGui.so.6(x86_64))",
+				"soname(libKF6CoreAddons.so.6(x86_64))",
+				"soname(libKF6KIOGui.so.6(x86_64))",
+				"soname(libQt6Core.so.6(x86_64))",
+				"soname(libQt6Gui.so.6(x86_64))",
+				"soname(libavcodec.so.61(x86_64))",
+				"soname(libavfilter.so.10(x86_64))",
+				"soname(libavformat.so.61(x86_64))",
+				"soname(libavutil.so.59(x86_64))",
+				"soname(libc++.so.1(x86_64))",
+				"soname(libc.so.6(x86_64))",
+				"soname(libm.so.6(x86_64))",
+				"soname(libswscale.so.8(x86_64))"
+			],
+			"files": [
+				"/usr/lib/qt6/plugins/kf6/thumbcreator/ffmpegthumbs.so",
+				"/usr/share/config.kcfg/ffmpegthumbnailersettings5.kcfg",
+				"/usr/share/metainfo/org.kde.ffmpegthumbs.metainfo.xml",
+				"/usr/share/qlogging-categories6/ffmpegthumbs.categories"
+			],
+			"name": "ffmpegthumbs",
+			"provides": [
+				"soname(qt6/plugins/kf6/thumbcreator/ffmpegthumbs.so(x86_64))"
+			]
+		}
+	},
+	"source-name": "ffmpegthumbs",
+	"source-release": "2",
+	"source-version": "24.12.3"
+}

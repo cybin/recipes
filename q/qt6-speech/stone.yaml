@@ -1,0 +1,30 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : qt6-speech
+version     : 6.8.2
+release     : 1
+homepage    : https://www.qt.io
+upstreams   :
+    - https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtspeech-everywhere-src-6.8.2.tar.xz : e09b52336bb90090f4582a382fa084f7573ebd207cc81f3066ef94cc1bf202c3
+summary     : Qt6 Speech Components
+description : |
+    The module enables a Qt application to support accessibility features such as text-to-speech, which is useful for end-users who are visually challenged or cannot access the application for whatever reason. The most common use case where text-to-speech comes in handy is when the end-user is driving and cannot attend the incoming messages on the phone. In such a scenario, the messaging application can read out the incoming message.
+license     :
+    - GFDL-1.3-or-later
+    - GPL-3.0-or-later
+    - LGPL-3.0-or-later
+builddeps   :
+    - pkgconfig(Qt6Core)
+    - pkgconfig(Qt6Multimedia)
+    - pkgconfig(Qt6Qml)
+    - pkgconfig(alsa)
+    # TODO add speech-dispatcher and flite
+setup       : |
+    %cmake_qt6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install

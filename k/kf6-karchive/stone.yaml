@@ -4,10 +4,10 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : kf6-karchive
-version     : 6.10.0
-release     : 1
+version     : 6.12.0
+release     : 3
 upstreams   :
-    - https://download.kde.org/stable/frameworks/6.10/karchive-6.10.0.tar.xz : ac5160c19dd110bbdadeba9c5355cbfd3b5c1bd00ce3dbdc4a085776698c8a48
+    - https://download.kde.org/stable/frameworks/6.12/karchive-6.12.0.tar.xz : 90a5397d5df3a90486b4d7efaeab29829b63a877b25e23e59f5f12f431f82904
 homepage    : https://community.kde.org/Frameworks
 license     : LGPL-2.0-or-later
 summary     : Reading, creating, and manipulating file archives.

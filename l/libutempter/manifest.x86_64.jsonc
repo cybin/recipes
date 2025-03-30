@@ -1,0 +1,40 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"libutempter": {
+			"depends": [
+				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
+				"soname(libc.so.6(x86_64))"
+			],
+			"files": [
+				"/usr/lib/libutempter.so.0",
+				"/usr/lib/libutempter.so.1.2.1",
+				"/usr/lib/libutempter/utempter/utempter"
+			],
+			"name": "libutempter",
+			"provides": [
+				"soname(libutempter.so.0(x86_64))"
+			]
+		},
+		"libutempter-devel": {
+			"depends": [
+				"libutempter"
+			],
+			"files": [
+				"/usr/include/utempter.h",
+				"/usr/lib/libutempter.so",
+				"/usr/share/man/man3/libutempter.3",
+				"/usr/share/man/man3/utempter.3",
+				"/usr/share/man/man3/utempter_add_record.3",
+				"/usr/share/man/man3/utempter_remove_added_record.3",
+				"/usr/share/man/man3/utempter_remove_record.3",
+				"/usr/share/man/man3/utempter_set_helper.3"
+			],
+			"name": "libutempter-devel"
+		}
+	},
+	"source-name": "libutempter",
+	"source-release": "1",
+	"source-version": "1.2.1"
+}

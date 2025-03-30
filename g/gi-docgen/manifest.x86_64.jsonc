@@ -16,13 +16,13 @@
 			],
 			"files": [
 				"/usr/bin/gi-docgen",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/Apache-2.0.txt",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/GPL-3.0-or-later.txt",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/METADATA",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/RECORD",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/WHEEL",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/entry_points.txt",
-				"/usr/lib/python3.11/site-packages/gi_docgen-2024.1.dist-info/top_level.txt",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/Apache-2.0.txt",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/GPL-3.0-or-later.txt",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/METADATA",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/RECORD",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/WHEEL",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/entry_points.txt",
+				"/usr/lib/python3.11/site-packages/gi_docgen-2025.3.dist-info/top_level.txt",
 				"/usr/lib/python3.11/site-packages/gidocgen/__init__.py",
 				"/usr/lib/python3.11/site-packages/gidocgen/__pycache__/__init__.cpython-311.opt-1.pyc",
 				"/usr/lib/python3.11/site-packages/gidocgen/__pycache__/__init__.cpython-311.pyc",
@@ -144,6 +144,6 @@
 		}
 	},
 	"source-name": "gi-docgen",
-	"source-release": "2",
-	"source-version": "2024.1"
+	"source-release": "3",
+	"source-version": "2025.3"
 }

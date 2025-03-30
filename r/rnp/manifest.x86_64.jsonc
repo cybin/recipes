@@ -1,0 +1,68 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"rnp": {
+			"build-depends": [
+				"pkgconfig(botan-3)",
+				"pkgconfig(bzip2)",
+				"pkgconfig(gtest)",
+				"pkgconfig(json-c)",
+				"pkgconfig(zlib)"
+			],
+			"depends": [
+				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
+				"soname(libbotan-3.so.7(x86_64))",
+				"soname(libbz2.so.1.0(x86_64))",
+				"soname(libc++.so.1(x86_64))",
+				"soname(libc.so.6(x86_64))",
+				"soname(libjson-c.so.5(x86_64))",
+				"soname(libunwind.so.1(x86_64))",
+				"soname(libz.so.1(x86_64))"
+			],
+			"files": [
+				"/usr/bin/rnp",
+				"/usr/bin/rnpkeys",
+				"/usr/lib/librnp.so.0",
+				"/usr/lib/librnp.so.0.17.1"
+			],
+			"name": "rnp",
+			"provides": [
+				"binary(rnp)",
+				"binary(rnpkeys)",
+				"soname(librnp.so.0(x86_64))"
+			]
+		},
+		"rnp-devel": {
+			"build-depends": [
+				"pkgconfig(botan-3)",
+				"pkgconfig(bzip2)",
+				"pkgconfig(gtest)",
+				"pkgconfig(json-c)",
+				"pkgconfig(zlib)"
+			],
+			"depends": [
+				"rnp"
+			],
+			"files": [
+				"/usr/include/rnp/rnp.h",
+				"/usr/include/rnp/rnp_err.h",
+				"/usr/include/rnp/rnp_export.h",
+				"/usr/lib/cmake/rnp/rnp-config-version.cmake",
+				"/usr/lib/cmake/rnp/rnp-config.cmake",
+				"/usr/lib/cmake/rnp/rnp-targets-release.cmake",
+				"/usr/lib/cmake/rnp/rnp-targets.cmake",
+				"/usr/lib/librnp.so",
+				"/usr/lib/pkgconfig/librnp.pc"
+			],
+			"name": "rnp-devel",
+			"provides": [
+				"cmake(rnp)",
+				"pkgconfig(librnp)"
+			]
+		}
+	},
+	"source-name": "rnp",
+	"source-release": "1",
+	"source-version": "0.17.1+git.f1865f24"
+}

@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : zenity
-version     : 4.0.3
-release     : 1
+version     : 4.0.5
+release     : 2
 homepage    : https://wiki.gnome.org/Projects/Zenity
 upstreams   :
-    - https://download.gnome.org/sources/zenity/4.0/zenity-4.0.3.tar.xz : b429d97b87bd9ce7fb72ac0b78df534725d8ad39817ddca6a4ca2ee5381b08de
+    - https://download.gnome.org/sources/zenity/4.0/zenity-4.0.5.tar.xz : 8a3ffe7751bed497a758229ece07be9114ad4e46a066abae4e5f31d6da4c0e9e
 summary     : Display graphical dialog boxes from shell scripts
 description : |
     Display graphical dialog boxes from shell scripts

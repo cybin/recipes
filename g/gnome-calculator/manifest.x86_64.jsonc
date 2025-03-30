@@ -1042,6 +1042,7 @@
 				"/usr/share/locale/eu/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/locale/fa/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/locale/fi/LC_MESSAGES/gnome-calculator.mo",
+				"/usr/share/locale/fil/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/locale/fo/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/locale/fr/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/locale/fur/LC_MESSAGES/gnome-calculator.mo",
@@ -1110,7 +1111,7 @@
 				"/usr/share/locale/zh_TW/LC_MESSAGES/gnome-calculator.mo",
 				"/usr/share/man/man1/gcalccmd.1",
 				"/usr/share/man/man1/gnome-calculator.1",
-				"/usr/share/metainfo/org.gnome.Calculator.appdata.xml",
+				"/usr/share/metainfo/org.gnome.Calculator.metainfo.xml",
 				"/usr/share/vala/vapi/gcalc-2.deps",
 				"/usr/share/vala/vapi/gcalc-2.vapi",
 				"/usr/share/vala/vapi/gci-1.deps",
@@ -1163,6 +1164,6 @@
 		}
 	},
 	"source-name": "gnome-calculator",
-	"source-release": "2",
-	"source-version": "47.1"
+	"source-release": "3",
+	"source-version": "48.0"
 }

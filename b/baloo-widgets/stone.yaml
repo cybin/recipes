@@ -1,0 +1,30 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : baloo-widgets
+version     : 24.12.3
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/release-service/24.12.3/src/baloo-widgets-24.12.3.tar.xz : 9d63753490795c71512e2b6621b487b4726c1cfb3952eee9f73e75a930e4cf87
+homepage    : https://community.kde.org/Baloo
+license     : LGPL-2.1-only
+summary     : Widgets for the Baloo search engine
+description : |
+    Widgets for the Baloo search engine
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Baloo)
+    - cmake(KF6Config)
+    - cmake(KF6FileMetaData)
+    - cmake(KF6I18n)
+    - cmake(KF6KIO)
+    - cmake(KF6Service)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install

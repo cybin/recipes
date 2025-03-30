@@ -1,0 +1,25 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : blueprint-compiler
+version     : 0.16.0
+release     : 1
+homepage    : https://gitlab.gnome.org/jwestman/blueprint-compiler/
+upstreams   :
+    - https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v0.16.0/blueprint-compiler-v0.16.0.tar.gz : 01feb8263fe7a450b0a9fed0fd54cf88947aaf00f86cc7da345f8b39a0e7bd30
+summary     : A markup language for GTK user interfaces.
+description : |
+    A markup language for GTK user interface files.
+license     : GPL-3.0-or-later
+rundeps     :
+    - binary(node)
+    - pkgconfig(pygobject-3.0)
+    - gobject-introspection
+setup       : |
+    %meson
+build       : |
+    %meson_build
+install     : |
+    %meson_install

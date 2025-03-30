@@ -4,8 +4,8 @@
 	"packages": {
 		"gnome-backgrounds": {
 			"files": [
-				"/usr/share/backgrounds/gnome/adwaita-d.jxl",
-				"/usr/share/backgrounds/gnome/adwaita-l.jxl",
+				"/usr/share/backgrounds/gnome/adwaita-d.jpg",
+				"/usr/share/backgrounds/gnome/adwaita-l.jpg",
 				"/usr/share/backgrounds/gnome/amber-d.jxl",
 				"/usr/share/backgrounds/gnome/amber-l.jxl",
 				"/usr/share/backgrounds/gnome/blobs-d.svg",
@@ -75,6 +75,6 @@
 		}
 	},
 	"source-name": "gnome-backgrounds",
-	"source-release": "3",
-	"source-version": "47.0"
+	"source-release": "4",
+	"source-version": "48.0"
 }

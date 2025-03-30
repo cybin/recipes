@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : glib2
-version     : 2.82.4
-release     : 23
+version     : 2.84.0
+release     : 24
 homepage    : https://gitlab.gnome.org/GNOME/glib
 upstreams   :
-    - https://download.gnome.org/sources/glib/2.82/glib-2.82.4.tar.xz : 37dd0877fe964cd15e9a2710b044a1830fb1bd93652a6d0cb6b8b2dff187c709
+    - https://download.gnome.org/sources/glib/2.84/glib-2.84.0.tar.xz : f8823600cb85425e2815cfad82ea20fdaa538482ab74e7293d58b3f64a5aff6a
 summary     : Low-level core library that forms the basis for projects such as GTK+ and GNOME
 description : |
     GLib is the low-level core library that forms the basis for projects such

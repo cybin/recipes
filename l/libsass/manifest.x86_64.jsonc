@@ -1,0 +1,45 @@
+/** Human readable report. This is not consumed by boulder */
+{
+	"manifest-version": "0.2",
+	"packages": {
+		"libsass": {
+			"depends": [
+				"soname(libc++.so.1(x86_64))",
+				"soname(libc.so.6(x86_64))",
+				"soname(libm.so.6(x86_64))",
+				"soname(libunwind.so.1(x86_64))"
+			],
+			"files": [
+				"/usr/lib/libsass.so.1",
+				"/usr/lib/libsass.so.1.0.0"
+			],
+			"name": "libsass",
+			"provides": [
+				"soname(libsass.so.1(x86_64))"
+			]
+		},
+		"libsass-devel": {
+			"depends": [
+				"libsass"
+			],
+			"files": [
+				"/usr/include/sass.h",
+				"/usr/include/sass/base.h",
+				"/usr/include/sass/context.h",
+				"/usr/include/sass/functions.h",
+				"/usr/include/sass/values.h",
+				"/usr/include/sass/version.h",
+				"/usr/include/sass2scss.h",
+				"/usr/lib/libsass.so",
+				"/usr/lib/pkgconfig/libsass.pc"
+			],
+			"name": "libsass-devel",
+			"provides": [
+				"pkgconfig(libsass)"
+			]
+		}
+	},
+	"source-name": "libsass",
+	"source-release": "1",
+	"source-version": "3.6.6"
+}

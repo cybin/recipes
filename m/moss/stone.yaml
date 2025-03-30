@@ -4,17 +4,15 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : moss
-version     : 0.25.1+git.fe4f9a7
-release     : 78
-summary     : Serpent OS package manager
+version     : 0.25.1+git.be31107
+release     : 80
+summary     : AerynOS system state manager
 license     : MPL-2.0
-homepage    : https://github.com/serpent-os/tools
+homepage    : https://github.com/AerynOS/os-tools
 upstreams   :
-    - git|https://github.com/serpent-os/tools.git : fe4f9a74d0e043f12acbc049a39bbcf2e65720d6
+    - git|https://github.com/AerynOS/os-tools.git : be31107cda511e8f2c29d5b551f9db894d6bde3a
 description : |
-    The new package manager with an old school feel. Traditional interaction
-    and management whilst using brand new technologies, including efficient
-    caching, compression, deduplication and atomic updates.
+    Advanced package & system state manager with atomic transactions and content deduplication
 builddeps   :
     - binary(cargo)
 networking  : yes
@@ -23,6 +21,7 @@ tuning      :
     - lto
 rundeps     :
     - layout
+    - os-info
 environment : |
     export RUSTFLAGS="$RUSTFLAGS -C codegen-units=1"
 check       : |

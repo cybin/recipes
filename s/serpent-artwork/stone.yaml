@@ -5,24 +5,15 @@
 #
 name        : serpent-artwork
 version     : 1
-release     : 8
-summary     : Serpent OS Artwork
+release     : 12
+summary     : Transition Package
 license     : Distributable
-homepage    : https://github.com/serpent-os/artwork
-upstreams   :
-    - https://github.com/serpent-os/artwork/archive/refs/tags/v1.tar.gz : 34d2770f2bd59307d5fa9ff535ae260f2514ba858b9c4fce39b2ab45de56f3fe
+homepage    : https://www.aerynos.com/
 description : |
-    Default artwork for Serpent OS
-builddeps   :
-    - binary(just)
+    Transition package
+rundeps     :
+    - os-artwork
 install     : |
-    DESTDIR=%(installroot) just install
-    %install_file %(pkgdir)/logo/black_notext_2x.png %(installroot)%(datadir)/icons/serpent-logo.png
-    %install_file %(pkgdir)/logo/white_notext_2x.png %(installroot)%(datadir)/icons/serpent-logo-dark.png
-    %install_file %(pkgdir)/logo/logo.svg %(installroot)%(datadir)/icons/serpentos-logo.svg
-
-    # TODO: Install 24x24 and 48x48 icons for the system logo by mutating the SVG
-
-    %install_dir %(installroot)%(datadir)/pixmaps
-
-    ln -s /usr/share/icons/serpent-logo-dark.png %(installroot)/usr/share/pixmaps/system-logo-white.png
+    %install_dir %(installroot)%(docdir)/%(name)
+    TRANSITION="This is a transitional package. Please use os-artwork instead."
+    echo "${TRANSITION}" > %(installroot)%(docdir)/%(name)/TRANSITION

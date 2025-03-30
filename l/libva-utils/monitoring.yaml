@@ -1,0 +1,5 @@
+releases:
+  id: 16334
+  rss: https://github.com/intel/libva-utils/releases.atom
+security:
+  cpe: ~ # No Results: Last checked 2025-03-16

@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : xdg-desktop-portal-gnome
-version     : '47.1'
-release     : 5
+version     : 48.0
+release     : 6
 homepage    : https://gitlab.gnome.org/GNOME/xdg-desktop-portal-gnome
 upstreams   :
-    - https://download.gnome.org/sources/xdg-desktop-portal-gnome/47/xdg-desktop-portal-gnome-47.1.tar.xz : d420ff72173b04dc9491d3d7dd8cc96204f7f3f27c4cbea6024361ea9839f769
+    - https://download.gnome.org/sources/xdg-desktop-portal-gnome/48/xdg-desktop-portal-gnome-48.0.tar.xz : cd15aca2e1364da308eb3796bb8ae4a577e60ca4fe12006b315232cfd19c8861
 summary     : A backend implementation for xdg-desktop-portal for the GNOME desktop environment
 description : |
     A backend implementation for xdg-desktop-portal that is using GTK and various pieces of GNOME infrastructure, such as the org.gnome.Shell.Screenshot or org.gnome.SessionManager D-Bus interfaces.

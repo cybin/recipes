@@ -30,11 +30,13 @@
 				"soname(libglib-2.0.so.0(x86_64))",
 				"soname(libgobject-2.0.so.0(x86_64))",
 				"soname(libgraphene-1.0.so.0(x86_64))",
+				"soname(libgstbase-1.0.so.0(x86_64))",
 				"soname(libgstpbutils-1.0.so.0(x86_64))",
 				"soname(libgstreamer-1.0.so.0(x86_64))",
 				"soname(libgstvideo-1.0.so.0(x86_64))",
 				"soname(libgtk-4.so.1(x86_64))",
 				"soname(libm.so.6(x86_64))",
+				"soname(libpango-1.0.so.0(x86_64))",
 				"soname(libseccomp.so.2(x86_64))",
 				"soname(libunwind.so.1(x86_64))"
 			],
@@ -63,6 +65,7 @@
 				"/usr/share/locale/he/LC_MESSAGES/snapshot.mo",
 				"/usr/share/locale/hi/LC_MESSAGES/snapshot.mo",
 				"/usr/share/locale/hu/LC_MESSAGES/snapshot.mo",
+				"/usr/share/locale/ia/LC_MESSAGES/snapshot.mo",
 				"/usr/share/locale/id/LC_MESSAGES/snapshot.mo",
 				"/usr/share/locale/it/LC_MESSAGES/snapshot.mo",
 				"/usr/share/locale/ka/LC_MESSAGES/snapshot.mo",
@@ -102,6 +105,6 @@
 		}
 	},
 	"source-name": "snapshot",
-	"source-release": "2",
-	"source-version": "47.1"
+	"source-release": "3",
+	"source-version": "48.0.1"
 }

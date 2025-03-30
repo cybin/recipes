@@ -17,7 +17,7 @@
 			],
 			"files": [
 				"/usr/lib/libtevent.so.0",
-				"/usr/lib/libtevent.so.0.16.1"
+				"/usr/lib/libtevent.so.0.16.2"
 			],
 			"name": "tevent",
 			"provides": [
@@ -33,7 +33,8 @@
 				"pkgconfig(talloc)"
 			],
 			"depends": [
-				"pkgconfig(talloc)"
+				"pkgconfig(talloc)",
+				"tevent"
 			],
 			"files": [
 				"/usr/include/tevent.h",
@@ -47,6 +48,6 @@
 		}
 	},
 	"source-name": "tevent",
-	"source-release": "1",
-	"source-version": "0.16.1"
+	"source-release": "2",
+	"source-version": "0.16.2"
 }

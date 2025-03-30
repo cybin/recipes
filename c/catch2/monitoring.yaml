@@ -1,0 +1,5 @@
+releases:
+  id: 7680
+  rss: https://github.com/catchorg/Catch2/releases.atom
+security:
+  cpe: ~ # Last checked 2025-03-18

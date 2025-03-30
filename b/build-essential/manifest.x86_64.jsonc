@@ -15,6 +15,7 @@
 				"binary(flex)",
 				"binary(g++)",
 				"binary(gcc)",
+				"binary(just)",
 				"binary(ld)",
 				"binary(ld.lld)",
 				"binary(make)",
@@ -40,6 +41,6 @@
 		}
 	},
 	"source-name": "build-essential",
-	"source-release": "1",
+	"source-release": "4",
 	"source-version": "0"
 }

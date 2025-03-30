@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : glslang
-version     : 15.1.0
-release     : 6
+version     : 15.2.0
+release     : 7
 homepage    : https://github.com/KhronosGroup/glslang
 upstreams   :
-    - https://github.com/KhronosGroup/glslang/archive/refs/tags/15.1.0.tar.gz : 4bdcd8cdb330313f0d4deed7be527b0ac1c115ff272e492853a6e98add61b4bc
+    - git|https://github.com/KhronosGroup/glslang.git : 7200bc12a8979d13b22cd52de80ffb7d41939615 # Tag: vulkan-sdk-1.4.309.0
 summary     : Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.
 description : |
     Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.
@@ -22,9 +22,21 @@ builddeps   :
     - binary(python3)
     - cmake(SPIRV-Tools)
 setup       : |
-    %cmake -DBUILD_SHARED_LIBS=OFF \
+    %cmake \
+           -DBUILD_SHARED_LIBS=ON \
            -DALLOW_EXTERNAL_SPIRV_TOOLS=ON
 build       : |
     %cmake_build
 install     : |
     %cmake_install
+packages    :
+    - "%(name)-libs":
+        summary: "Library files for %(name)"
+        description: |
+            Library files for %(name), typically pulled in as a dependency of another package.
+        paths:
+            - /usr/lib/lib*.so.*
+
+    - "%(name)-devel":
+        rundeps:
+            - cmake(SPIRV-Tools-opt)

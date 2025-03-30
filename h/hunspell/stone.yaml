@@ -1,0 +1,48 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : hunspell
+version     : 1.7.2
+release     : 1
+upstreams   :
+    - https://github.com/hunspell/hunspell/releases/download/v1.7.2/hunspell-1.7.2.tar.gz : 11ddfa39afe28c28539fe65fc4f1592d410c1e9b6dd7d8a91ca25d85e9ec65b8
+homepage    : https://hunspell.github.io
+license     :
+    - MPL-1.1
+    - GPL-2.0-or-later
+    - LGPL-2.1-or-later
+summary     : Hunspell spelling checker
+description : |
+    Hunspell is a spell checker and morphological analyzer library and program designed for languages with rich morphology and complex word compounding or character encoding.
+builddeps   :
+    - pkgconfig(readline)
+tuning      :
+    - lto: full
+setup       : |
+    %configure \
+               --disable-static \
+               --with-ui \
+               --with-readline
+build       : |
+    %make
+install     : |
+    %make_install
+
+    # Fix packages that put `-lhunspell` in their build systems without using the pkgconfig file
+    pushd %(installroot)/%(libdir)
+    ln -s libhunspell-?.?.so libhunspell.so
+    popd
+check       : |
+    %make check
+packages    :
+    - "%(name)-devel":
+        paths:
+            - /usr/bin
+            - /usr/share/man
+    - "%(name)":
+        paths:
+            - /usr/bin/hunspell
+            - /usr/share/man/man1/hunspell*
+            - /usr/share/man/hu/man1/hunspell*

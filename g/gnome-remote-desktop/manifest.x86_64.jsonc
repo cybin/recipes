@@ -4,7 +4,9 @@
 	"packages": {
 		"gnome-remote-desktop": {
 			"build-depends": [
+				"binary(glslc)",
 				"binary(mutter)",
+				"binary(spirv-opt)",
 				"pkgconfig(cairo)",
 				"pkgconfig(dbus-1)",
 				"pkgconfig(epoxy)",
@@ -24,6 +26,7 @@
 				"pkgconfig(libnotify)",
 				"pkgconfig(libpipewire-0.3)",
 				"pkgconfig(libsecret-1)",
+				"pkgconfig(libva)",
 				"pkgconfig(opus)",
 				"pkgconfig(polkit-gobject-1)",
 				"pkgconfig(systemd)",
@@ -31,9 +34,11 @@
 				"pkgconfig(tss2-mu)",
 				"pkgconfig(tss2-rc)",
 				"pkgconfig(tss2-tctildr)",
+				"pkgconfig(vulkan)",
 				"pkgconfig(winpr3)",
 				"pkgconfig(wireplumber-0.5)",
-				"pkgconfig(xkbcommon)"
+				"pkgconfig(xkbcommon)",
+				"vulkan-headers"
 			],
 			"depends": [
 				"interpreter(/usr/lib/ld-linux-x86-64.so.2(x86_64))",
@@ -57,7 +62,9 @@
 				"soname(libtss2-esys.so.0(x86_64))",
 				"soname(libtss2-mu.so.0(x86_64))",
 				"soname(libtss2-rc.so.0(x86_64))",
-				"soname(libtss2-tctildr.so.0(x86_64))",
+				"soname(libva-drm.so.2(x86_64))",
+				"soname(libva.so.2(x86_64))",
+				"soname(libvulkan.so.1(x86_64))",
 				"soname(libwinpr3.so.3(x86_64))",
 				"soname(libxkbcommon.so.0(x86_64))"
 			],
@@ -81,6 +88,7 @@
 				"/usr/share/gnome-remote-desktop/grd-cuda-avc-utils_30.ptx",
 				"/usr/share/gnome-remote-desktop/grd-cuda-damage-utils_30.ptx",
 				"/usr/share/gnome-remote-desktop/grd.conf",
+				"/usr/share/gnome-remote-desktop/shaders/grd-avc-stereo-view_opt.spv",
 				"/usr/share/polkit-1/actions/org.gnome.remotedesktop.configure-system-daemon.policy",
 				"/usr/share/polkit-1/actions/org.gnome.remotedesktop.enable-system-daemon.policy",
 				"/usr/share/polkit-1/rules.d/20-gnome-remote-desktop.rules"
@@ -92,6 +100,6 @@
 		}
 	},
 	"source-name": "gnome-remote-desktop",
-	"source-release": "5",
-	"source-version": "47.2"
+	"source-release": "8",
+	"source-version": "48.0"
 }

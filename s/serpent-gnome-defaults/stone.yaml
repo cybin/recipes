@@ -5,25 +5,15 @@
 #
 name        : serpent-gnome-defaults
 version     : "0.1.0"
-release     : 27
+release     : 28
 license     : MPL-2.0
-homepage    : https://serpentos.com
-summary     : Default settings and dependencies for GNOME desktop
+homepage    : https://aerynos.com
+summary     : Transition Package
 description : |
-    Default settings and dependencies for GNOME desktop
+    Transition package
 rundeps     :
-    - binary(gnome-shell)
-    - font-hack
-    - gnome-backgrounds
-    - gnome-browser-connector
-    - gnome-shell-extension-appindicator
-    - gnome-shell-extension-tilingshell
-    - papirus-icon-theme
-    - serpent-artwork
+    - gnome-desktop-defaults
 install     : |
-    %install_dir %(installroot)%(datadir)/glib-2.0/schemas
-    %install_file %(pkgdir)/10_*.gschema.override %(installroot)%(datadir)/glib-2.0/schemas/.
-
-    # We've found vulkan too slow for initialisation of gtk4 apps
-    # Users can mask this at their discretion
-    %install_file %(pkgdir)/10-gsk-renderer.conf %(installroot)%(libdir)/environment.d/10-gsk-renderer.conf
+    %install_dir %(installroot)%(docdir)/%(name)
+    TRANSITION="This is a transitional package. Please use gnome-desktop-defaults instead."
+    echo "${TRANSITION}" > %(installroot)%(docdir)/%(name)/TRANSITION

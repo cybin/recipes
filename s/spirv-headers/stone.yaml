@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : spirv-headers
-version     : 1.3.296.0+git.a380cd25
-release     : 6
+version     : '2025.1'
+release     : 7
 homepage    : https://registry.khronos.org/SPIR-V/
 upstreams   :
-    - git|https://github.com/KhronosGroup/SPIRV-Headers.git : a380cd25433092dbce9a455a3feb1242138febee
+    - git|https://github.com/KhronosGroup/SPIRV-Headers.git : 09913f088a1197aba4aefd300a876b2ebbaa3391 # Tag: vulkan-sdk-1.4.309.0
 summary     : Header files from the SPIR-V registry
 description : |
     Machine-readable files for the SPIR-V Registry

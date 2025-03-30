@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : icu
-version     : '75.1'
-release     : 5
+version     : '77.1'
+release     : 7
 homepage    : https://icu.unicode.org/
 upstreams   :
-    - https://github.com/unicode-org/icu/releases/download/release-75-1/icu4c-75_1-src.tgz : cb968df3e4d2e87e8b11c49a5d01c787bd13b9545280fc6642f826527618caef
+    - https://github.com/unicode-org/icu/releases/download/release-77-1/icu4c-77_1-src.tgz : 588e431f77327c39031ffbb8843c0e3bc122c211374485fa87dc5f3faff24061
 summary     : International Components for Unicode
 description : |
     The International Components for Unicode (ICU) package is a mature, widely used set of C/C++ libraries providing Unicode and Globalization support for software applications. ICU is widely portable and gives applications the same results on all platforms.
@@ -19,6 +19,11 @@ checkdeps   :
 environment : |
     cd source
 setup       : |
+    # thunderbird to show Calendar and sidebar properly.
+    # https://bugzilla.mozilla.org/show_bug.cgi?id=1843007
+    # https://unicode-org.atlassian.net/browse/ICU-22132
+    %patch %(pkgdir)/ICU-22132.patch -p2
+
     %configure --disable-static
 build       : |
     %make

@@ -1,0 +1,29 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-knotifyconfig
+version     : 6.12.0
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/knotifyconfig-6.12.0.tar.xz : 53448f981d1656e423352a01723de2ab993e5bba39a73f6de422eb4deb2daaab
+homepage    : https://community.kde.org/Frameworks
+license     : LGPL-2.0-only
+summary     : Configuration dialog for desktop notifications.
+description : |
+    Configuration dialog for desktop notifications.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Completion)
+    - cmake(KF6Config)
+    - cmake(KF6I18n)
+    - cmake(KF6KIO)
+    - pkgconfig(libcanberra)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install

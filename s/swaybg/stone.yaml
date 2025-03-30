@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : swaybg
-version     : '1.2.0'
-release     : 1
+version     : 1.2.1
+release     : 2
 homepage    : https://github.com/swaywm/swaybg
 upstreams   :
-    - https://github.com/swaywm/swaybg/releases/download/v1.2.0/swaybg-1.2.0.tar.gz : c0205b34f1fad94553b6cb2c2b983cc33186018026058cad0b841a00bc3087e3
+    - https://github.com/swaywm/swaybg/releases/download/v1.2.1/swaybg-1.2.1.tar.gz : 6af1fdf0e57b1cc5345febed786b761fea0e170943a82639f94cfaed7df84f8f
 summary     : Wallpaper utility for Wayland compositors.
 description : |
     swaybg is a wallpaper utility for Wayland compositors. It is compatible
@@ -17,6 +17,7 @@ description : |
 license     :
     - MIT
 builddeps   :
+    - binary(scdoc)
     - pkgconfig(cairo)
     - pkgconfig(gdk-pixbuf-2.0)
     - pkgconfig(wayland-protocols)

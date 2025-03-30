@@ -1,0 +1,57 @@
+From 6887753f72dd545d750a8475e350345ec9ca8bed Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Florian=20M=C3=BCllner?= <fmuellner@gnome.org>
+Date: Wed, 19 Mar 2025 19:24:27 +0100
+Subject: [PATCH] loginDialog: Set logo target size
+
+When fractional scaling is used, the logo is loaded with a bigger
+resource scale. That is expected, however the resulting texture
+should still use a logical size that matches the original dimensions
+of the logo, not the upscaled content.
+
+Unlike for icons, we only know the target size when the pixbuf has
+been loaded, so it's harder for the texture cache to set the correct
+size itself. Luckily the login screen is the only place that is
+affected, so handle setting the size there.
+---
+ js/gdm/loginDialog.js | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+diff --git a/js/gdm/loginDialog.js b/js/gdm/loginDialog.js
+index fa91615026..84bbb36b7e 100644
+--- a/js/gdm/loginDialog.js
++++ b/js/gdm/loginDialog.js
+@@ -959,6 +959,14 @@ export const LoginDialog = GObject.registerClass({
+         this._bannerView.hide();
+     }
+ 
++    _updateLogoSize(texture, resourceScale) {
++        const [width, height] = texture.get_size();
++        texture.set_request_mode(Clutter.RequestMode.HEIGHT_FOR_WIDTH);
++        texture.set_size(
++            width / resourceScale,
++            height / resourceScale);
++    }
++
+     _updateLogoTexture(cache, file) {
+         if (this._logoFile && !this._logoFile.equal(file))
+             return;
+@@ -971,6 +979,16 @@ export const LoginDialog = GObject.registerClass({
+                 this._logoFile,
+                 -1, -1,
+                 scaleFactor, resourceScale);
++
++            if (texture.opacity > 0) {
++                this._updateLogoSize(texture, resourceScale);
++            } else {
++                const id = texture.connect('notify::opacity',
++                    () => {
++                        texture.disconnect(id);
++                        this._updateLogoSize(texture, resourceScale);
++                    });
++            }
+             this._logoBin.add_child(texture);
+         }
+     }
+-- 
+GitLab
+

@@ -1,5 +1,6 @@
 releases:
   id: 20562
-  rss: ~
+  rss: https://github.com/swaywm/swaybg/releases.atom
 security:
+  # Last checked 2025-03-22
   cpe: ~

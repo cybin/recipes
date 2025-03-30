@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : morewaita-icon-theme
-version     : 47.3
-release     : 3
+version     : 48.1
+release     : 5
 homepage    : https://github.com/somepaulo/MoreWaita
 upstreams   :
-    - https://github.com/somepaulo/MoreWaita/archive/refs/tags/v47.3.tar.gz : 4a54b2df088adde8ad2425d27e975144ad837012a96f789716d88a055ddabdad
+    - https://github.com/somepaulo/MoreWaita/archive/refs/tags/v48.1.tar.gz : e379aee0eec070889b6fbb654c838937d01f25e3867c1575a18fb30a5421a408
 summary     : An expanded Adwaita-styled icon theme
 description : |
     An expanded Adwaita-styled companion icon theme with extra icons for popular apps to complement Gnome Shell's original icons.
@@ -21,13 +21,13 @@ builddeps   :
 rundeps     :
     - adwaita-icon-theme
     - hicolor-icon-theme
+setup       : |
+    %meson
+build       : |
+    %meson_build
 install     : |
-    install -dm0755 %(installroot)/usr/share/icons/MoreWaita
-    cp -r %(workdir)/scalable %(installroot)/usr/share/icons/MoreWaita/scalable
-    cp -r %(workdir)/symbolic %(installroot)/usr/share/icons/MoreWaita/symbolic
-    cp %(workdir)/index.theme  %(installroot)/usr/share/icons/MoreWaita/index.theme
-
-
+    %meson_install
+    # Pre-compile icon cache
     for i in %(installroot)%(datadir)/icons/*/; do
         gtk-update-icon-cache -f $i
     done

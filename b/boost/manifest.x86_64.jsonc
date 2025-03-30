@@ -10,6 +10,7 @@
 				"pkgconfig(icu-i18n)",
 				"pkgconfig(liblzma)",
 				"pkgconfig(libzstd)",
+				"pkgconfig(python3)",
 				"pkgconfig(zlib)"
 			],
 			"depends": [
@@ -17,9 +18,9 @@
 				"soname(libbz2.so.1.0(x86_64))",
 				"soname(libc++.so.1(x86_64))",
 				"soname(libc.so.6(x86_64))",
-				"soname(libicudata.so.75(x86_64))",
-				"soname(libicui18n.so.75(x86_64))",
-				"soname(libicuuc.so.75(x86_64))",
+				"soname(libicudata.so.77(x86_64))",
+				"soname(libicui18n.so.77(x86_64))",
+				"soname(libicuuc.so.77(x86_64))",
 				"soname(liblzma.so.5(x86_64))",
 				"soname(libm.so.6(x86_64))",
 				"soname(libunwind.so.1(x86_64))",
@@ -53,6 +54,7 @@
 				"/usr/lib/libboost_prg_exec_monitor.so.1.87.0",
 				"/usr/lib/libboost_process.so.1.87.0",
 				"/usr/lib/libboost_program_options.so.1.87.0",
+				"/usr/lib/libboost_python311.so.1.87.0",
 				"/usr/lib/libboost_random.so.1.87.0",
 				"/usr/lib/libboost_regex.so.1.87.0",
 				"/usr/lib/libboost_serialization.so.1.87.0",
@@ -110,6 +112,7 @@
 				"soname(libboost_prg_exec_monitor.so.1.87.0(x86_64))",
 				"soname(libboost_process.so.1.87.0(x86_64))",
 				"soname(libboost_program_options.so.1.87.0(x86_64))",
+				"soname(libboost_python311.so.1.87.0(x86_64))",
 				"soname(libboost_random.so.1.87.0(x86_64))",
 				"soname(libboost_regex.so.1.87.0(x86_64))",
 				"soname(libboost_serialization.so.1.87.0(x86_64))",
@@ -135,6 +138,7 @@
 				"pkgconfig(icu-i18n)",
 				"pkgconfig(liblzma)",
 				"pkgconfig(libzstd)",
+				"pkgconfig(python3)",
 				"pkgconfig(zlib)"
 			],
 			"depends": [
@@ -16145,6 +16149,8 @@
 				"/usr/lib/cmake/boost_program_options-1.87.0/libboost_program_options-variant-static.cmake",
 				"/usr/lib/cmake/boost_python-1.87.0/boost_python-config-version.cmake",
 				"/usr/lib/cmake/boost_python-1.87.0/boost_python-config.cmake",
+				"/usr/lib/cmake/boost_python-1.87.0/libboost_python-variant-shared-py3.11.cmake",
+				"/usr/lib/cmake/boost_python-1.87.0/libboost_python-variant-static-py3.11.cmake",
 				"/usr/lib/cmake/boost_random-1.87.0/boost_random-config-version.cmake",
 				"/usr/lib/cmake/boost_random-1.87.0/boost_random-config.cmake",
 				"/usr/lib/cmake/boost_random-1.87.0/libboost_random-variant-shared.cmake",
@@ -16262,6 +16268,8 @@
 				"/usr/lib/libboost_process.so",
 				"/usr/lib/libboost_program_options.a",
 				"/usr/lib/libboost_program_options.so",
+				"/usr/lib/libboost_python311.a",
+				"/usr/lib/libboost_python311.so",
 				"/usr/lib/libboost_random.a",
 				"/usr/lib/libboost_random.so",
 				"/usr/lib/libboost_regex.a",
@@ -16351,6 +16359,6 @@
 		}
 	},
 	"source-name": "boost",
-	"source-release": "1",
+	"source-release": "2",
 	"source-version": "1.87.0"
 }

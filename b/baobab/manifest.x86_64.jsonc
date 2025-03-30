@@ -474,7 +474,7 @@
 				"/usr/share/locale/zh_HK/LC_MESSAGES/baobab.mo",
 				"/usr/share/locale/zh_TW/LC_MESSAGES/baobab.mo",
 				"/usr/share/man/man1/baobab.1",
-				"/usr/share/metainfo/org.gnome.baobab.appdata.xml"
+				"/usr/share/metainfo/org.gnome.baobab.metainfo.xml"
 			],
 			"name": "baobab",
 			"provides": [
@@ -483,6 +483,6 @@
 		}
 	},
 	"source-name": "baobab",
-	"source-release": "2",
-	"source-version": "47.0"
+	"source-release": "3",
+	"source-version": "48.0"
 }

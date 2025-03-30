@@ -5,7 +5,7 @@
 #
 name        : libplacebo
 version     : 7.349.0
-release     : 1
+release     : 2
 homepage    : https://libplacebo.org/
 upstreams   :
     - https://code.videolan.org/videolan/libplacebo/-/archive/v7.349.0/libplacebo-v7.349.0.tar.bz2 : 38c9c75d9c1bb412baf34845d1ca58c41a9804d1d0798091d7a8602a0d7c9aa6
@@ -14,14 +14,21 @@ description : |
   libplacebo is, in a nutshell, the core rendering algorithms and ideas of mpv rewritten as an independent library. As of today, libplacebo contains a large assortment of video processing shaders, focusing on both quality and performance
 license     : LGPL-2.1-or-later
 builddeps   :
-    # TODO: lcms, shaderrc, libdovi
-    # cmake(glslang) <- FTBFS
+    # TODO: libdovi, spirv-cross-c-shared
     - cmake(FastFloat)
     - cmake(VulkanHeaders)
+    - cmake(glslang)
+    - pkgconfig(lcms2)
     - pkgconfig(libxxhash)
+    - pkgconfig(shaderc)
+    - pkgconfig(vulkan)
     - python(glad2)
 setup       : |
-    %meson
+    %patch %(pkgdir)/ftbfs-glslang.patch
+
+    %meson \
+           -Ddemos=false \
+           -Dglslang=enabled
 build       : |
     %meson_build
 install     : |

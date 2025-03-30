@@ -1,4 +1,4 @@
-From d54af83910704c774b6cae80c314b1479a3fbde9 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Fabio Forni <livingsilver94.solus@redaril.me>
 Date: Mon, 29 Nov 2021 21:18:37 +0100
 Subject: [PATCH] Make sway stateless
@@ -11,10 +11,10 @@ Subject: [PATCH] Make sway stateless
  4 files changed, 18 insertions(+), 2 deletions(-)
 
 diff --git a/meson.build b/meson.build
-index 747cab5..e5f882f 100644
+index de37ff1a..d509d824 100644
 --- a/meson.build
 +++ b/meson.build
-@@ -162,6 +162,9 @@ if scdoc.found()
+@@ -154,6 +154,9 @@ if scdoc.found()
  endif
  
  add_project_arguments('-DSYSCONFDIR="/@0@"'.format(join_paths(prefix, sysconfdir)), language : 'c')
@@ -24,7 +24,7 @@ index 747cab5..e5f882f 100644
  
  version = '"@0@"'.format(meson.project_version())
  git = find_program('git', native: true, required: false)
-@@ -233,11 +236,16 @@ config.set('datadir', join_paths(prefix, datadir))
+@@ -231,11 +234,16 @@ config.set('datadir', join_paths(prefix, datadir))
  config.set('prefix', prefix)
  config.set('sysconfdir', join_paths(prefix, sysconfdir))
  
@@ -43,19 +43,19 @@ index 747cab5..e5f882f 100644
  
  install_data(
 diff --git a/meson_options.txt b/meson_options.txt
-index e36900b..28012c7 100644
+index 506ecc9a..57a12655 100644
 --- a/meson_options.txt
 +++ b/meson_options.txt
-@@ -7,3 +7,4 @@ option('tray', type: 'feature', value: 'auto', description: 'Enable support for
- option('gdk-pixbuf', type: 'feature', value: 'auto', description: 'Enable support for more image formats in swaybg')
+@@ -8,3 +8,4 @@ option('tray', type: 'feature', value: 'auto', description: 'Enable support for
+ option('gdk-pixbuf', type: 'feature', value: 'auto', description: 'Enable support for more image formats in swaybar tray')
  option('man-pages', type: 'feature', value: 'auto', description: 'Generate and install man pages')
  option('sd-bus-provider', type: 'combo', choices: ['auto', 'libsystemd', 'libelogind', 'basu'], value: 'auto', description: 'Provider of the sd-bus library')
 +option('default_sysconfdir', type: 'string', description: 'Specify optional default stateless configuration path')
 diff --git a/sway/config.c b/sway/config.c
-index 3901386..d364fbb 100644
+index 1090edc5..82e148a3 100644
 --- a/sway/config.c
 +++ b/sway/config.c
-@@ -374,7 +374,11 @@ static char *get_config_path(void) {
+@@ -392,7 +392,11 @@ static char *get_config_path(void) {
  		{ .prefix = home, .config_folder = ".i3"},
  		{ .prefix = config_home, .config_folder = "i3"},
  		{ .prefix = SYSCONFDIR, .config_folder = "sway"},
@@ -69,10 +69,10 @@ index 3901386..d364fbb 100644
  
  	size_t num_config_paths = sizeof(config_paths)/sizeof(config_paths[0]);
 diff --git a/swaynag/config.c b/swaynag/config.c
-index c6b4e43..7c00442 100644
+index efd71ce7..b08b2a24 100644
 --- a/swaynag/config.c
 +++ b/swaynag/config.c
-@@ -329,6 +329,9 @@ char *swaynag_get_config_path(void) {
+@@ -370,6 +370,9 @@ char *swaynag_get_config_path(void) {
  		"$HOME/.swaynag/config",
  		"$XDG_CONFIG_HOME/swaynag/config",
  		SYSCONFDIR "/swaynag/config",
@@ -82,6 +82,3 @@ index c6b4e43..7c00442 100644
  	};
  
  	char *config_home = getenv("XDG_CONFIG_HOME");
--- 
-2.34.0
-

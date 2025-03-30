@@ -1,0 +1,58 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : dolphin
+version     : 24.12.3
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/release-service/24.12.3/src/dolphin-24.12.3.tar.xz : 0bcefb5c6eadddb867924e9052d5431c5b7c98aa4022c3fa2ca16d5b6515b0f0
+homepage    : https://kde.org/applications/system/org.kde.dolphin
+license     :
+    - GFDL-1.2-or-later
+    - GPL-2.0-or-later
+summary     : KDE file manager focusing on usability
+description : |
+    Dolphin is a file manager focusing on usability. Focusing on usability means that features are discoverable and efficient to use.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Baloo)
+    - cmake(KF6BalooWidgets)
+    - cmake(KF6Bookmarks)
+    - cmake(KF6Config)
+    - cmake(KF6Codecs)
+    - cmake(KF6Completion)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6Crash)
+    - cmake(KF6DBusAddons)
+    - cmake(KF6DocTools)
+    - cmake(KF6FileMetaData)
+    - cmake(KF6GuiAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6IconThemes)
+    - cmake(KF6KCMUtils)
+    - cmake(KF6KIO)
+    - cmake(KF6NewStuff)
+    - cmake(KF6Notifications)
+    - cmake(KF6Parts)
+    - cmake(KF6Solid)
+    - cmake(KF6TextWidgets)
+    - cmake(KF6UserFeedback)
+    - cmake(KF6WidgetsAddons)
+    - cmake(KF6WindowSystem)
+    - cmake(Phonon4Qt6)
+    # Todo build with packagekit support
+rundeps     :
+    - phonon-backend-mpv-qt6
+    - qt6-wayland
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+
+    # remove docs
+    rm -rf %(installroot)/%(datadir)/doc

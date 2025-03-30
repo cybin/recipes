@@ -6,6 +6,7 @@
 			"build-depends": [
 				"binary(cmake)",
 				"binary(msgfmt)",
+				"binary(sassc)",
 				"binary(vapigen)",
 				"pkgconfig(appstream)",
 				"pkgconfig(glib-2.0)",
@@ -28,7 +29,6 @@
 			"files": [
 				"/usr/bin/adwaita-1-demo",
 				"/usr/lib/girepository-1.0/Adw-1.typelib",
-				"/usr/lib/libadwaita-1-internal.so.0",
 				"/usr/lib/libadwaita-1.so.0",
 				"/usr/share/applications/org.gnome.Adwaita1.Demo.desktop",
 				"/usr/share/gir-1.0/Adw-1.gir",
@@ -48,6 +48,7 @@
 				"/usr/share/locale/eu/LC_MESSAGES/libadwaita.mo",
 				"/usr/share/locale/fa/LC_MESSAGES/libadwaita.mo",
 				"/usr/share/locale/fi/LC_MESSAGES/libadwaita.mo",
+				"/usr/share/locale/fil/LC_MESSAGES/libadwaita.mo",
 				"/usr/share/locale/fr/LC_MESSAGES/libadwaita.mo",
 				"/usr/share/locale/fur/LC_MESSAGES/libadwaita.mo",
 				"/usr/share/locale/gl/LC_MESSAGES/libadwaita.mo",
@@ -91,7 +92,6 @@
 			"name": "libadwaita",
 			"provides": [
 				"binary(adwaita-1-demo)",
-				"soname(libadwaita-1-internal.so.0(x86_64))",
 				"soname(libadwaita-1.so.0(x86_64))"
 			]
 		},
@@ -99,6 +99,7 @@
 			"build-depends": [
 				"binary(cmake)",
 				"binary(msgfmt)",
+				"binary(sassc)",
 				"binary(vapigen)",
 				"pkgconfig(appstream)",
 				"pkgconfig(glib-2.0)",
@@ -148,6 +149,7 @@
 				"/usr/include/libadwaita-1/adw-flap.h",
 				"/usr/include/libadwaita-1/adw-fold-threshold-policy.h",
 				"/usr/include/libadwaita-1/adw-header-bar.h",
+				"/usr/include/libadwaita-1/adw-inline-view-switcher.h",
 				"/usr/include/libadwaita-1/adw-layout-slot.h",
 				"/usr/include/libadwaita-1/adw-layout.h",
 				"/usr/include/libadwaita-1/adw-leaflet.h",
@@ -184,6 +186,7 @@
 				"/usr/include/libadwaita-1/adw-timed-animation.h",
 				"/usr/include/libadwaita-1/adw-toast-overlay.h",
 				"/usr/include/libadwaita-1/adw-toast.h",
+				"/usr/include/libadwaita-1/adw-toggle-group.h",
 				"/usr/include/libadwaita-1/adw-toolbar-view.h",
 				"/usr/include/libadwaita-1/adw-version.h",
 				"/usr/include/libadwaita-1/adw-view-stack.h",
@@ -192,8 +195,10 @@
 				"/usr/include/libadwaita-1/adw-view-switcher.h",
 				"/usr/include/libadwaita-1/adw-window-title.h",
 				"/usr/include/libadwaita-1/adw-window.h",
+				"/usr/include/libadwaita-1/adw-wrap-box.h",
+				"/usr/include/libadwaita-1/adw-wrap-layout.h",
 				"/usr/include/libadwaita-1/adwaita.h",
-				"/usr/lib/libadwaita-1-internal.so",
+				"/usr/lib/libadwaita-1-internal.a",
 				"/usr/lib/libadwaita-1.so",
 				"/usr/lib/pkgconfig/libadwaita-1.pc"
 			],
@@ -204,6 +209,6 @@
 		}
 	},
 	"source-name": "libadwaita",
-	"source-release": "8",
-	"source-version": "1.6.2"
+	"source-release": "9",
+	"source-version": "1.7.0"
 }

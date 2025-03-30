@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : firefox
-version     : 135.0
-release     : 18
+version     : 136.0.4
+release     : 21
 homepage    : https://www.mozilla.org/
 upstreams   :
-    - https://ftp.mozilla.org/pub/firefox/releases/135.0/source/firefox-135.0.source.tar.xz : 827e12a962ef47511089af4498f65ebf42fa57ca31db790bfd7e9a820d16b960
+    - https://ftp.mozilla.org/pub/firefox/releases/136.0.4/source/firefox-136.0.4.source.tar.xz : 4a28b9e1c2b8f2f1d434745ebb87fcba8ae116a202878f0fb1e83da63cf7c242
 summary     : Firefox web browser
 description : |
     Firefox web browser
@@ -28,7 +28,6 @@ builddeps   :
     - pkgconfig(alsa)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(ice)
-    - pkgconfig(icu-uc)
     - pkgconfig(libevent)
     - pkgconfig(libjpeg)
     - pkgconfig(libpng)

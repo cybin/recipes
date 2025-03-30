@@ -3,25 +3,16 @@
 	"manifest-version": "0.2",
 	"packages": {
 		"serpent-artwork": {
-			"build-depends": [
-				"binary(just)"
+			"depends": [
+				"os-artwork"
 			],
 			"files": [
-				"/usr/share/backgrounds/serpent-os/austin-d-JQ9-cbC4rDE-unsplash.jpg",
-				"/usr/share/backgrounds/serpent-os/marc-markstein-0kD1eHgyuPI-unsplash.jpg",
-				"/usr/share/backgrounds/serpent-os/mike-uderevsky-4fqXRDI4gXQ-unsplash.jpg",
-				"/usr/share/gnome-background-properties/austin.xml",
-				"/usr/share/gnome-background-properties/marc.xml",
-				"/usr/share/gnome-background-properties/mike.xml",
-				"/usr/share/icons/serpent-logo-dark.png",
-				"/usr/share/icons/serpent-logo.png",
-				"/usr/share/icons/serpentos-logo.svg",
-				"/usr/share/pixmaps/system-logo-white.png"
+				"/usr/share/doc/serpent-artwork/TRANSITION"
 			],
 			"name": "serpent-artwork"
 		}
 	},
 	"source-name": "serpent-artwork",
-	"source-release": "8",
+	"source-release": "12",
 	"source-version": "1"
 }

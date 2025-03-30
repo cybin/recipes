@@ -4,6 +4,7 @@
 	"packages": {
 		"editorconfig-core-c": {
 			"build-depends": [
+				"binary(doxygen)",
 				"pkgconfig(libpcre2-8)"
 			],
 			"depends": [
@@ -15,7 +16,9 @@
 				"/usr/bin/editorconfig",
 				"/usr/bin/editorconfig-0.12.9",
 				"/usr/lib/libeditorconfig.so.0",
-				"/usr/lib/libeditorconfig.so.0.12.9"
+				"/usr/lib/libeditorconfig.so.0.12.9",
+				"/usr/share/man/man1/editorconfig.1",
+				"/usr/share/man/man5/editorconfig-format.5"
 			],
 			"name": "editorconfig-core-c",
 			"provides": [
@@ -26,6 +29,7 @@
 		},
 		"editorconfig-core-c-devel": {
 			"build-depends": [
+				"binary(doxygen)",
 				"pkgconfig(libpcre2-8)"
 			],
 			"depends": [
@@ -39,7 +43,9 @@
 				"/usr/lib/cmake/EditorConfig/EditorConfigTargets-release.cmake",
 				"/usr/lib/cmake/EditorConfig/EditorConfigTargets.cmake",
 				"/usr/lib/libeditorconfig.so",
-				"/usr/lib/pkgconfig/editorconfig.pc"
+				"/usr/lib/pkgconfig/editorconfig.pc",
+				"/usr/share/man/man3/editorconfig.h.3",
+				"/usr/share/man/man3/editorconfig_handle.h.3"
 			],
 			"name": "editorconfig-core-c-devel",
 			"provides": [
@@ -49,6 +55,6 @@
 		}
 	},
 	"source-name": "editorconfig-core-c",
-	"source-release": "2",
+	"source-release": "3",
 	"source-version": "0.12.9"
 }

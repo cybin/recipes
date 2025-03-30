@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : evolution-data-server
-version     : 3.54.2
-release     : 10
+version     : 3.56.0
+release     : 12
 homepage    : https://gitlab.gnome.org/GNOME/evolution-data-server
 upstreams   :
-    - https://download.gnome.org/sources/evolution-data-server/3.54/evolution-data-server-3.54.2.tar.xz : 11f0253089c8abf456cffda3fe658a35a0de2b8ae93d8f257d6b020ae7963d20
+    - https://download.gnome.org/sources/evolution-data-server/3.56/evolution-data-server-3.56.0.tar.xz : 7ae5482aa4ee2894467716c5be982500e1d511dddf4ab29b68fdb107d7f8a8ff
 summary     : Calendar, contacts and task backend management
 description : |
     The Evolution Data Server provides a single database for common, desktop-wide information,

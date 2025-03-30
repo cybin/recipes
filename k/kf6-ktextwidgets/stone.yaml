@@ -1,0 +1,39 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-ktextwidgets
+version     : 6.12.0
+release     : 3
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/ktextwidgets-6.12.0.tar.xz : 698e2be7fc6fd27b4aa4c192a1ab0b0abc08121639775c4ff4f4b4c81d8f041d
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-or-later
+summary     : Text editing widgets.
+description : |
+    Text editing widgets.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6ColorScheme)
+    - cmake(KF6Completion)
+    - cmake(KF6Config)
+    - cmake(KF6ConfigWidgets)
+    - cmake(KF6I18n)
+    - cmake(KF6Sonnet)
+    - cmake(KF6WidgetsAddons)
+    - cmake(Qt6TextToSpeech)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+packages    :
+    - "%(name)-devel":
+        rundeps:
+            - cmake(KF6Sonnet)

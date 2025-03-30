@@ -1,0 +1,7 @@
+[org.gnome.desktop.interface]
+accent-color='purple'
+color-scheme='prefer-dark'
+document-font-name='Adwaita Sans 10'
+font-name='Adwaita Sans 10'
+icon-theme='MoreWaita'
+monospace-font-name = "Adwaita Mono 10"

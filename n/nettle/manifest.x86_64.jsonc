@@ -21,7 +21,6 @@
 				"/usr/bin/nettle-pbkdf2",
 				"/usr/bin/pkcs1-conv",
 				"/usr/bin/sexp-conv",
-				"/usr/share/info/dir",
 				"/usr/share/info/nettle.info"
 			],
 			"name": "nettle",
@@ -151,6 +150,6 @@
 		}
 	},
 	"source-name": "nettle",
-	"source-release": "4",
+	"source-release": "5",
 	"source-version": "3.10.1"
 }

@@ -1,0 +1,44 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : mangohud
+version     : 0.8.1
+release     : 4
+homepage    : https://github.com/flightlessmango/MangoHud
+upstreams   :
+    - https://github.com/flightlessmango/MangoHud/releases/download/v0.8.1/MangoHud-v0.8.1-Source.tar.xz : 4c8d8098f5deff7737978d792eef909b7469933f456a47132dccc06804825482
+summary     : A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
+description : |
+    A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more.
+license     : MIT
+builddeps   :
+    - binary(glslang)
+    - pkgconfig(cmocka)
+    - pkgconfig(dbus-1)
+    - pkgconfig(glew)
+    - pkgconfig(glfw3)
+    - pkgconfig(nlohmann_json)
+    # - pkgconfig(spdlog) # Too old, re-enable once updated
+    - pkgconfig(wayland-client)
+    - pkgconfig(x11)
+    - pkgconfig(xkbcommon)
+    - pkgconfig(xrandr)
+    - python(mako)
+    - libstdc++-devel
+setup       : |
+    # Needs a static c++ stdlib, which we don't currently provide for libc++
+    # Switch back if we ever build libc++.a
+    export CXXFLAGS="${CXXFLAGS} -stdlib=libstdc++"
+
+    # version script assignment of 'global' to symbol 'dlsym' failed: symbol not defined
+    export LDFLAGS="$LDFLAGS -Wl,--undefined-version"
+
+    %meson -Dmangoapp=true \
+           -Dmangohudctl=true \
+           -Dwith_xnvctrl=disabled # for now. needs nvidia-settings
+build       : |
+    %meson_build
+install     : |
+    %meson_install

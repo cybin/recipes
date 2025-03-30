@@ -1,0 +1,40 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-kparts
+version     : 6.12.0
+release     : 3
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/kparts-6.12.0.tar.xz : b897aa324103ef974ce513955473fe65feaeaba4ddf99fb4cc86772114fa930c
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - LGPL-2.0-only
+    - LGPL-2.0-or-later
+    - LGPL-2.1-or-later
+summary     : Plugin framework for user interface components
+description : |
+    Plugin framework for user interface components
+builddeps   :
+    - binary(bzip2)
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Config)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6KIO)
+    - cmake(KF6XmlGui)
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+packages    :
+    - "%(name)-devel":
+        paths:
+            - /usr/share/kdevappwizard
+        rundeps:
+            - cmake(KF6KIO)
+            - cmake(KF6XmlGui)

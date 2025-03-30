@@ -1,0 +1,91 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : wine
+version     : 10.2
+release     : 1
+homepage    : https://www.winehq.org
+upstreams   :
+    - https://dl.winehq.org/wine/source/10.x/wine-10.2.tar.xz : 9d90dfb6cf10b810a7b4789f0067712b4730d3ea2a88b91f1be273b2ad04243f
+summary     : Wine is a program which allows running Microsoft Windows programs on Unix.
+description : |
+    Wine is a program which allows running Microsoft Windows programs
+    (including DOS, Windows 3.x, Win32, and Win64 executables) on Unix.
+    It consists of a program loader which loads and executes a Microsoft
+    Windows binary, and a library (called Winelib) that implements Windows
+    API calls using their Unix, X11 or Mac equivalents.  The library may also
+    be used for porting Windows code into native Unix executables.
+license     : LGPL-2.1-or-later
+builddeps   :
+    - binary(bison)
+    - binary(flex)
+    - binary(readelf)
+    - binary(wayland-scanner)
+    - pkgconfig(cups)
+    - pkgconfig(dbus-1)
+    - pkgconfig(d3d)
+    - pkgconfig(dri)
+    - pkgconfig(egl)
+    - pkgconfig(gbm)
+    - pkgconfig(gnutls)
+    - pkgconfig(gstreamer-1.0)
+    - pkgconfig(krb5)
+    - pkgconfig(libavcodec)
+    - pkgconfig(libavformat)
+    - pkgconfig(libavutil)
+    - pkgconfig(libpcap)
+    - pkgconfig(libpulse)
+    - pkgconfig(libudev)
+    - pkgconfig(libusb-1.0)
+    - pkgconfig(odbc)
+    - pkgconfig(osmesa)
+    - pkgconfig(sdl2_compat)
+    - pkgconfig(vulkan)
+    - pkgconfig(wayland-eglstream)
+    - pkgconfig(wayland-client)
+    - pkgconfig(xcursor)
+    - pkgconfig(xcomposite)
+    - pkgconfig(xi)
+    - pkgconfig(xkbcommon)
+    - pkgconfig(xrandr)
+    - pkgconfig(xxf86vm)
+    - pkgconfig(xinerama)
+    - pkgconfig(freetype2)
+    - gettext-devel
+setup       : |
+    %patch %(pkgdir)/llvm-libunwind.patch
+    %patch %(pkgdir)/0001-Prefer-wayland-over-x11.patch
+
+    %configure --enable-archs=i386,x86_64 \
+               --enable-win64
+build       : |
+    %make
+install     : |
+    %make_install
+
+    # when building 64+32 compat, only bare name is emitted, add *64 names for compat
+    ln -srv %(installroot)/%(bindir)/wine %(installroot)/%(bindir)/wine64
+packages    :
+    - "%(name)-devel":
+        paths:
+            - /usr/bin/function_grep.pl
+            - /usr/bin/widl
+            - /usr/bin/winebuild
+            - /usr/bin/winecpp
+            - /usr/bin/winedump
+            - /usr/bin/wineg++
+            - /usr/bin/winegcc
+            - /usr/bin/winemaker
+            - /usr/bin/wmc
+            - /usr/bin/wrc
+            - /usr/share/man/man1/widl*
+            - /usr/share/man/man1/winebuild*
+            - /usr/share/man/man1/winecpp*
+            - /usr/share/man/man1/winedump*
+            - /usr/share/man/man1/wineg++*
+            - /usr/share/man/man1/winegcc*
+            - /usr/share/man/**/man1/winemaker*
+            - /usr/share/man/man1/wmc*
+            - /usr/share/man/man1/wrc*

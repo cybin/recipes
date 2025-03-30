@@ -39,21 +39,21 @@ index 52a155ff325047..1797f67c2a576c 100644
  
  source "drivers/iio/imu/bmi160/Kconfig"
 +source "drivers/iio/imu/bmi260/Kconfig"
+ source "drivers/iio/imu/bmi270/Kconfig"
  source "drivers/iio/imu/bmi323/Kconfig"
  source "drivers/iio/imu/bno055/Kconfig"
- 
 diff --git a/drivers/iio/imu/Makefile b/drivers/iio/imu/Makefile
 index 7e2d7d5c3b7bc7..1d833ee7b9d7ad 100644
 --- a/drivers/iio/imu/Makefile
 +++ b/drivers/iio/imu/Makefile
-@@ -15,6 +15,7 @@ adis_lib-$(CONFIG_IIO_ADIS_LIB_BUFFER) += adis_buffer.o
+@@ -15,6 +15,7 @@ adis_lib-$(CONFIG_IIO_ADIS_LIB_BUFFER) +
  obj-$(CONFIG_IIO_ADIS_LIB) += adis_lib.o
  
  obj-y += bmi160/
 +obj-y += bmi260/
+ obj-y += bmi270/
  obj-y += bmi323/
  obj-y += bno055/
- 
 diff --git a/drivers/iio/imu/bmi260/Kconfig b/drivers/iio/imu/bmi260/Kconfig
 new file mode 100644
 index 00000000000000..5b4e56f28ead68
@@ -290,7 +290,7 @@ index 00000000000000..8f346ff6de0a70
 +	.reg_bits = 8,
 +	.val_bits = 8,
 +};
-+EXPORT_SYMBOL_NS(bmi260_regmap_config, IIO_BMI260);
++EXPORT_SYMBOL_NS(bmi260_regmap_config, "IIO_BMI260");
 +
 +struct bmi260_regs {
 +	u8 data; /* LSB byte register for X-axis */
@@ -829,7 +829,7 @@ index 00000000000000..8f346ff6de0a70
 +				     mask, enable_bit,
 +				     BMI260_NORMAL_WRITE_USLEEP);
 +}
-+EXPORT_SYMBOL_NS(bmi260_enable_irq, IIO_BMI260);
++EXPORT_SYMBOL_NS(bmi260_enable_irq, "IIO_BMI260");
 +
 +static int bmi260_get_irq(struct fwnode_handle *fwnode, enum bmi260_int_pin *pin)
 +{
@@ -1118,7 +1118,7 @@ index 00000000000000..8f346ff6de0a70
 +
 +	return devm_iio_device_register(dev, indio_dev);
 +}
-+EXPORT_SYMBOL_NS_GPL(bmi260_core_probe, IIO_BMI260);
++EXPORT_SYMBOL_NS_GPL(bmi260_core_probe, "IIO_BMI260");
 +
 +MODULE_AUTHOR("Justin Weiss <justin@justinweiss.com>");
 +MODULE_DESCRIPTION("Bosch BMI260 driver");
@@ -1204,7 +1204,7 @@ index 00000000000000..d57828af4bb669
 +MODULE_AUTHOR("Justin Weiss <justin@justinweiss.com>");
 +MODULE_DESCRIPTION("BMI260 I2C driver");
 +MODULE_LICENSE("GPL v2");
-+MODULE_IMPORT_NS(IIO_BMI260);
++MODULE_IMPORT_NS("IIO_BMI260");
 diff --git a/drivers/iio/imu/bmi260/third_party/LICENSE b/drivers/iio/imu/bmi260/third_party/LICENSE
 new file mode 100644
 index 00000000000000..cfb347b17ee8af

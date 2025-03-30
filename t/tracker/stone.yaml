@@ -1,0 +1,40 @@
+#
+# SPDX-FileCopyrightText: © 2020-2024 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : tracker
+version     : 3.7.3
+release     : 5
+homepage    : https://tracker.gnome.org/overview/
+summary     : Transition Package
+description : |
+    Transition package
+license     :
+    - GPL-2.0-or-later
+    - LGPL-2.1-or-later
+packages    :
+    - "%(name)":
+        paths:
+            - /usr/share/doc/tracker/TRANSITION
+        rundeps:
+            - localsearch
+            - tinysparql
+    - "%(name)-devel":
+        paths:
+            - /usr/share/doc/tracker/TRANSITION.devel
+        rundeps:
+            - localsearch
+            - tinysparql-devel
+    - "%(name)-miners":
+        paths:
+            - /usr/share/doc/tracker/TRANSITION.miners
+        rundeps:
+            - localsearch
+            - tinysparql
+install     : |
+    %install_dir %(installroot)%(docdir)/%(name)
+    TRANSITION="This is a transitional package. Please use localsearch and tinysparql instead"
+    echo "${TRANSITION}" > %(installroot)%(docdir)/%(name)/TRANSITION
+    echo "${TRANSITION}" > %(installroot)%(docdir)/%(name)/TRANSITION.devel
+    echo "${TRANSITION}" > %(installroot)%(docdir)/%(name)/TRANSITION.miners

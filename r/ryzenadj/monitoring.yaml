@@ -1,0 +1,5 @@
+releases:
+  id: 243268
+  rss: https://github.com/FlyGoat/RyzenAdj/releases.atom
+security:
+  cpe: ~ # Last checked 2025-02-23

@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : vte
-version     : 0.78.2
-release     : 10
-homepage    : https://wiki.gnome.org/Apps/Terminal/VTE
+version     : 0.80.0
+release     : 13
+homepage    : https://gitlab.gnome.org/GNOME/vte
 upstreams   :
-    - https://download.gnome.org/sources/vte/0.78/vte-0.78.2.tar.xz : 35d7bcde07356846b4a12881c8e016705b70a9004a9082285eee5834ccc49890
+    - https://download.gnome.org/sources/vte/0.80/vte-0.80.0.tar.xz : 267f63739765e568cf8113d0e2ee8f593028946187854bebe268c778e62647c8
 summary     : GNOME Virtual Terminal Embedding library
 description : |
     GNOME Virtual Terminal Embedding library
@@ -22,6 +22,8 @@ packages    :
             - /usr/share/glade
             - /usr/share/vala/vapi
 builddeps   :
+    - binary(valac)
+    - cmake(FastFloat)
     - pkgconfig(cairo)
     - pkgconfig(cairo-gobject)
     - pkgconfig(fribidi)
@@ -32,17 +34,12 @@ builddeps   :
     - pkgconfig(gobject-introspection-1.0)
     - pkgconfig(gtk4)
     - pkgconfig(icu-uc)
+    - pkgconfig(liblz4)
     - pkgconfig(libpcre2-8)
     - pkgconfig(libsystemd)
-    - pkgconfig(liblz4)
     - pkgconfig(pango)
-    - binary(valac)
     - pkgconfig(zlib)
-environment : |
-    # ../src/color-test.cc:167:21: error: constexpr function never produces a constant expression [-Winvalid-constexpr]
-    export CXXFLAGS="${CXXFLAGS} -Wno-invalid-constexpr"
 setup       : |
-    sed -i meson.build -e '/-Werror=missing-include-dirs/d'
     %meson -Dgtk3=false -Dgtk4=true
 build       : |
     %meson_build
@@ -51,5 +48,3 @@ install     : |
     %install_dir %(installroot)%(vendordir)%(sysconfdir)/profile.d
     mv %(installroot)%(sysconfdir)/profile.d/vte.sh %(installroot)%(vendordir)%(sysconfdir)/profile.d/10-vte.sh
     rm -frv %(installroot)%(sysconfdir)
-# ../src/icu-glue.hh:33:59: error: no type named 'string_view' in namespace 'std'
-toolchain  : gnu

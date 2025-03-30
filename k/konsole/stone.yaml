@@ -1,0 +1,56 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : konsole
+version     : 24.12.3
+release     : 3
+upstreams   :
+    - https://download.kde.org/stable/release-service/24.12.3/src/konsole-24.12.3.tar.xz : fe7c25e0dbf93c2d2a36988f479cd3202d8c8c58656395ce13e248c591c10241
+homepage    : https://kde.org/applications/system/org.kde.konsole
+license     :
+    - GFDL-1.2-or-later
+    - GPL-2.0-or-later
+summary     : KDE's terminal emulator
+description : |
+    Konsole is a terminal program for KDE. As well as being a standalone program, it is also used by other KDE programs such as the Kate editor and KDevelop development environment to provide easy access to a terminal window.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Bookmarks)
+    - cmake(KF6Config)
+    - cmake(KF6ConfigWidgets)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6Crash)
+    - cmake(KF6DBusAddons)
+    - cmake(KF6DocTools)
+    - cmake(KF6GlobalAccel)
+    - cmake(KF6GuiAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6IconThemes)
+    - cmake(KF6KIO)
+    - cmake(KF6NewStuff)
+    - cmake(KF6Notifications)
+    - cmake(KF6NotifyConfig)
+    - cmake(KF6Parts)
+    - cmake(KF6Pty)
+    - cmake(KF6Service)
+    - cmake(KF6TextWidgets)
+    - cmake(KF6WidgetsAddons)
+    - cmake(KF6WindowSystem)
+    - cmake(KF6XmlGui)
+    - cmake(Qt6Core5Compat)
+    - cmake(Qt6Multimedia)
+    - pkgconfig(icu-uc)
+rundeps     :
+    - qt6-wayland
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+
+    # remove docs
+    rm -rf %(installroot)/%(datadir)/doc

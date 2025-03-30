@@ -1,0 +1,43 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : kf6-knewstuff
+version     : 6.12.0
+release     : 2
+upstreams   :
+    - https://download.kde.org/stable/frameworks/6.12/knewstuff-6.12.0.tar.xz : f0bcca66c267dba335e3df5eb089ae40c56680a7d385176bc44d951defa3d029
+homepage    : https://community.kde.org/Frameworks
+license     :
+    - LGPL-2.0-or-later
+    - LGPL-2.1-only
+    - LGPL-2.1-or-later
+summary     : Framework for downloading and sharing additional application data.
+description : |
+    Framework for downloading and sharing additional application data.
+builddeps   :
+    # Temporary, boulder doesn't handle build ordering resolution correctly when builddeps are added by macros, so add ECM manually
+    - cmake(ECM)
+    - cmake(KF6Archive)
+    - cmake(KF6Attica)
+    - cmake(KF6Config)
+    - cmake(KF6CoreAddons)
+    - cmake(KF6I18n)
+    - cmake(KF6Kirigami2)
+    - cmake(KF6Package)
+    - cmake(KF6Syndication)
+    - cmake(KF6WidgetsAddons)
+rundeps     :
+    - kf6-kirigami
+setup       : |
+    %cmake_kf6
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+    %qml_cache_qt6
+packages    :
+    - "%(name)-devel":
+        rundeps:
+            - cmake(KF6Attica)

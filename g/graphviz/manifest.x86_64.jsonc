@@ -44,12 +44,10 @@
 				"soname(libpango-1.0.so.0(x86_64))",
 				"soname(libpangocairo-1.0.so.0(x86_64))",
 				"soname(libpangoft2-1.0.so.0(x86_64))",
-				"soname(libpng16.so.16(x86_64))",
 				"soname(libpoppler-glib.so.8(x86_64))",
 				"soname(librsvg-2.so.2(x86_64))",
 				"soname(libunwind.so.1(x86_64))",
 				"soname(libwebp.so.7(x86_64))",
-				"soname(libxml2.so.2(x86_64))",
 				"soname(libz.so.1(x86_64))"
 			],
 			"files": [
@@ -62,6 +60,7 @@
 				"/usr/bin/dot",
 				"/usr/bin/dot2gxl",
 				"/usr/bin/dot_builtins",
+				"/usr/bin/dot_sandbox",
 				"/usr/bin/edgepaint",
 				"/usr/bin/fdp",
 				"/usr/bin/gc",
@@ -230,6 +229,7 @@
 				"/usr/share/man/man1/dijkstra.1",
 				"/usr/share/man/man1/dot.1",
 				"/usr/share/man/man1/dot2gxl.1",
+				"/usr/share/man/man1/dot_sandbox.1",
 				"/usr/share/man/man1/edgepaint.1",
 				"/usr/share/man/man1/fdp.1",
 				"/usr/share/man/man1/gc.1",
@@ -270,6 +270,7 @@
 				"binary(dot)",
 				"binary(dot2gxl)",
 				"binary(dot_builtins)",
+				"binary(dot_sandbox)",
 				"binary(edgepaint)",
 				"binary(fdp)",
 				"binary(gc)",
@@ -501,6 +502,6 @@
 		}
 	},
 	"source-name": "graphviz",
-	"source-release": "1",
-	"source-version": "12.2.0"
+	"source-release": "3",
+	"source-version": "12.2.1"
 }

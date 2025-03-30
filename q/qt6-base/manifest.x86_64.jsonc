@@ -76,8 +76,8 @@
 				"soname(libgssapi_krb5.so.2(x86_64))",
 				"soname(libgtk-3.so.0(x86_64))",
 				"soname(libharfbuzz.so.0(x86_64))",
-				"soname(libicui18n.so.75(x86_64))",
-				"soname(libicuuc.so.75(x86_64))",
+				"soname(libicui18n.so.77(x86_64))",
+				"soname(libicuuc.so.77(x86_64))",
 				"soname(libinput.so.10(x86_64))",
 				"soname(libjpeg.so.8(x86_64))",
 				"soname(libm.so.6(x86_64))",
@@ -495,6 +495,10 @@
 				"pkgconfig(gl)",
 				"pkgconfig(libzstd)",
 				"pkgconfig(vulkan)",
+				"pkgconfig(xcb-cursor)",
+				"pkgconfig(xcb-icccm)",
+				"pkgconfig(xcb-keysyms)",
+				"pkgconfig(xcb-util)",
 				"pkgconfig(xkbcommon)",
 				"qt6-base",
 				"soname(ld-linux-x86-64.so.2(x86_64))",
@@ -4562,6 +4566,6 @@
 		}
 	},
 	"source-name": "qt6-base",
-	"source-release": "2",
+	"source-release": "5",
 	"source-version": "6.8.2"
 }

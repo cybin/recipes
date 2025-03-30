@@ -38,9 +38,9 @@
 				"/usr/lib/girepository-1.0/Gck-2.typelib",
 				"/usr/lib/girepository-1.0/Gcr-4.typelib",
 				"/usr/lib/libgck-2.so.2",
-				"/usr/lib/libgck-2.so.2.3.0",
+				"/usr/lib/libgck-2.so.2.4.0",
 				"/usr/lib/libgcr-4.so.4",
-				"/usr/lib/libgcr-4.so.4.3.0",
+				"/usr/lib/libgcr-4.so.4.4.0",
 				"/usr/lib/systemd/user/gcr-ssh-agent.service",
 				"/usr/lib/systemd/user/gcr-ssh-agent.socket",
 				"/usr/share/gir-1.0/Gck-2.gir",
@@ -177,6 +177,9 @@
 				"/usr/include/gck-2/gck/pkcs11n.h",
 				"/usr/include/gck-2/gck/pkcs11x.h",
 				"/usr/include/gcr-4/gcr/gcr-certificate-chain.h",
+				"/usr/include/gcr-4/gcr/gcr-certificate-extension-list.h",
+				"/usr/include/gcr-4/gcr/gcr-certificate-extension.h",
+				"/usr/include/gcr-4/gcr/gcr-certificate-extensions.h",
 				"/usr/include/gcr-4/gcr/gcr-certificate-field.h",
 				"/usr/include/gcr-4/gcr/gcr-certificate-request.h",
 				"/usr/include/gcr-4/gcr/gcr-certificate-section.h",
@@ -194,6 +197,7 @@
 				"/usr/include/gcr-4/gcr/gcr-secure-memory.h",
 				"/usr/include/gcr-4/gcr/gcr-simple-certificate.h",
 				"/usr/include/gcr-4/gcr/gcr-ssh-askpass.h",
+				"/usr/include/gcr-4/gcr/gcr-subject-public-key-info.h",
 				"/usr/include/gcr-4/gcr/gcr-system-prompt.h",
 				"/usr/include/gcr-4/gcr/gcr-system-prompter.h",
 				"/usr/include/gcr-4/gcr/gcr-trust.h",
@@ -214,6 +218,6 @@
 		}
 	},
 	"source-name": "gcr",
-	"source-release": "4",
-	"source-version": "4.3.0"
+	"source-release": "5",
+	"source-version": "4.4.0.1"
 }

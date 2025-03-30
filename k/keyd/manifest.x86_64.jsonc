@@ -23,8 +23,11 @@
 				"/usr/share/doc/keyd/examples/capslock-escape-with-vim-mode.conf",
 				"/usr/share/doc/keyd/examples/international-glyphs.conf",
 				"/usr/share/doc/keyd/examples/macos.conf",
-				"/usr/share/doc/keyd/examples/meta-esc.conf",
 				"/usr/share/doc/keyd/examples/nav-layer.conf",
+				"/usr/share/keyd/gnome-extension-45/extension.js",
+				"/usr/share/keyd/gnome-extension-45/metadata.json",
+				"/usr/share/keyd/gnome-extension/extension.js",
+				"/usr/share/keyd/gnome-extension/metadata.json",
 				"/usr/share/keyd/keyd.compose",
 				"/usr/share/keyd/layouts/af",
 				"/usr/share/keyd/layouts/al",
@@ -137,6 +140,6 @@
 		}
 	},
 	"source-name": "keyd",
-	"source-release": "1",
-	"source-version": "2.4.3"
+	"source-release": "2",
+	"source-version": "2.5.0"
 }

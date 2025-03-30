@@ -5,7 +5,7 @@
 #
 name        : libproxy
 version     : 0.5.9
-release     : 3
+release     : 4
 homepage    : https://libproxy.github.io/libproxy/
 upstreams   :
     - https://github.com/libproxy/libproxy/archive/refs/tags/0.5.9.tar.gz : a1976c3ac4affedc17e6d40cf78c9d8eca6751520ea3cbbec1a8850f7ded1565
@@ -14,6 +14,11 @@ description : |
     libproxy is a library that provides automatic proxy configuration management.
 license     :
     - LGPL-2.1-or-later
+packages    :
+    - "%(name)":
+        paths:
+            - /usr/lib/libproxy.so*
+            - /usr/lib/libproxy/*
 builddeps   :
     - binary(vapigen)
     - pkgconfig(duktape)

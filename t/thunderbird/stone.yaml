@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : thunderbird
-version     : 128.6.0
-release     : 16
+version     : 136.0.1
+release     : 17
 homepage    : https://www.thunderbird.net/
 upstreams   :
-    - https://releases.mozilla.org/pub/thunderbird/releases/128.6.0esr/source/thunderbird-128.6.0esr.source.tar.xz : 1ab6155cd756f905d9b3a85b47b106e5a32626a3eec006c263b811772c4682f3
+    - https://releases.mozilla.org/pub/thunderbird/releases/136.0.1/source/thunderbird-136.0.1.source.tar.xz : 687a2ca31d6f23bb68c2c225ef593ecd8dc025dad9a1a3ef44b0f19ed24b2ffe
 summary     : Thunderbird Email Client
 description : |
     Thunderbird Email Client
@@ -28,7 +28,6 @@ builddeps   :
     - pkgconfig(alsa)
     - pkgconfig(gtk+-3.0)
     - pkgconfig(ice)
-    - pkgconfig(icu-uc)
     - pkgconfig(libevent)
     - pkgconfig(libjpeg)
     - pkgconfig(libpng)
@@ -37,19 +36,20 @@ builddeps   :
     - pkgconfig(nspr)
     - pkgconfig(nss)
     - pkgconfig(pixman-1)
+    - pkgconfig(librnp)
     - pkgconfig(sm)
     - pkgconfig(vpx)
     - pkgconfig(zlib)
 rundeps     :
+    - rnp
     - xdg-desktop-portal
 environment : |
     export MOZ_NOSPAM=1
     export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=pip
     # Not working with libc++ 18, reevaluate with LLVM 19
     export CXXFLAGS="${CXXFLAGS} -stdlib=libstdc++"
-    unset RUSTFLAGS
 setup       : |
-    %patch %(pkgdir)/icu74.patch
+    # %patch %(pkgdir)/icu74.patch
     %install_file %(pkgdir)/mozconfig .
 build       : |
     ./mach build
