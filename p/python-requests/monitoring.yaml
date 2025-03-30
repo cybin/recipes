@@ -1,13 +1,9 @@
 releases:
-  id: ~ # https://release-monitoring.org/ and use the numeric id in the url of project
-  rss: https://pypi.org/rss/project/requests/releases.xml
+  id: 4004
+  rss: https://github.com/psf/requests/releases.atom
 security:
   cpe:
   - vendor: python
     product: requests
   - vendor: python-requests
-    product: requests
-  - vendor: jenkins
-    product: requests
-  - vendor: wordpress
     product: requests
