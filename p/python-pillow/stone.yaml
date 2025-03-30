@@ -1,0 +1,29 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : python-pillow
+version     : "11.1.0"
+release     : 1
+homepage    : https://python-pillow.github.io/
+upstreams   :
+    - https://github.com/python-pillow/Pillow/archive/refs/tags/11.1.0.tar.gz : 1e63499468dc069a31ea0226b531be1c1c31b185b80616f8707066aba599db12
+summary     : python imaging library
+description : |
+    The Python Imaging Library adds image processing capabilities to your Python interpreter.
+
+    This library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities.
+
+    The core image library is designed for fast access to data stored in a few basic pixel formats. It should provide a solid foundation
+    for a general image processing tool.
+license     : MIT-CMU
+builddeps   :
+    - pkgconfig(zlib)
+    - pkgconfig(libjpeg)
+    - pkgconfig(python3)
+build       : |
+    %python_setup
+install     : |
+    %python_install
+
