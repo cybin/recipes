@@ -1,0 +1,5 @@
+releases:
+  id: 254477
+  rss: https://github.com/ClementJ18/moddb/releases.atom
+security:
+  cpe: ~ # Last checked 2025-03-30
