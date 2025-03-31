@@ -1,0 +1,24 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : soupsieve
+version     : 2.6
+release     : 1
+homepage    : https://github.com/facelessuser/soupsieve
+upstreams   :
+    - https://github.com/facelessuser/soupsieve/archive/refs/tags/2.6.tar.gz : e65fd415de8d5ef25ee970b457fcb5c2f2edc920f12d4712eb09c3ea19552b75
+summary     : Soup Sieve is a CSS selector library designed to be used with Beautiful Soup 4.
+description : |
+    It aims to provide selecting, matching, and filtering using modern CSS selectors. Soup
+    Sieve currently provides selectors from the CSS level 1 specifications up through the
+    latest CSS level 4 drafts and beyond.
+license     : MIT
+builddeps   :
+    - python(hatchling(3.11))
+build       : |
+    %pyproject_build
+install     : |
+    %pyproject_install
+

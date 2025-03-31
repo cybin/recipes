@@ -1,0 +1,445 @@
+Refreshed local
+Refreshed volatile
+
+The following package(s) will be installed:
+
+acl                           2.3.2-4   gawk                          5.3.1-5   libcap-ng                     0.8.5-4   linux-pam                     1.6.1-9   p11-kit-libs                 0.25.5-3   readline                    8.2.013-5
+attr                          2.5.2-5   gdbm                           1.24-4   libcxx                      19.1.7-23   lld                         19.1.7-23   pcre2                         10.44-4   rustls-ffi                   0.14.0-7
+bash                        5.2.37-21   git                         2.47.1-12   libcxx-devel                19.1.7-23   lld-libs                    19.1.7-23   perl                         5.38.2-8   sed                             4.9-2
+boulder        0.25.1+git.c0457e11-88   glib2                       2.84.0-24   libeconf                      0.7.6-4   llvm                        19.1.7-23   pkgconf                      2.3.0-10   sqlite                       3.47.2-8
+brotli                        1.1.0-6   glibc            2.41+git.bcd4cf9d-19   libedit                20221030-3.1-2   llvm-libs                   19.1.7-23   polly                       19.1.7-23   sudo-rs                       0.2.3-8
+bzip2-libs                    1.0.8-5   glibc-devel      2.41+git.bcd4cf9d-19   libffi                        3.4.6-4   lvm2                        2.03.21-5   popt                           1.19-1   system-accounts               0.1.0-6
+ca-certificates            20241219-6   gmp                           6.3.0-3   libgcrypt                    1.11.0-5   lz4                          1.10.0-3   procps                        4.0.5-4   systemd                     254.24-48
+clang                       19.1.7-23   grep                           3.11-5   libgpg-error                   1.51-3   lzo                            2.10-1   python                       3.11.9-7   tar                            1.35-2
+clang-libs                  19.1.7-23   gzip                           1.13-4   libidn2                       2.3.7-3   mimalloc                      2.2.3-6   python-build                  1.2.2-3   terminus-font                4.49.1-1
+coreutils                   0.0.30-21   hwloc-libs                   2.11.2-1   libpciaccess                 0.18.1-4   mpfr                          4.2.2-4   python-editables                0.5-2   tpm2-tss                      4.1.3-3
+cryptsetup                    2.7.4-3   json-c                         0.18-3   libpsl                       0.21.5-3   nano                           8.3-33   python-hatchling             1.21.1-2   tzdata                        2023d-4
+curl                        8.11.1-20   kbd                           2.6.4-6   libseccomp                    2.5.5-4   ncurses               6.5-20250301-11   python-installer              0.7.0-2   util-linux                  2.40.2-10
+dash                         0.5.12-3   kmod                             31-8   libsecret                    0.21.7-5   nghttp2                      1.64.0-7   python-packaging               24.1-2   uutils-coreutils            0.0.30-21
+diffutils                      3.10-4   layout                        0.1.0-5   libtasn1                     4.19.0-1   ntpd-rs                       1.4.0-3   python-pathspec              0.12.1-2   vim                        9.1.0919-8
+elfutils-libs                 0.192-5   libaio                      0.3.113-1   libunistring                    1.3-3   openmp                      19.1.7-23   python-pluggy                 1.5.0-2   xz                           5.6.3-11
+expat                         2.6.4-6   libarchive                    3.7.7-9   libxcrypt                    4.4.36-6   openmp-devel                19.1.7-23   python-pyproject-hooks        1.0.0-1   zlib                         2.2.4-17
+file                           5.46-9   libb2                        0.98.1-1   libxml2                      2.13.5-9   openssl                      3.4.0-20   python-trove-classifiers  2024.9.12-3   zstd                          1.5.6-7
+findutils                    4.10.0-3   libcap                         2.71-7   linux-headers                 6.14-22   os-info                     2025.03-7   python-wheel                 0.44.0-2   
+
+Installed bzip2-libs (cached)
+Installed brotli (cached)
+Installed acl (cached)
+Installed attr (cached)
+Installed boulder (cached)
+Installed coreutils (cached)
+Installed curl (cached)
+Installed bash (cached)
+Installed cryptsetup (cached)
+Installed clang (cached)
+Installed dash (cached)
+Installed ca-certificates (cached)
+Installed elfutils-libs (cached)
+Installed expat (cached)
+Installed file (cached)
+Installed gdbm (cached)
+Installed diffutils (cached)
+Installed findutils (cached)
+Installed gawk (cached)
+Installed gmp (cached)
+Installed clang-libs (cached)
+Installed gzip (cached)
+Installed grep (cached)
+Installed git (cached)
+Installed hwloc-libs (cached)
+Installed json-c (cached)
+Installed kmod (cached)
+Installed layout (cached)
+Installed libaio (cached)
+Installed glib2 (cached)
+Installed libarchive (cached)
+Installed libb2 (cached)
+Installed libcxx (cached)
+Installed libcap-ng (cached)
+Installed libeconf (cached)
+Installed libcap (cached)
+Installed libffi (cached)
+Installed libedit (cached)
+Installed libgcrypt (cached)
+Installed libpciaccess (cached)
+Installed libgpg-error (cached)
+Installed libpsl (cached)
+Installed libidn2 (cached)
+Installed libseccomp (cached)
+Installed libsecret (cached)
+Installed libunistring (cached)
+Installed libxcrypt (cached)
+Installed libxml2 (cached)
+Installed glibc-devel (cached)
+Installed libtasn1 (cached)
+Installed lld (cached)
+Installed lld-libs (cached)
+Installed llvm-libs (cached)
+Installed llvm (cached)
+Installed lz4 (cached)
+Installed linux-pam (cached)
+Installed lzo (cached)
+Installed lvm2 (cached)
+Installed mimalloc (cached)
+Installed kbd (cached)
+Installed mpfr (cached)
+Installed ntpd-rs (cached)
+Installed nghttp2 (cached)
+Installed openmp (cached)
+Installed nano (cached)
+Installed openmp-devel (cached)
+Installed os-info (cached)
+Installed p11-kit-libs (cached)
+Installed pcre2 (cached)
+Installed pkgconf (cached)
+Installed polly (cached)
+Installed popt (cached)
+Installed openssl (cached)
+Installed python-build (cached)
+Installed procps (cached)
+Installed libcxx-devel (cached)
+Installed python-installer (cached)
+Installed linux-headers (cached)
+Installed python-packaging (cached)
+Installed python-pathspec (cached)
+Installed python-pyproject-hooks (cached)
+Installed python-pluggy (cached)
+Installed python-editables (cached)
+Installed readline (cached)
+Installed python-wheel (cached)
+Installed python-trove-classifiers (cached)
+Installed rustls-ffi (cached)
+Installed sed (cached)
+Installed sqlite (cached)
+Installed sudo-rs (cached)
+Installed system-accounts (cached)
+Installed tar (cached)
+Installed tpm2-tss (cached)
+Installed terminus-font (cached)
+Installed perl (cached)
+Installed ncurses (cached)
+Installed util-linux (cached)
+Installed uutils-coreutils (cached)
+Installed xz (cached)
+Installed zlib (cached)
+Installed systemd (cached)
+Installed zstd (cached)
+Installed tzdata (cached)
+Installed glibc (cached)
+Installed python-hatchling (cached)
+Installed vim (cached)
+Installed python (cached)
+
+39152 entries blitted in 0.78s (50.4k / s)
+
+Sharing 1 upstream(s) with the build container
+Shared 2.6.tar.gz (cached)
+
+x86_64
+│Prepare
+│P│ + TERM=dumb
+│P│ + export TERM
+│P│ + SOURCE_DATE_EPOCH=1743327468
+│P│ + export SOURCE_DATE_EPOCH
+│P│ + PGO_STAGE=NONE
+│P│ + export PGO_STAGE
+│P│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│P│ + export PKG_CONFIG_PATH
+│P│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CFLAGS
+│P│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CGO_CFLAGS
+│P│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CXXFLAGS
+│P│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│P│ + export CGO_CXXFLAGS
+│P│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│P│ + export LDFLAGS
+│P│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│P│ + export CGO_LDFLAGS
+│P│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│P│ + export DFLAGS
+│P│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│P│ + export RUSTFLAGS
+│P│ + CC=clang
+│P│ + export CC
+│P│ + CXX=clang++
+│P│ + export CXX
+│P│ + OBJC=clang
+│P│ + export OBJC
+│P│ + OBJCXX=clang++
+│P│ + export OBJCXX
+│P│ + CPP=clang-cpp
+│P│ + export CPP
+│P│ + OBJCPP='clang -E -'
+│P│ + export OBJCPP
+│P│ + OBJCXXCPP='clang++ -E'
+│P│ + export OBJCXXCPP
+│P│ + AR=llvm-ar
+│P│ + export AR
+│P│ + LD=ld.lld
+│P│ + export LD
+│P│ + OBJCOPY=llvm-objcopy
+│P│ + export OBJCOPY
+│P│ + NM=llvm-nm
+│P│ + export NM
+│P│ + RANLIB=llvm-ranlib
+│P│ + export RANLIB
+│P│ + STRIP=llvm-strip
+│P│ + export STRIP
+│P│ + PATH=/usr/bin:/bin
+│P│ + export PATH
+│P│ + CCACHE_DIR=/mason/ccache
+│P│ + export CCACHE_DIR
+│P│ + test -z /mason/ccache
+│P│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64
+│P│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│P│ + CARGO_NET_RETRY=5
+│P│ + export CARGO_NET_RETRY
+│P│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│P│ + export CARGO_PROFILE_RELEASE_DEBUG
+│P│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│P│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│P│ + CARGO_PROFILE_RELEASE_LTO=off
+│P│ + export CARGO_PROFILE_RELEASE_LTO
+│P│ + CARGO_PROFILE_RELEASE_STRIP=none
+│P│ + export CARGO_PROFILE_RELEASE_STRIP
+│P│ + RUSTC_WRAPPER=
+│P│ + export RUSTC_WRAPPER
+│P│ + test -z ''
+│P│ + unset RUSTC_WRAPPER
+│P│ + SCCACHE_DIR=/mason/sccache
+│P│ + export SCCACHE_DIR
+│P│ + test -z /mason/sccache
+│P│ + LANG=en_US.UTF-8
+│P│ + export LANG
+│P│ + LC_ALL=en_US.UTF-8
+│P│ + export LC_ALL
+│P│ + test -d /mason/build/x86_64
+│P│ + cd /mason/build/x86_64
+│P│ + echo 'The work directory %(workdir) is /mason/build/x86_64'
+│P│ The work directory %(workdir) is /mason/build/x86_64
+│P│ + mkdir -p 2.6.tar.gz
+│P│ + tar xf /mason/sourcedir/2.6.tar.gz -C 2.6.tar.gz --strip-components=1 --no-same-owner
+│
+│Build
+│B│ + TERM=dumb
+│B│ + export TERM
+│B│ + SOURCE_DATE_EPOCH=1743327468
+│B│ + export SOURCE_DATE_EPOCH
+│B│ + PGO_STAGE=NONE
+│B│ + export PGO_STAGE
+│B│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│B│ + export PKG_CONFIG_PATH
+│B│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CFLAGS
+│B│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CGO_CFLAGS
+│B│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CXXFLAGS
+│B│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│B│ + export CGO_CXXFLAGS
+│B│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│B│ + export LDFLAGS
+│B│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│B│ + export CGO_LDFLAGS
+│B│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│B│ + export DFLAGS
+│B│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│B│ + export RUSTFLAGS
+│B│ + CC=clang
+│B│ + export CC
+│B│ + CXX=clang++
+│B│ + export CXX
+│B│ + OBJC=clang
+│B│ + export OBJC
+│B│ + OBJCXX=clang++
+│B│ + export OBJCXX
+│B│ + CPP=clang-cpp
+│B│ + export CPP
+│B│ + OBJCPP='clang -E -'
+│B│ + export OBJCPP
+│B│ + OBJCXXCPP='clang++ -E'
+│B│ + export OBJCXXCPP
+│B│ + AR=llvm-ar
+│B│ + export AR
+│B│ + LD=ld.lld
+│B│ + export LD
+│B│ + OBJCOPY=llvm-objcopy
+│B│ + export OBJCOPY
+│B│ + NM=llvm-nm
+│B│ + export NM
+│B│ + RANLIB=llvm-ranlib
+│B│ + export RANLIB
+│B│ + STRIP=llvm-strip
+│B│ + export STRIP
+│B│ + PATH=/usr/bin:/bin
+│B│ + export PATH
+│B│ + CCACHE_DIR=/mason/ccache
+│B│ + export CCACHE_DIR
+│B│ + test -z /mason/ccache
+│B│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64/2.6.tar.gz
+│B│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│B│ + CARGO_NET_RETRY=5
+│B│ + export CARGO_NET_RETRY
+│B│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│B│ + export CARGO_PROFILE_RELEASE_DEBUG
+│B│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│B│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│B│ + CARGO_PROFILE_RELEASE_LTO=off
+│B│ + export CARGO_PROFILE_RELEASE_LTO
+│B│ + CARGO_PROFILE_RELEASE_STRIP=none
+│B│ + export CARGO_PROFILE_RELEASE_STRIP
+│B│ + RUSTC_WRAPPER=
+│B│ + export RUSTC_WRAPPER
+│B│ + test -z ''
+│B│ + unset RUSTC_WRAPPER
+│B│ + SCCACHE_DIR=/mason/sccache
+│B│ + export SCCACHE_DIR
+│B│ + test -z /mason/sccache
+│B│ + LANG=en_US.UTF-8
+│B│ + export LANG
+│B│ + LC_ALL=en_US.UTF-8
+│B│ + export LC_ALL
+│B│ + test -d /mason/build/x86_64/2.6.tar.gz
+│B│ + cd /mason/build/x86_64/2.6.tar.gz
+│B│ + echo 'The work directory %(workdir) is /mason/build/x86_64/2.6.tar.gz'
+│B│ The work directory %(workdir) is /mason/build/x86_64/2.6.tar.gz
+│B│ + python3 -m build --wheel --no-isolation
+│B│ * Getting build dependencies for wheel...
+│B│ * Building wheel...
+│B│ Successfully built soupsieve-2.6-py3-none-any.whl
+│
+│Install
+│I│ + TERM=dumb
+│I│ + export TERM
+│I│ + SOURCE_DATE_EPOCH=1743327468
+│I│ + export SOURCE_DATE_EPOCH
+│I│ + PGO_STAGE=NONE
+│I│ + export PGO_STAGE
+│I│ + PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig
+│I│ + export PKG_CONFIG_PATH
+│I│ + CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CFLAGS
+│I│ + CGO_CFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CGO_CFLAGS
+│I│ + CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CXXFLAGS
+│I│ + CGO_CXXFLAGS='-D_FORTIFY_SOURCE=2 -O2 -Wa,--compress-debug-sections=zstd -Werror=odr -Werror=strict-aliasing -ffat-lto-objects -flto=thin -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -fstack-protector --param ssp-buffer-size=32 -g -fasynchronous-unwind-tables -march=x86-64-v2 -mtune=ivybridge -mprefer-vector-width=128 -pipe -Wformat -Wformat-security -Wno-error -fPIC'
+│I│ + export CGO_CXXFLAGS
+│I│ + LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin'
+│I│ + export LDFLAGS
+│I│ + CGO_LDFLAGS='-Wl,--as-needed -Wl,--build-id=sha1 -Wl,--compress-debug-sections=zstd -Wl,--icf=safe -Wl,-Bsymbolic-functions -Wl,-O2,--gc-sections -Wl,-z,pack-relative-relocs -Wl,-z,relro,-z,now -flto=thin -Wl,--no-gc-sections'
+│I│ + export CGO_LDFLAGS
+│I│ + DFLAGS='-O2 -flto=thin -frame-pointer=all -g -gc -d-debug -mcpu=x86-64-v2 -release -Hkeep-all-bodies -relocation-model=pic -wi'
+│I│ + export DFLAGS
+│I│ + RUSTFLAGS='-C debuginfo=2 -C split-debuginfo=off -C force-frame-pointers -C link-args=-Wl,--build-id=sha1 -C link-args=-Wl,--compress-debug-sections=zstd -C lto=thin -C linker-plugin-lto -C embed-bitcode=yes -C opt-level=3 -C codegen-units=16 -C strip=none -C target-cpu=x86-64-v2'
+│I│ + export RUSTFLAGS
+│I│ + CC=clang
+│I│ + export CC
+│I│ + CXX=clang++
+│I│ + export CXX
+│I│ + OBJC=clang
+│I│ + export OBJC
+│I│ + OBJCXX=clang++
+│I│ + export OBJCXX
+│I│ + CPP=clang-cpp
+│I│ + export CPP
+│I│ + OBJCPP='clang -E -'
+│I│ + export OBJCPP
+│I│ + OBJCXXCPP='clang++ -E'
+│I│ + export OBJCXXCPP
+│I│ + AR=llvm-ar
+│I│ + export AR
+│I│ + LD=ld.lld
+│I│ + export LD
+│I│ + OBJCOPY=llvm-objcopy
+│I│ + export OBJCOPY
+│I│ + NM=llvm-nm
+│I│ + export NM
+│I│ + RANLIB=llvm-ranlib
+│I│ + export RANLIB
+│I│ + STRIP=llvm-strip
+│I│ + export STRIP
+│I│ + PATH=/usr/bin:/bin
+│I│ + export PATH
+│I│ + CCACHE_DIR=/mason/ccache
+│I│ + export CCACHE_DIR
+│I│ + test -z /mason/ccache
+│I│ + CARGO_BUILD_DEP_INFO_BASEDIR=/mason/build/x86_64/2.6.tar.gz
+│I│ + export CARGO_BUILD_DEP_INFO_BASEDIR
+│I│ + CARGO_NET_RETRY=5
+│I│ + export CARGO_NET_RETRY
+│I│ + CARGO_PROFILE_RELEASE_DEBUG=full
+│I│ + export CARGO_PROFILE_RELEASE_DEBUG
+│I│ + CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO=off
+│I│ + export CARGO_PROFILE_RELEASE_SPLIT_DEBUGINFO
+│I│ + CARGO_PROFILE_RELEASE_LTO=off
+│I│ + export CARGO_PROFILE_RELEASE_LTO
+│I│ + CARGO_PROFILE_RELEASE_STRIP=none
+│I│ + export CARGO_PROFILE_RELEASE_STRIP
+│I│ + RUSTC_WRAPPER=
+│I│ + export RUSTC_WRAPPER
+│I│ + test -z ''
+│I│ + unset RUSTC_WRAPPER
+│I│ + SCCACHE_DIR=/mason/sccache
+│I│ + export SCCACHE_DIR
+│I│ + test -z /mason/sccache
+│I│ + LANG=en_US.UTF-8
+│I│ + export LANG
+│I│ + LC_ALL=en_US.UTF-8
+│I│ + export LC_ALL
+│I│ + test -d /mason/build/x86_64/2.6.tar.gz
+│I│ + cd /mason/build/x86_64/2.6.tar.gz
+│I│ + echo 'The work directory %(workdir) is /mason/build/x86_64/2.6.tar.gz'
+│I│ The work directory %(workdir) is /mason/build/x86_64/2.6.tar.gz
+│I│ + python3 -m installer --destdir=/mason/install dist/soupsieve-2.6-py3-none-any.whl
+
+│Analyzing artefacts (» = Include, × = Ignore)
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__init__.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__meta__.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/css_match.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/css_parser.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/css_types.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/pretty.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/py.typed
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/util.py
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/__init__.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/__init__.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/__meta__.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/__meta__.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_match.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_match.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_parser.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_parser.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_types.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/css_types.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/pretty.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/pretty.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/util.cpython-311.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve/__pycache__/util.cpython-311.opt-1.pyc
+│A│ » /usr/lib/python3.11/site-packages/soupsieve-2.6.dist-info/METADATA
+│A│ » /usr/lib/python3.11/site-packages/soupsieve-2.6.dist-info/WHEEL
+│A│ » /usr/lib/python3.11/site-packages/soupsieve-2.6.dist-info/licenses/LICENSE.md
+│A│ » /usr/lib/python3.11/site-packages/soupsieve-2.6.dist-info/RECORD
+
+Packaging
+Emitted soupsieve-2.6-1-1-x86_64.stone
+
+Phase                   Elapsed      %
+│Initialize               1.01s  18.4%
+│Populate (moss)
+││Resolve                 1.13s  20.7%
+││Fetch                   0.27s   4.9%
+││Blit                    2.54s  46.4%
+│Fetch                    0.00s   0.0%
+│x86_64
+││Prepare                 0.01s   0.2%
+││Build                   0.27s   4.9%
+││Install                 0.10s   1.8%
+│Analyze                  0.09s   1.7%
+│Emit                     0.06s   1.1%
+──────────────────────────────────────
+Total                     5.47s 100.0%
+
+Build finished successfully at 2025-03-31T20:06:58+02:00
