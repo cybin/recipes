@@ -15,7 +15,10 @@ description : |
     of menu structures over DBus simple and easy to use.  It works
     for both QT and GTK+ and makes building menus simple.
 
-license     : UPDATE LICENSE
+license     :
+    - LGPL-2.1-only
+    - LGPL-3.0-only
+    - GPL-3.0-only
 builddeps   :
     - binary(intltool-update)
     - binary(msgfmt)
