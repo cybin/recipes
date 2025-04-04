@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : firefox
-version     : 136.0.4
-release     : 21
+version     : 137.0
+release     : 22
 homepage    : https://www.mozilla.org/
 upstreams   :
-    - https://ftp.mozilla.org/pub/firefox/releases/136.0.4/source/firefox-136.0.4.source.tar.xz : 4a28b9e1c2b8f2f1d434745ebb87fcba8ae116a202878f0fb1e83da63cf7c242
+    - https://ftp.mozilla.org/pub/firefox/releases/137.0/source/firefox-137.0.source.tar.xz : 1ec47e2f83ccb80c0133f171091b5669c7ffdf7b86051fc85c0f915b7bcba91d
 summary     : Firefox web browser
 description : |
     Firefox web browser
@@ -45,9 +45,8 @@ rundeps     :
 environment : |
     export MOZ_NOSPAM=1
     export MACH_BUILD_PYTHON_NATIVE_PACKAGE_SOURCE=pip
-    # Not working with libc++ 18, reevaluate with LLVM 19
-    export CXXFLAGS="${CXXFLAGS} -stdlib=libstdc++"
 setup       : |
+    %patch %(pkgdir)/libcxx18.patch
     %install_file %(pkgdir)/mozconfig .
 build       : |
     ./mach build

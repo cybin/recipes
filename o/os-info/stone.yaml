@@ -5,7 +5,7 @@
 #
 name        : os-info
 version     : "2025.03"
-release     : 6
+release     : 7
 summary     : Operating System Information
 license     : MPL-2.0
 homepage    : https://aerynos.com/
@@ -17,5 +17,5 @@ rundeps     :
     - layout
 install     : |
     %install_dir %(installroot)%(libdir)/os-info
-    %install_file %(pkgdir)/os-info.json %(installroot)%(libdir)/os-info/AerynOS.json
-    ln -s os-info/AerynOS.json %(installroot)%(libdir)/os-info.json
+    %install_file %(pkgdir)/os-info.json %(installroot)%(libdir)/os-info/os/AerynOS.json
+    ln -s os-info/os/AerynOS.json %(installroot)%(libdir)/os-info.json

@@ -5,7 +5,7 @@
 #
 name        : opengamepadui
 version     : 0.39.0
-release     : 6
+release     : 7
 homepage    : https://github.com/ShadowBlip/OpenGamepadUI
 upstreams   :
     - https://github.com/ShadowBlip/OpenGamepadUI/archive/refs/tags/v0.39.0.tar.gz : 36a717c0522c8513556467bf47bf3609aa2bf6eaab9bf91d0727505c9dc9c7c1

@@ -3,7 +3,7 @@ From: Reilly Brogan <reilly@reillybrogan.com>
 Date: Fri, 17 Jan 2025 00:33:40 -0600
 Subject: [PATCH] bolt: Set version string
 
-Building Bolt standalone will always result in the version string being "<unknown>". Let's actually put something useful there.
+Signed-off-by: Reilly Brogan <reilly@reillybrogan.com>
 ---
  bolt/CMakeLists.txt                                          | 2 ++
  bolt/include/bolt/RuntimeLibs/RuntimeLibraryVariables.inc.in | 2 ++

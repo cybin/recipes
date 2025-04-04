@@ -5,7 +5,7 @@
 #
 name        : qt6-wayland
 version     : 6.8.2
-release     : 2
+release     : 4
 homepage    : https://www.qt.io
 upstreams   :
     - https://download.qt.io/official_releases/qt/6.8/6.8.2/submodules/qtwayland-everywhere-src-6.8.2.tar.xz : 5e46157908295f2bf924462d8c0855b0508ba338ced9e810891fefa295dc9647
