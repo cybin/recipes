@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : cava
-version     : 0.10.3
+version     : "0.10.3"
 release     : 1
 homepage    : https://github.com/LukashonakV/cava
 upstreams   :
