@@ -1,15 +1,15 @@
-## recipes
+## Recipes
 
-This repository contains all of the recipes required to build Serpent OS
+This repository contains all of the recipes required to build AerynOS
 from source.
 
 [![Repository status](https://repology.org/badge/repository-big/serpentos.svg)](https://repology.org/repository/serpentos)
 
-## Onboarding for people using a Serpent OS host system
+## Onboarding for people using a AerynOS host system
 
-See https://serpentos.com/docs/packaging/workflow/
+See https://aerynos.dev/packaging/
 
-## Onboarding for people not using a Serpent OS host system
+## Onboarding for people not using an AerynOS host system
 
 ### Quick start for boulder
 
@@ -22,10 +22,10 @@ $ sudo usermod --add-subuids 1000000-1065535 --add-subgids 1000000-1065535 root
 $ sudo usermod --add-subuids 1065536-1131071 --add-subgids 1065536-1131071 "$USER"
 ```
 
-If you are not building on Serpent OS, you're going to have to install `boulder` first.
+If you are not building on AerynOS, you're going to have to install `boulder` first.
 See [its readme][moss-boulder-readme] for instructions.
 
-[moss-boulder-readme]: https://github.com/serpent-os/tools?tab=readme-ov-file#onboarding
+[moss-boulder-readme]:(https://github.com/AerynOS/os-tools#-onboarding)
 
 ### Setting up Lints and Hooks
 
@@ -55,7 +55,7 @@ $ moss index ~/.cache/local_repo/x86_64/
 
 **Add the local repository to the repositories known to `moss`**
 
-If you're on Serpent OS, you will want to make the local repository available for package
+If you're on AerynOS, you will want to make the local repository available for package
 installation.
 
 To do so, run the following command:
@@ -100,7 +100,7 @@ _Example:_
 
 **Overriding default boulder arguments**
 
-If you are not building on Serpent OS using the os-supplied boulder package, or if you want to specify custom arguments
+If you are not building on AerynOS using the os-supplied boulder package, or if you want to specify custom arguments
 to the boulder invocation when using the `just` targets, you might benefit from adding some or all of the following options
 to your `.env` file in recipes/ root next to the `justfile`:
 
@@ -116,7 +116,7 @@ Try invoking `pushd m/m4/ && just build` or `pushd n/nano && just build` for a q
 
 ## Git summary requirements
 
-To keep git summaries readable, serpent-os requires the following git summary format
+To keep git summaries readable, AerynOS requires the following git summary format
 
 - `name: Add at v<version>`
 - `name: Update to v<version>`
@@ -163,11 +163,9 @@ The aim for our desktop right now is to ship the following:
 Unless otherwise specified, all packaging recipes are available under
 the terms of the [MPL-2.0](https://spdx.org/licenses/MPL-2.0.html) license.
 
-The Serpent OS Developers reserve the right to reject recipe contributions
-which are not licensed to the Serpent OS Developer collective under the MPL-2.0 license
-
 Individual software releases are available under the terms specified
 upstream, collected in each `stone.yaml` recipe. Any patches against
 a software package is under the relevant license for each upstream.
 
 Copyright © 2020-2025 Serpent OS Developers.
+Copyright © 2025 AerynOS Developers.
