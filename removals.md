@@ -12,3 +12,10 @@
 ### Replaced by mesa-clc
 - intel-clc
 - intel-clc-dbginfo
+
+### Merged into llvm package
+- libcxx-dbginfo
+- llvm-bolt-dbginfo
+
+### GDB didn't actually have any devel files
+- gdb-devel
