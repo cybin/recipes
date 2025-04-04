@@ -30,6 +30,9 @@
 				"binary(nasm)",
 				"pkgconfig(ncursesw)"
 			],
+			"depends": [
+				"lame"
+			],
 			"files": [
 				"/usr/include/lame/lame.h",
 				"/usr/lib/libmp3lame.so"
@@ -61,6 +64,6 @@
 		}
 	},
 	"source-name": "lame",
-	"source-release": "2",
+	"source-release": "4",
 	"source-version": "3.100"
 }

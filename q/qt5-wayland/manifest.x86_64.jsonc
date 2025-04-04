@@ -615,6 +615,6 @@
 		}
 	},
 	"source-name": "qt5-wayland",
-	"source-release": "2",
+	"source-release": "3",
 	"source-version": "5.15.16+kde.9340737a"
 }

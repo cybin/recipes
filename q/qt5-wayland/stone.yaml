@@ -5,7 +5,7 @@
 #
 name        : qt5-wayland
 version     : 5.15.16+kde.9340737a
-release     : 2
+release     : 3
 homepage    : https://www.qt.io
 upstreams   :
     - git|https://invent.kde.org/qt/qt/qtwayland.git: 9340737a208b5dd4eda98eb74808951ddaef66c5

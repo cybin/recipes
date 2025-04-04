@@ -8,12 +8,12 @@
 			],
 			"files": [
 				"/usr/lib/os-info.json",
-				"/usr/lib/os-info/AerynOS.json"
+				"/usr/lib/os-info/os/AerynOS.json"
 			],
 			"name": "os-info"
 		}
 	},
 	"source-name": "os-info",
-	"source-release": "6",
+	"source-release": "7",
 	"source-version": "2025.03"
 }
