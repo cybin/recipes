@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: MPL-2.0
 #
 name        : wireplumber
-version     : 0.5.7
-release     : 5
+version     : 0.5.9
+release     : 7
 homepage    : https://gitlab.freedesktop.org/pipewire/wireplumber/
 upstreams   :
-    - https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.7/wireplumber-0.5.7.tar.gz : 8cd43a582f68368ee5a915e97bf9dadc44d2dfe8c7bb4f96bb7b40ea2ed7848f
+    - https://gitlab.freedesktop.org/pipewire/wireplumber/-/archive/0.5.9/wireplumber-0.5.9.tar.gz : 22b9e2d8e7c27618e9ebcde62e1a7f9911af890139335a985a6a42607b620243
 summary     : Session / policy manager implementation for PipeWire
 description : |
     Session / policy manager implementation for PipeWire
@@ -27,6 +27,9 @@ builddeps   :
     - lua-devel
     - lua
 setup       : |
+    #https://github.com/ValveSoftware/steam-for-linux/issues/11901
+    %patch %(pkgdir)/block_steam_clear_default.patch
+
     %meson -Dsystem-lua=true \
            -Dsystem-lua-version=5.4
 build       : |
