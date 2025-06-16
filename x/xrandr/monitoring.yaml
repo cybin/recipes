@@ -1,0 +1,5 @@
+releases:
+  id: 14957
+  rss: https://gitlab.freedesktop.org/api/v4/projects/xorg%2Fapp%2Fxrandr/repository/tags
+security:
+  cpe: ~ # Last checked 2025-04-04

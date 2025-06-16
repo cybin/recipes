@@ -1,0 +1,25 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : xrandr
+version     : 1.5.3
+release     : 1
+homepage    : https://gitlab.freedesktop.org/xorg/app/xrandr/-/archive/xrandr-1.5.3
+upstreams   :
+    - https://gitlab.freedesktop.org/xorg/app/xrandr/-/archive/xrandr-1.5.3/xrandr-xrandr-1.5.3.tar.bz2 : 67ee81666ae97103acf289ac4b609476c3f0c20f65377edf5b35d18a0bda2483
+summary     : commandline interface to X11 Resize, Rotate and Reflect (RandR) extension
+description : |
+    xrandr provides a commandline interface to X11 Resize, Rotate and Reflect (RandR) extension.
+license     : HPND-sell-variant
+builddeps   :
+    - pkgconfig(xorg-macros)
+    - pkgconfig(xrandr)
+setup       : |
+    %reconfigure
+build       : |
+    %make
+install     : |
+    %make_install
+
