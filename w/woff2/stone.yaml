@@ -1,0 +1,25 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : woff2
+version     : 1.0.2
+release     : 1
+homepage    : https://github.com/google/woff2/archive/v1.0.2
+upstreams   :
+    - https://github.com/google/woff2/archive/v1.0.2/woff2-1.0.2.tar.gz : add272bb09e6384a4833ffca4896350fdb16e0ca22df68c0384773c67a175594
+summary     : UPDATE SUMMARY
+description : |
+    UPDATE DESCRIPTION
+license     : UPDATE LICENSE
+builddeps   :
+    - pkgconfig(libbrotlidec)
+    - pkgconfig(libbrotlienc)
+setup       : |
+    %cmake
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+

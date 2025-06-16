@@ -1,0 +1,5 @@
+releases:
+  id: 17587
+  rss: https://github.com/google/woff2/archive/v1.0.2/releases.atom
+security:
+  cpe: ~ # Last checked 2025-03-01
