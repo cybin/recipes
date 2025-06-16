@@ -1,0 +1,78 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : webkitgtk
+version     : 2.47.4
+release     : 1
+homepage    : https://webkitgtk.org/releases
+upstreams   :
+    - https://webkitgtk.org/releases/webkitgtk-2.47.4.tar.xz : 4d2def3aecc8279150747e4e135f62326098dc35fe474c139931ae4755fbdaa8
+summary     : UPDATE SUMMARY
+description : |
+    WebKitGTK is a full-featured port of the WebKit rendering engine
+license     : UPDATE LICENSE
+builddeps   :
+    - binary(bwrap)
+    - binary(gperf)
+    - binary(unifdef)
+    - binary(gettext)
+    - binary(ruby)
+    - name(gi-docgen)
+    - name(libjxl)
+    - pkgconfig(cairo)
+    - pkgconfig(enchant-2)
+    - pkgconfig(epoxy)
+    - pkgconfig(glib-2.0)
+    - pkgconfig(gobject-introspection-1.0)
+    - pkgconfig(gtk4)
+    - pkgconfig(gtk4-atspi)
+    - pkgconfig(gtk4-unix-print)
+    - pkgconfig(gtk4-wayland)
+    - pkgconfig(lcms2)
+    - pkgconfig(libavif)
+    - pkgconfig(libdrm)
+    - pkgconfig(libgcrypt)
+    - pkgconfig(libjpeg)
+    - pkgconfig(libjxl)
+    - pkgconfig(libseccomp)
+    - pkgconfig(libsecret-1)
+    - pkgconfig(libsoup-3.0)
+    - pkgconfig(libsystemd)
+    - pkgconfig(libtasn1)
+    - pkgconfig(libwebp)
+    - pkgconfig(libwebpdemux)
+    - pkgconfig(libwoff2dec)
+    - pkgconfig(libxml-2.0)
+    - pkgconfig(libxslt)
+    - pkgconfig(manette-0.2)
+    - pkgconfig(gbm)
+    - pkgconfig(sqlite3)
+    - pkgconfig(wayland-protocols)
+    - pkgconfig(gstreamer-1.0)
+    - pkgconfig(gstreamer-allocators-1.0)
+    - pkgconfig(gstreamer-app-1.0)
+    - pkgconfig(gstreamer-audio-1.0)
+    - pkgconfig(gstreamer-base-1.0)
+    - pkgconfig(gstreamer-codecparsers-1.0)
+    - pkgconfig(gstreamer-fft-1.0)
+    - pkgconfig(gstreamer-gl-1.0)
+    - pkgconfig(gstreamer-mpegts-1.0)
+    - pkgconfig(gstreamer-pbutils-1.0)
+    - pkgconfig(gstreamer-rtp-1.0)
+    - pkgconfig(gstreamer-sdp-1.0)
+    - pkgconfig(gstreamer-tag-1.0)
+    - pkgconfig(gstreamer-transcoder-1.0)
+    - pkgconfig(gstreamer-video-1.0)
+    - pkgconfig(gstreamer-webrtc-1.0)
+setup       : |
+    %cmake -DPORT=GTK -DENABLE_SPEECH_SYNTHESIS=NO -DUSE_LIBHYPHEN=NO -DUSE_LIBBACKTRACE=NO -DENABLE_BUBBLEWRAP_SANDBOX=NO -DUSE_SYSTEM_SYSPROF_CAPTURE=NO
+build       : |
+    %cmake_build
+install     : |
+    %cmake_install
+
+    # do not package docs and manuals
+    rm -r %(installroot)/usr/share/doc
+    

@@ -1,0 +1,9 @@
+releases:
+  id: 5355
+  rss: ~
+security:
+  cpe:
+  - vendor: webkitgtk
+    product: webkitgtk
+  - vendor: webkitgtk
+    product: webkitgtk\+
