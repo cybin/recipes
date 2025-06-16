@@ -1,0 +1,5 @@
+releases:
+  id: 15037
+  rss: https://xorg.freedesktop.org/releases/individual/util
+security:
+  cpe: ~ # Last checked 2025-04-04

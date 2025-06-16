@@ -1,0 +1,24 @@
+#
+# SPDX-FileCopyrightText: © 2020-2025 Serpent OS Developers
+#
+# SPDX-License-Identifier: MPL-2.0
+#
+name        : xorg-util-macros
+version     : 1.20.2
+release     : 1
+homepage    : https://gitlab.freedesktop.org/xorg/util/macros/-/archive/util-macros-1.20.2
+upstreams   :
+    - https://gitlab.freedesktop.org/xorg/util/macros/-/archive/util-macros-1.20.2/macros-util-macros-1.20.2.tar.bz2 : e817e356ae6a2b72978a7ffecf7c2ab47aef376827af0a0e1cf2c6fd2f542d62
+summary     : autoconf macros used by autoconf script in Xorg modular packages
+description : |
+    This is a set of autoconf macros used by the configure.ac scripts in
+    other Xorg modular packages, and is needed to generate new versions
+    of their configure scripts with autoconf.
+license     : HPND-sell-variant
+setup       : |
+    %reconfigure
+build       : |
+    %make
+install     : |
+    %make_install
+
